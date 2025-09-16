@@ -1,0 +1,82 @@
+{
+  "question": {
+    "euclidean_distance": {
+      "average": 0.0,
+      "standard_deviation": 0.0,
+      "median": 0.0,
+      "min": 0.0,
+      "max": 0.0
+    },
+    "cosine_distance": {
+      "average": -2.3314683517128286e-17,
+      "standard_deviation": 1.389287863599989e-16,
+      "median": 0.0,
+      "min": -2.220446049250313e-16,
+      "max": 2.220446049250313e-16
+    }
+  },
+  "synonym_change": {
+    "euclidean_distance": {
+      "average": 7.781644469081557,
+      "standard_deviation": 3.849492200547456,
+      "median": 6.907536886426671,
+      "min": 0.2625143465949767,
+      "max": 17.54084768420832
+    },
+    "cosine_distance": {
+      "average": 0.09202923594045259,
+      "standard_deviation": 0.08684385618204675,
+      "median": 0.058972795741528916,
+      "min": 7.415461517290556e-05,
+      "max": 0.38786864195562953
+    }
+  },
+  "antonym_change": {
+    "euclidean_distance": {
+      "average": 11.82215235721141,
+      "standard_deviation": 3.840882060134179,
+      "median": 11.519205380726655,
+      "min": 2.21797317698241,
+      "max": 23.23533687907918
+    },
+    "cosine_distance": {
+      "average": 0.18484728837189487,
+      "standard_deviation": 0.10967261928150658,
+      "median": 0.16742038279985016,
+      "min": 0.0048973029576321325,
+      "max": 0.5856509029324581
+    }
+  },
+  "paraphrase_change": {
+    "euclidean_distance": {
+      "average": 7.046524514075645,
+      "standard_deviation": 3.169071167685301,
+      "median": 6.928742299464728,
+      "min": 1.0357894126080494,
+      "max": 15.521989379795368
+    },
+    "cosine_distance": {
+      "average": 0.07220862479366272,
+      "standard_deviation": 0.06010392699085171,
+      "median": 0.060918262946022705,
+      "min": 0.0012837130439975475,
+      "max": 0.31138934731477264
+    }
+  },
+  "letter_change": {
+    "euclidean_distance": {
+      "average": 9.155616021764459,
+      "standard_deviation": 5.085527225218835,
+      "median": 9.577625767869659,
+      "min": 0.0,
+      "max": 18.29126527070727
+    },
+    "cosine_distance": {
+      "average": 0.13779893748552527,
+      "standard_deviation": 0.12212426940621732,
+      "median": 0.10804953565773534,
+      "min": -2.220446049250313e-16,
+      "max": 0.42383394630132143
+    }
+  }
+}

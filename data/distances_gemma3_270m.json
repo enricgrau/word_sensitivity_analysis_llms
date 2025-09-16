@@ -1,0 +1,2302 @@
+[
+  {
+    "id": 1,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 7.337548231423906,
+      "cosine_distance": 0.0654040999976171
+    },
+    "antonym_change": {
+      "euclidean_distance": 14.3421200728687,
+      "cosine_distance": 0.24387244382423323
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.6863062202114065,
+      "cosine_distance": 0.039035711152292096
+    },
+    "letter_change": {
+      "euclidean_distance": 11.578160806108151,
+      "cosine_distance": 0.16823263608097105
+    }
+  },
+  {
+    "id": 2,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.100264885395225,
+      "cosine_distance": 0.04393828530168131
+    },
+    "antonym_change": {
+      "euclidean_distance": 8.565628330911117,
+      "cosine_distance": 0.08525544755399161
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 3.678813674796229,
+      "cosine_distance": 0.0157796985256643
+    },
+    "letter_change": {
+      "euclidean_distance": 8.569538728711949,
+      "cosine_distance": 0.08874924730671296
+    }
+  },
+  {
+    "id": 3,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 10.680916010938889,
+      "cosine_distance": 0.15353023900520602
+    },
+    "antonym_change": {
+      "euclidean_distance": 13.023013143087034,
+      "cosine_distance": 0.217594393328706
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 11.960631963065806,
+      "cosine_distance": 0.1918855552706955
+    },
+    "letter_change": {
+      "euclidean_distance": 16.382655722042486,
+      "cosine_distance": 0.3691564135496068
+    }
+  },
+  {
+    "id": 4,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 13.580638031273747,
+      "cosine_distance": 0.22803497508930215
+    },
+    "antonym_change": {
+      "euclidean_distance": 4.846438636457284,
+      "cosine_distance": 0.030876605620414055
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.817881990528754,
+      "cosine_distance": 0.0811499780995476
+    },
+    "letter_change": {
+      "euclidean_distance": 4.3862227928634105,
+      "cosine_distance": 0.024805167497608194
+    }
+  },
+  {
+    "id": 5,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 9.998851028814297,
+      "cosine_distance": 0.11092436739895961
+    },
+    "antonym_change": {
+      "euclidean_distance": 13.593926182885443,
+      "cosine_distance": 0.20643596062103253
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.513582911929188,
+      "cosine_distance": 0.047844611429307515
+    },
+    "letter_change": {
+      "euclidean_distance": 5.622896102046307,
+      "cosine_distance": 0.035472861047510906
+    }
+  },
+  {
+    "id": 6,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 10.321704695771185,
+      "cosine_distance": 0.1370086411706608
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.527420945291889,
+      "cosine_distance": 0.1728223583326377
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 14.314309962618195,
+      "cosine_distance": 0.26738309324477816
+    },
+    "letter_change": {
+      "euclidean_distance": 13.512033442074195,
+      "cosine_distance": 0.2530907039791903
+    }
+  },
+  {
+    "id": 7,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 14.706546364510881,
+      "cosine_distance": 0.2728258485156826
+    },
+    "antonym_change": {
+      "euclidean_distance": 5.600843608979689,
+      "cosine_distance": 0.04170630386018648
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.563146005353811,
+      "cosine_distance": 0.03721565740371646
+    },
+    "letter_change": {
+      "euclidean_distance": 3.6317503743580675,
+      "cosine_distance": 0.017596096992572474
+    }
+  },
+  {
+    "id": 8,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 3.87740875153958,
+      "cosine_distance": 0.018692338615093562
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.169157432477183,
+      "cosine_distance": 0.1608578872461175
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.079423207276783,
+      "cosine_distance": 0.04848597059831683
+    },
+    "letter_change": {
+      "euclidean_distance": 4.9299746684124655,
+      "cosine_distance": 0.03160580871302643
+    }
+  },
+  {
+    "id": 9,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 8.930023638829727,
+      "cosine_distance": 0.10578961102586237
+    },
+    "antonym_change": {
+      "euclidean_distance": 2.8427589276472527,
+      "cosine_distance": 0.010408555074802317
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 1.8961065044538254,
+      "cosine_distance": 0.0043917485907840614
+    },
+    "letter_change": {
+      "euclidean_distance": 3.4911822585685144,
+      "cosine_distance": 0.01582481453749396
+    }
+  },
+  {
+    "id": 10,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 8.90852988695192,
+      "cosine_distance": 0.10407752052945707
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.913386295181063,
+      "cosine_distance": 0.17238596356395142
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 3.5017901000427405,
+      "cosine_distance": 0.016176583579207038
+    },
+    "letter_change": {
+      "euclidean_distance": 4.102662861201504,
+      "cosine_distance": 0.020878682357681977
+    }
+  },
+  {
+    "id": 11,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.715222949969006,
+      "cosine_distance": 0.036361028900120274
+    },
+    "antonym_change": {
+      "euclidean_distance": 12.739258196443465,
+      "cosine_distance": 0.1802480770279975
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.77388552012493,
+      "cosine_distance": 0.08738972849430537
+    },
+    "letter_change": {
+      "euclidean_distance": 16.40422270083729,
+      "cosine_distance": 0.33057652504334845
+    }
+  },
+  {
+    "id": 12,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.198088453187775,
+      "cosine_distance": 0.04726749966407173
+    },
+    "antonym_change": {
+      "euclidean_distance": 9.38623033117941,
+      "cosine_distance": 0.10737467256772137
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 4.670133018623089,
+      "cosine_distance": 0.02693938749789937
+    },
+    "letter_change": {
+      "euclidean_distance": 7.2038647092281085,
+      "cosine_distance": 0.06476721908837402
+    }
+  },
+  {
+    "id": 13,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 16.04739268165345,
+      "cosine_distance": 0.33016957324092744
+    },
+    "antonym_change": {
+      "euclidean_distance": 13.033119037876256,
+      "cosine_distance": 0.21180429207495644
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 1.4099727226209597,
+      "cosine_distance": 0.0024880331930420274
+    },
+    "letter_change": {
+      "euclidean_distance": 17.538334902239306,
+      "cosine_distance": 0.3738581200025691
+    }
+  },
+  {
+    "id": 14,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.426823513236859,
+      "cosine_distance": 0.030147450011621668
+    },
+    "antonym_change": {
+      "euclidean_distance": 8.058902053150325,
+      "cosine_distance": 0.07606556946635368
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.539997804919112,
+      "cosine_distance": 0.07789686820732966
+    },
+    "letter_change": {
+      "euclidean_distance": 12.754369503067863,
+      "cosine_distance": 0.18515093628919532
+    }
+  },
+  {
+    "id": 15,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 7.729027927919846,
+      "cosine_distance": 0.07307970340787717
+    },
+    "antonym_change": {
+      "euclidean_distance": 13.26652807247293,
+      "cosine_distance": 0.21008376918473892
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 2.0495684705142945,
+      "cosine_distance": 0.004922653316871806
+    },
+    "letter_change": {
+      "euclidean_distance": 17.301017548115325,
+      "cosine_distance": 0.3717051075937563
+    }
+  },
+  {
+    "id": 16,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 12.236986957141951,
+      "cosine_distance": 0.15143410962557535
+    },
+    "antonym_change": {
+      "euclidean_distance": 16.247797147252623,
+      "cosine_distance": 0.2812572538588436
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 11.088051244220143,
+      "cosine_distance": 0.12773824934954092
+    },
+    "letter_change": {
+      "euclidean_distance": 12.830665152587192,
+      "cosine_distance": 0.18581211808015696
+    }
+  },
+  {
+    "id": 17,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 2.5012535691224884,
+      "cosine_distance": 0.008082412619737522
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.510989816161421,
+      "cosine_distance": 0.17277293476655464
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.263259887826191,
+      "cosine_distance": 0.06715064996690823
+    },
+    "letter_change": {
+      "euclidean_distance": 12.18877228733854,
+      "cosine_distance": 0.1961845318261366
+    }
+  },
+  {
+    "id": 18,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.526907750046062,
+      "cosine_distance": 0.041173539559874794
+    },
+    "antonym_change": {
+      "euclidean_distance": 12.594394306716223,
+      "cosine_distance": 0.2172194286552256
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.716131603905137,
+      "cosine_distance": 0.044545001468597634
+    },
+    "letter_change": {
+      "euclidean_distance": 16.043838615898927,
+      "cosine_distance": 0.3469322206719001
+    }
+  },
+  {
+    "id": 19,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 9.822955122433601,
+      "cosine_distance": 0.1303285468093608
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.272640802270555,
+      "cosine_distance": 0.1789059754939193
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 10.813996357461109,
+      "cosine_distance": 0.15961708525129747
+    },
+    "letter_change": {
+      "euclidean_distance": 14.755375767053586,
+      "cosine_distance": 0.2940743907134209
+    }
+  },
+  {
+    "id": 20,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.603570697212648,
+      "cosine_distance": 0.04054082979648188
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.955301342809454,
+      "cosine_distance": 0.183165721687358
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 12.41330108871543,
+      "cosine_distance": 0.1957590057464519
+    },
+    "letter_change": {
+      "euclidean_distance": 7.159155451500961,
+      "cosine_distance": 0.06964583134373892
+    }
+  },
+  {
+    "id": 21,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 17.54084768420832,
+      "cosine_distance": 0.377633329364925
+    },
+    "antonym_change": {
+      "euclidean_distance": 23.23533687907918,
+      "cosine_distance": 0.5856509029324581
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.385898615426372,
+      "cosine_distance": 0.03578585158868164
+    },
+    "letter_change": {
+      "euclidean_distance": 13.70937646256488,
+      "cosine_distance": 0.2326305963699994
+    }
+  },
+  {
+    "id": 22,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.135250327400072,
+      "cosine_distance": 0.04532862653893621
+    },
+    "antonym_change": {
+      "euclidean_distance": 8.841057803979467,
+      "cosine_distance": 0.09445686254698094
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 4.722125562727022,
+      "cosine_distance": 0.027639138138663033
+    },
+    "letter_change": {
+      "euclidean_distance": 9.94556660749944,
+      "cosine_distance": 0.1261654775609523
+    }
+  },
+  {
+    "id": 23,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 11.189122797057452,
+      "cosine_distance": 0.13852356668099763
+    },
+    "antonym_change": {
+      "euclidean_distance": 12.334269323725886,
+      "cosine_distance": 0.16953758631150107
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 10.926432554059073,
+      "cosine_distance": 0.13440041995721275
+    },
+    "letter_change": {
+      "euclidean_distance": 11.47047822163169,
+      "cosine_distance": 0.15514762174467478
+    }
+  },
+  {
+    "id": 24,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 12.425872589094588,
+      "cosine_distance": 0.18477917764752405
+    },
+    "antonym_change": {
+      "euclidean_distance": 14.524241805329488,
+      "cosine_distance": 0.24871344679311058
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 2.4006995437095973,
+      "cosine_distance": 0.006570048938989825
+    },
+    "letter_change": {
+      "euclidean_distance": 1.8383284602938526,
+      "cosine_distance": 0.0038484681123206466
+    }
+  },
+  {
+    "id": 25,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.314355809181945,
+      "cosine_distance": 0.018290356000449592
+    },
+    "antonym_change": {
+      "euclidean_distance": 10.836330335501625,
+      "cosine_distance": 0.12605765715847794
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 10.1628369308458,
+      "cosine_distance": 0.11096590899456404
+    },
+    "letter_change": {
+      "euclidean_distance": 16.74961301763226,
+      "cosine_distance": 0.321779091724712
+    }
+  },
+  {
+    "id": 26,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.563153710244078,
+      "cosine_distance": 0.04677438231039788
+    },
+    "antonym_change": {
+      "euclidean_distance": 12.515218864130928,
+      "cosine_distance": 0.171717055678536
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.455209558276801,
+      "cosine_distance": 0.047013213859221414
+    },
+    "letter_change": {
+      "euclidean_distance": 3.1715833036056287,
+      "cosine_distance": 0.011156606532625513
+    }
+  },
+  {
+    "id": 27,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 2.920861607878748,
+      "cosine_distance": 0.010257581723590925
+    },
+    "antonym_change": {
+      "euclidean_distance": 10.724075073522656,
+      "cosine_distance": 0.13903920569542216
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.7856029015719805,
+      "cosine_distance": 0.06896105021900212
+    },
+    "letter_change": {
+      "euclidean_distance": 9.45413511308509,
+      "cosine_distance": 0.10771037328852973
+    }
+  },
+  {
+    "id": 28,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 16.9028744315777,
+      "cosine_distance": 0.38786864195562953
+    },
+    "antonym_change": {
+      "euclidean_distance": 16.121136237264267,
+      "cosine_distance": 0.33325451155075736
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.239736590421291,
+      "cosine_distance": 0.06680235920517263
+    },
+    "letter_change": {
+      "euclidean_distance": 16.26283174508343,
+      "cosine_distance": 0.3847086007684737
+    }
+  },
+  {
+    "id": 29,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.050609060272338,
+      "cosine_distance": 0.03865081080991384
+    },
+    "antonym_change": {
+      "euclidean_distance": 13.134836001042926,
+      "cosine_distance": 0.19419942679616775
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.672989010386518,
+      "cosine_distance": 0.08092519614961857
+    },
+    "letter_change": {
+      "euclidean_distance": 5.882165980191044,
+      "cosine_distance": 0.03668537169627073
+    }
+  },
+  {
+    "id": 30,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.0780430018992995,
+      "cosine_distance": 0.031888880784025186
+    },
+    "antonym_change": {
+      "euclidean_distance": 10.09711248542645,
+      "cosine_distance": 0.12848686458355096
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.156076691857557,
+      "cosine_distance": 0.062002221295755944
+    },
+    "letter_change": {
+      "euclidean_distance": 4.773341798326871,
+      "cosine_distance": 0.028128113012265366
+    }
+  },
+  {
+    "id": 31,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 13.66964477443412,
+      "cosine_distance": 0.22358060381927114
+    },
+    "antonym_change": {
+      "euclidean_distance": 10.252788005765856,
+      "cosine_distance": 0.12097880602993483
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 1.2144208107024734,
+      "cosine_distance": 0.0014226883161718717
+    },
+    "letter_change": {
+      "euclidean_distance": 9.701116422654225,
+      "cosine_distance": 0.10838869802694096
+    }
+  },
+  {
+    "id": 32,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.629753808603159,
+      "cosine_distance": 0.03894056783609634
+    },
+    "antonym_change": {
+      "euclidean_distance": 6.202327693469842,
+      "cosine_distance": 0.04740271572096122
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.720289139151905,
+      "cosine_distance": 0.09103655629158325
+    },
+    "letter_change": {
+      "euclidean_distance": 9.150188026000881,
+      "cosine_distance": 0.10580664701689269
+    }
+  },
+  {
+    "id": 33,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 7.249371936874829,
+      "cosine_distance": 0.06054666762995575
+    },
+    "antonym_change": {
+      "euclidean_distance": 14.883709743600402,
+      "cosine_distance": 0.2541771848814538
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 9.963471840337242,
+      "cosine_distance": 0.11562360168438268
+    },
+    "letter_change": {
+      "euclidean_distance": 7.193239015218891,
+      "cosine_distance": 0.06289175992764284
+    }
+  },
+  {
+    "id": 34,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 11.27456501507848,
+      "cosine_distance": 0.14954817062125314
+    },
+    "antonym_change": {
+      "euclidean_distance": 12.759967835120834,
+      "cosine_distance": 0.20248295335840716
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 12.819369153455542,
+      "cosine_distance": 0.18465440836965175
+    },
+    "letter_change": {
+      "euclidean_distance": 8.867286368116513,
+      "cosine_distance": 0.09862668518217066
+    }
+  },
+  {
+    "id": 35,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 2.2997541607244028,
+      "cosine_distance": 0.006208449650725978
+    },
+    "antonym_change": {
+      "euclidean_distance": 18.781460249205953,
+      "cosine_distance": 0.42957577662266877
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.3394712391407175,
+      "cosine_distance": 0.06456559724547639
+    },
+    "letter_change": {
+      "euclidean_distance": 4.1717434996970155,
+      "cosine_distance": 0.020167089265945903
+    }
+  },
+  {
+    "id": 36,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 11.36628799950921,
+      "cosine_distance": 0.13068532751690776
+    },
+    "antonym_change": {
+      "euclidean_distance": 15.779174023426373,
+      "cosine_distance": 0.24503214351219127
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 15.521989379795368,
+      "cosine_distance": 0.24008528897720893
+    },
+    "letter_change": {
+      "euclidean_distance": 11.31752043953754,
+      "cosine_distance": 0.1317781744027715
+    }
+  },
+  {
+    "id": 37,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 14.339031302874204,
+      "cosine_distance": 0.26763040120475867
+    },
+    "antonym_change": {
+      "euclidean_distance": 13.113031877541781,
+      "cosine_distance": 0.22111875348370602
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 15.197958426213276,
+      "cosine_distance": 0.31138934731477264
+    },
+    "letter_change": {
+      "euclidean_distance": 13.421883997695868,
+      "cosine_distance": 0.238680918629134
+    }
+  },
+  {
+    "id": 38,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.120011928244488,
+      "cosine_distance": 0.0313257102306842
+    },
+    "antonym_change": {
+      "euclidean_distance": 9.903058221508413,
+      "cosine_distance": 0.12324277503630898
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 4.256934036297176,
+      "cosine_distance": 0.02169561276263099
+    },
+    "letter_change": {
+      "euclidean_distance": 10.031163224928363,
+      "cosine_distance": 0.1224682490195147
+    }
+  },
+  {
+    "id": 39,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 7.15589145926362,
+      "cosine_distance": 0.05700395904515132
+    },
+    "antonym_change": {
+      "euclidean_distance": 12.25551901533805,
+      "cosine_distance": 0.16530317928819926
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 2.5910092118246233,
+      "cosine_distance": 0.00730222591637486
+    },
+    "letter_change": {
+      "euclidean_distance": 1.2536388178488997,
+      "cosine_distance": 0.0016328836211653153
+    }
+  },
+  {
+    "id": 40,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.986563331756605,
+      "cosine_distance": 0.04476168553978199
+    },
+    "antonym_change": {
+      "euclidean_distance": 10.149906353615332,
+      "cosine_distance": 0.13218946990422298
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 9.946368537422455,
+      "cosine_distance": 0.12283931644674784
+    },
+    "letter_change": {
+      "euclidean_distance": 4.928086220088911,
+      "cosine_distance": 0.02974107505023349
+    }
+  },
+  {
+    "id": 41,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.057684297323515,
+      "cosine_distance": 0.020779495064668807
+    },
+    "antonym_change": {
+      "euclidean_distance": 7.849969806936036,
+      "cosine_distance": 0.07905578063551744
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.835661899362264,
+      "cosine_distance": 0.060765679932551
+    },
+    "letter_change": {
+      "euclidean_distance": 10.074754921775224,
+      "cosine_distance": 0.13229735027831546
+    }
+  },
+  {
+    "id": 42,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 8.631764320156513,
+      "cosine_distance": 0.09025576324173024
+    },
+    "antonym_change": {
+      "euclidean_distance": 9.329436314516837,
+      "cosine_distance": 0.1092578629617621
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 9.198633846757481,
+      "cosine_distance": 0.10626645621718145
+    },
+    "letter_change": {
+      "euclidean_distance": 14.2039343639322,
+      "cosine_distance": 0.24253106150250214
+    }
+  },
+  {
+    "id": 43,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.868471867191457,
+      "cosine_distance": 0.059082426644491925
+    },
+    "antonym_change": {
+      "euclidean_distance": 16.842556885477556,
+      "cosine_distance": 0.35600438032593706
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.824421549689682,
+      "cosine_distance": 0.04185670477593284
+    },
+    "letter_change": {
+      "euclidean_distance": 4.122032335053759,
+      "cosine_distance": 0.02148899823902317
+    }
+  },
+  {
+    "id": 44,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 9.67428201586349,
+      "cosine_distance": 0.11173141665459485
+    },
+    "antonym_change": {
+      "euclidean_distance": 8.479116837991116,
+      "cosine_distance": 0.08840963883952091
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.021822699567194,
+      "cosine_distance": 0.06046260803361059
+    },
+    "letter_change": {
+      "euclidean_distance": 10.69103593900968,
+      "cosine_distance": 0.14385762657202827
+    }
+  },
+  {
+    "id": 45,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 10.424485058073246,
+      "cosine_distance": 0.1165839329934748
+    },
+    "antonym_change": {
+      "euclidean_distance": 5.072312839145763,
+      "cosine_distance": 0.028416915220979333
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 2.137836843217059,
+      "cosine_distance": 0.0048781671820348205
+    },
+    "letter_change": {
+      "euclidean_distance": 4.673330895649786,
+      "cosine_distance": 0.023630503113632684
+    }
+  },
+  {
+    "id": 46,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.051845771583801,
+      "cosine_distance": 0.04519008311304529
+    },
+    "antonym_change": {
+      "euclidean_distance": 10.21731915376988,
+      "cosine_distance": 0.11584053151182871
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.493686821827513,
+      "cosine_distance": 0.08607881444465326
+    },
+    "letter_change": {
+      "euclidean_distance": 17.48763378554629,
+      "cosine_distance": 0.3930202014313122
+    }
+  },
+  {
+    "id": 47,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 3.030731903686465,
+      "cosine_distance": 0.011016119867855001
+    },
+    "antonym_change": {
+      "euclidean_distance": 9.54063141732181,
+      "cosine_distance": 0.11268363981609808
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.145198341624631,
+      "cosine_distance": 0.06246176531639769
+    },
+    "letter_change": {
+      "euclidean_distance": 18.29126527070727,
+      "cosine_distance": 0.42383394630132143
+    }
+  },
+  {
+    "id": 48,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 9.687401070749848,
+      "cosine_distance": 0.11271093450150138
+    },
+    "antonym_change": {
+      "euclidean_distance": 15.953095974388376,
+      "cosine_distance": 0.31981677998391733
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.684490348869995,
+      "cosine_distance": 0.05198840868793064
+    },
+    "letter_change": {
+      "euclidean_distance": 5.272600306102321,
+      "cosine_distance": 0.034611704037275204
+    }
+  },
+  {
+    "id": 49,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 12.510205353554486,
+      "cosine_distance": 0.18689499908053142
+    },
+    "antonym_change": {
+      "euclidean_distance": 19.285121513220666,
+      "cosine_distance": 0.4137324240154633
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 2.57004308830353,
+      "cosine_distance": 0.0077774910912986606
+    },
+    "letter_change": {
+      "euclidean_distance": 4.932282845907649,
+      "cosine_distance": 0.028670315984682393
+    }
+  },
+  {
+    "id": 50,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 7.37193225884309,
+      "cosine_distance": 0.06631712120776079
+    },
+    "antonym_change": {
+      "euclidean_distance": 6.8007653348464405,
+      "cosine_distance": 0.058205859877280774
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 11.299901928035018,
+      "cosine_distance": 0.16574706822629304
+    },
+    "letter_change": {
+      "euclidean_distance": 13.393006941547585,
+      "cosine_distance": 0.21754632896703874
+    }
+  },
+  {
+    "id": 51,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.946601905661884,
+      "cosine_distance": 0.060162026024077275
+    },
+    "antonym_change": {
+      "euclidean_distance": 9.503298621378073,
+      "cosine_distance": 0.11333705920943993
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.429595476393159,
+      "cosine_distance": 0.08667235624550507
+    },
+    "letter_change": {
+      "euclidean_distance": 11.063238748344116,
+      "cosine_distance": 0.15820449518039792
+    }
+  },
+  {
+    "id": 52,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.437837651761768,
+      "cosine_distance": 0.02021543663622738
+    },
+    "antonym_change": {
+      "euclidean_distance": 14.937987561623787,
+      "cosine_distance": 0.2374570082546279
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.99952908921379,
+      "cosine_distance": 0.08527033213010637
+    },
+    "letter_change": {
+      "euclidean_distance": 9.808780603458526,
+      "cosine_distance": 0.1068081472295287
+    }
+  },
+  {
+    "id": 53,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 0.5426271649951898,
+      "cosine_distance": 0.00029229599592317523
+    },
+    "antonym_change": {
+      "euclidean_distance": 2.21797317698241,
+      "cosine_distance": 0.0048973029576321325
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 9.18759638455002,
+      "cosine_distance": 0.08696119442122163
+    },
+    "letter_change": {
+      "euclidean_distance": 16.884198629957474,
+      "cosine_distance": 0.3240101741195883
+    }
+  },
+  {
+    "id": 54,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.6273488405991605,
+      "cosine_distance": 0.027229961880934517
+    },
+    "antonym_change": {
+      "euclidean_distance": 9.094874921334677,
+      "cosine_distance": 0.1121362085633254
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.162008021419592,
+      "cosine_distance": 0.06424590952777043
+    },
+    "letter_change": {
+      "euclidean_distance": 10.272995521169163,
+      "cosine_distance": 0.13353176074662598
+    }
+  },
+  {
+    "id": 55,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.540180396313316,
+      "cosine_distance": 0.020986809225531866
+    },
+    "antonym_change": {
+      "euclidean_distance": 15.912454186897639,
+      "cosine_distance": 0.26923274189539537
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.620401944128736,
+      "cosine_distance": 0.04515052858201396
+    },
+    "letter_change": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    }
+  },
+  {
+    "id": 56,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 13.172126809466247,
+      "cosine_distance": 0.19987353230165705
+    },
+    "antonym_change": {
+      "euclidean_distance": 16.470632589021903,
+      "cosine_distance": 0.3291987301512739
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 1.0357894126080494,
+      "cosine_distance": 0.0012837130439975475
+    },
+    "letter_change": {
+      "euclidean_distance": 2.017451027078078,
+      "cosine_distance": 0.004891414921295301
+    }
+  },
+  {
+    "id": 57,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 0.2625143465949767,
+      "cosine_distance": 7.415461517290556e-05
+    },
+    "antonym_change": {
+      "euclidean_distance": 7.402596894250781,
+      "cosine_distance": 0.060320314836188826
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 9.314517684433612,
+      "cosine_distance": 0.09377190877456554
+    },
+    "letter_change": {
+      "euclidean_distance": 17.766298008624414,
+      "cosine_distance": 0.3660809897995482
+    }
+  },
+  {
+    "id": 58,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.7728328589135955,
+      "cosine_distance": 0.029915639733293364
+    },
+    "antonym_change": {
+      "euclidean_distance": 9.711796577933411,
+      "cosine_distance": 0.13335288360668995
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.737037220788951,
+      "cosine_distance": 0.06107084595949441
+    },
+    "letter_change": {
+      "euclidean_distance": 15.420336057106379,
+      "cosine_distance": 0.3154353644410145
+    }
+  },
+  {
+    "id": 59,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 12.223918154042549,
+      "cosine_distance": 0.18302883389391
+    },
+    "antonym_change": {
+      "euclidean_distance": 16.884830035261484,
+      "cosine_distance": 0.34028766171850444
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.152565941693291,
+      "cosine_distance": 0.04625082616657117
+    },
+    "letter_change": {
+      "euclidean_distance": 3.6377683101990117,
+      "cosine_distance": 0.015405735494841144
+    }
+  },
+  {
+    "id": 60,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 10.903483716157398,
+      "cosine_distance": 0.14611920432913994
+    },
+    "antonym_change": {
+      "euclidean_distance": 8.865642513988531,
+      "cosine_distance": 0.10980979758490794
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.483740227233572,
+      "cosine_distance": 0.0997111085147
+    },
+    "letter_change": {
+      "euclidean_distance": 10.495707290998045,
+      "cosine_distance": 0.16443779600057462
+    }
+  },
+  {
+    "id": 61,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 9.995090104374748,
+      "cosine_distance": 0.13760885157832237
+    },
+    "antonym_change": {
+      "euclidean_distance": 16.37095950686024,
+      "cosine_distance": 0.3614446380574463
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.203951067488141,
+      "cosine_distance": 0.09225728507096287
+    },
+    "letter_change": {
+      "euclidean_distance": 7.6563723470620415,
+      "cosine_distance": 0.08038682331584468
+    }
+  },
+  {
+    "id": 62,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.701831927991885,
+      "cosine_distance": 0.03504183100650193
+    },
+    "antonym_change": {
+      "euclidean_distance": 18.04876246219607,
+      "cosine_distance": 0.3525840489576151
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.078959893981837,
+      "cosine_distance": 0.0403023823202775
+    },
+    "letter_change": {
+      "euclidean_distance": 13.390647882474441,
+      "cosine_distance": 0.20870494658245708
+    }
+  },
+  {
+    "id": 63,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 9.76896082246428,
+      "cosine_distance": 0.1061449483313548
+    },
+    "antonym_change": {
+      "euclidean_distance": 10.480136662186556,
+      "cosine_distance": 0.1258508603520565
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.110418961785239,
+      "cosine_distance": 0.030469109741219746
+    },
+    "letter_change": {
+      "euclidean_distance": 11.441986575985926,
+      "cosine_distance": 0.16129169563488377
+    }
+  },
+  {
+    "id": 64,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 3.902146629385377,
+      "cosine_distance": 0.021198667577487673
+    },
+    "antonym_change": {
+      "euclidean_distance": 15.170139548891866,
+      "cosine_distance": 0.30555210666333765
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.64928192970434,
+      "cosine_distance": 0.09897720323250436
+    },
+    "letter_change": {
+      "euclidean_distance": 7.791083288179637,
+      "cosine_distance": 0.085299280361405
+    }
+  },
+  {
+    "id": 65,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 15.178369406732367,
+      "cosine_distance": 0.2842146306864959
+    },
+    "antonym_change": {
+      "euclidean_distance": 13.805275155370298,
+      "cosine_distance": 0.2401258572255811
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 3.4793553172411715,
+      "cosine_distance": 0.014959820951141012
+    },
+    "letter_change": {
+      "euclidean_distance": 2.165267772738287,
+      "cosine_distance": 0.00578361880986078
+    }
+  },
+  {
+    "id": 66,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.741098221860406,
+      "cosine_distance": 0.03987998237849477
+    },
+    "antonym_change": {
+      "euclidean_distance": 9.712511055558778,
+      "cosine_distance": 0.11607391458928196
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 3.855389337154267,
+      "cosine_distance": 0.017872964274543324
+    },
+    "letter_change": {
+      "euclidean_distance": 3.8207210487840215,
+      "cosine_distance": 0.017707936111762135
+    }
+  },
+  {
+    "id": 67,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 1.0708731892370544,
+      "cosine_distance": 0.0013740098885772767
+    },
+    "antonym_change": {
+      "euclidean_distance": 5.517660835266298,
+      "cosine_distance": 0.03699798386922115
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 4.924072819101947,
+      "cosine_distance": 0.029587116980484995
+    },
+    "letter_change": {
+      "euclidean_distance": 4.807584379969897,
+      "cosine_distance": 0.028166414927781158
+    }
+  },
+  {
+    "id": 68,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 7.9328140598721095,
+      "cosine_distance": 0.07266695164489212
+    },
+    "antonym_change": {
+      "euclidean_distance": 21.413787352934285,
+      "cosine_distance": 0.519531328515231
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 4.895233623758339,
+      "cosine_distance": 0.027222628217423606
+    },
+    "letter_change": {
+      "euclidean_distance": 15.307728351955019,
+      "cosine_distance": 0.29968534190410756
+    }
+  },
+  {
+    "id": 69,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 8.086005818348077,
+      "cosine_distance": 0.08841584485570098
+    },
+    "antonym_change": {
+      "euclidean_distance": 10.350336303284548,
+      "cosine_distance": 0.14562642586270547
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.594444922069253,
+      "cosine_distance": 0.07853979177089432
+    },
+    "letter_change": {
+      "euclidean_distance": 2.2323251127824384,
+      "cosine_distance": 0.006682158662461912
+    }
+  },
+  {
+    "id": 70,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 13.061553871228341,
+      "cosine_distance": 0.1915258100656786
+    },
+    "antonym_change": {
+      "euclidean_distance": 9.76209223801472,
+      "cosine_distance": 0.10645433375298596
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.373601637076867,
+      "cosine_distance": 0.03231186641654371
+    },
+    "letter_change": {
+      "euclidean_distance": 10.588691718397504,
+      "cosine_distance": 0.12849754165381488
+    }
+  },
+  {
+    "id": 71,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.576127110961848,
+      "cosine_distance": 0.026719365455322053
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.100248095864705,
+      "cosine_distance": 0.15177798442071588
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.520553334939697,
+      "cosine_distance": 0.09127231961687987
+    },
+    "letter_change": {
+      "euclidean_distance": 6.141761162305344,
+      "cosine_distance": 0.049209761549133924
+    }
+  },
+  {
+    "id": 72,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 9.776680817534082,
+      "cosine_distance": 0.09999066793889055
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.892746477387544,
+      "cosine_distance": 0.15205534352578898
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 10.618341679647878,
+      "cosine_distance": 0.12112240468991353
+    },
+    "letter_change": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    }
+  },
+  {
+    "id": 73,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 13.455295403318013,
+      "cosine_distance": 0.22456368535835225
+    },
+    "antonym_change": {
+      "euclidean_distance": 12.656230764710333,
+      "cosine_distance": 0.19327878306123647
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.564906271272146,
+      "cosine_distance": 0.048512206497690724
+    },
+    "letter_change": {
+      "euclidean_distance": 3.579721239428117,
+      "cosine_distance": 0.015075240458851447
+    }
+  },
+  {
+    "id": 74,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 8.876293172416164,
+      "cosine_distance": 0.10298789160070854
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.146265885387114,
+      "cosine_distance": 0.16462910369171146
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.92655555986855,
+      "cosine_distance": 0.04683870020827752
+    },
+    "letter_change": {
+      "euclidean_distance": 12.813145058482508,
+      "cosine_distance": 0.21046305683871402
+    }
+  },
+  {
+    "id": 75,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 9.790416818576537,
+      "cosine_distance": 0.12310470912728677
+    },
+    "antonym_change": {
+      "euclidean_distance": 12.941507668736891,
+      "cosine_distance": 0.21128073277988768
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 2.6103036926937526,
+      "cosine_distance": 0.008502952585408452
+    },
+    "letter_change": {
+      "euclidean_distance": 14.870042529492945,
+      "cosine_distance": 0.2833927458261043
+    }
+  },
+  {
+    "id": 76,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 8.623797443303449,
+      "cosine_distance": 0.09570990602033946
+    },
+    "antonym_change": {
+      "euclidean_distance": 10.582136893130784,
+      "cosine_distance": 0.14506113809048482
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 9.49516420592295,
+      "cosine_distance": 0.1112585590447901
+    },
+    "letter_change": {
+      "euclidean_distance": 16.10511758154207,
+      "cosine_distance": 0.3397498073352978
+    }
+  },
+  {
+    "id": 77,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.237039656190136,
+      "cosine_distance": 0.04306005530011414
+    },
+    "antonym_change": {
+      "euclidean_distance": 13.720765445767478,
+      "cosine_distance": 0.20958268178820771
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 12.735913576442883,
+      "cosine_distance": 0.1779241034161526
+    },
+    "letter_change": {
+      "euclidean_distance": 14.403641956598788,
+      "cosine_distance": 0.25439248278060833
+    }
+  },
+  {
+    "id": 78,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.63171424285108,
+      "cosine_distance": 0.05771703507539272
+    },
+    "antonym_change": {
+      "euclidean_distance": 7.655565613627121,
+      "cosine_distance": 0.08074151328531709
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 9.219477981325815,
+      "cosine_distance": 0.11206514415457913
+    },
+    "letter_change": {
+      "euclidean_distance": 11.397026339653118,
+      "cosine_distance": 0.18950121077196336
+    }
+  },
+  {
+    "id": 79,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.943026244162313,
+      "cosine_distance": 0.044061736251289396
+    },
+    "antonym_change": {
+      "euclidean_distance": 7.772076827782954,
+      "cosine_distance": 0.06963592810543273
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 4.515856137037506,
+      "cosine_distance": 0.025160313415961588
+    },
+    "letter_change": {
+      "euclidean_distance": 16.459357350065066,
+      "cosine_distance": 0.32532251846051063
+    }
+  },
+  {
+    "id": 80,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.475468229888244,
+      "cosine_distance": 0.02408170132103893
+    },
+    "antonym_change": {
+      "euclidean_distance": 13.164281340615036,
+      "cosine_distance": 0.20657675004302933
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 9.11224882210857,
+      "cosine_distance": 0.10260110766895869
+    },
+    "letter_change": {
+      "euclidean_distance": 2.762740048656231,
+      "cosine_distance": 0.009130723956921494
+    }
+  },
+  {
+    "id": 81,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.801811569424534,
+      "cosine_distance": 0.05886316483856591
+    },
+    "antonym_change": {
+      "euclidean_distance": 20.043710857865168,
+      "cosine_distance": 0.47256202353223997
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 11.64294446530504,
+      "cosine_distance": 0.1677811218312979
+    },
+    "letter_change": {
+      "euclidean_distance": 4.264560798182323,
+      "cosine_distance": 0.02304142287258737
+    }
+  },
+  {
+    "id": 82,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 13.02257854936479,
+      "cosine_distance": 0.20434554743457622
+    },
+    "antonym_change": {
+      "euclidean_distance": 7.543016266136426,
+      "cosine_distance": 0.0696150111914936
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 4.662434570890118,
+      "cosine_distance": 0.025391879224165637
+    },
+    "letter_change": {
+      "euclidean_distance": 4.28331314284904,
+      "cosine_distance": 0.02221168560476583
+    }
+  },
+  {
+    "id": 83,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.448529586512919,
+      "cosine_distance": 0.024879588894561544
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.814888816521373,
+      "cosine_distance": 0.17396192839612257
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 12.891695376541817,
+      "cosine_distance": 0.20180694113650122
+    },
+    "letter_change": {
+      "euclidean_distance": 12.389076493403243,
+      "cosine_distance": 0.19534978784402257
+    }
+  },
+  {
+    "id": 84,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 3.762346046966348,
+      "cosine_distance": 0.018282346504280178
+    },
+    "antonym_change": {
+      "euclidean_distance": 15.779752460416645,
+      "cosine_distance": 0.30796820048543316
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.903045088596205,
+      "cosine_distance": 0.08121804272844124
+    },
+    "letter_change": {
+      "euclidean_distance": 3.005877579085411,
+      "cosine_distance": 0.01163196609740158
+    }
+  },
+  {
+    "id": 85,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 8.81262502264063,
+      "cosine_distance": 0.08941260748569013
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.292593619041373,
+      "cosine_distance": 0.1536810736241374
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 8.460667574528447,
+      "cosine_distance": 0.08505028570248485
+    },
+    "letter_change": {
+      "euclidean_distance": 13.869176690028262,
+      "cosine_distance": 0.24401780641729742
+    }
+  },
+  {
+    "id": 86,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.287091328449312,
+      "cosine_distance": 0.021927287427572217
+    },
+    "antonym_change": {
+      "euclidean_distance": 3.759843053230532,
+      "cosine_distance": 0.01709117254845327
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.310967745472002,
+      "cosine_distance": 0.034472731668610423
+    },
+    "letter_change": {
+      "euclidean_distance": 13.140125267233516,
+      "cosine_distance": 0.2075730039660989
+    }
+  },
+  {
+    "id": 87,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.615494290920766,
+      "cosine_distance": 0.02645943748949975
+    },
+    "antonym_change": {
+      "euclidean_distance": 10.157204357850379,
+      "cosine_distance": 0.13158699566166332
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 4.838166175960361,
+      "cosine_distance": 0.030193993548922382
+    },
+    "letter_change": {
+      "euclidean_distance": 12.997322331556388,
+      "cosine_distance": 0.228352882174361
+    }
+  },
+  {
+    "id": 88,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 1.975910172227966,
+      "cosine_distance": 0.00468142974078678
+    },
+    "antonym_change": {
+      "euclidean_distance": 9.586033256101066,
+      "cosine_distance": 0.11548504769239765
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.797486215855937,
+      "cosine_distance": 0.07426303186257699
+    },
+    "letter_change": {
+      "euclidean_distance": 5.260856191188119,
+      "cosine_distance": 0.03503466448235104
+    }
+  },
+  {
+    "id": 89,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 2.5200062851157923,
+      "cosine_distance": 0.007903006257057532
+    },
+    "antonym_change": {
+      "euclidean_distance": 10.995321188281922,
+      "cosine_distance": 0.151920466818679
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.911879979506782,
+      "cosine_distance": 0.044315126636113034
+    },
+    "letter_change": {
+      "euclidean_distance": 9.098434766771383,
+      "cosine_distance": 0.104232379715815
+    }
+  },
+  {
+    "id": 90,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": -2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 15.074229777931633,
+      "cosine_distance": 0.24056376330895823
+    },
+    "antonym_change": {
+      "euclidean_distance": 18.412846394983173,
+      "cosine_distance": 0.37159683253055886
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 2.3219279686465915,
+      "cosine_distance": 0.005660116178785701
+    },
+    "letter_change": {
+      "euclidean_distance": 3.2607452643285533,
+      "cosine_distance": 0.01122805070290922
+    }
+  },
+  {
+    "id": 91,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 1.8214966926279288,
+      "cosine_distance": 0.0034734182644107214
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.015072905754884,
+      "cosine_distance": 0.1337629039639101
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 1.294981125688057,
+      "cosine_distance": 0.0017545370978672148
+    },
+    "letter_change": {
+      "euclidean_distance": 11.895497191666268,
+      "cosine_distance": 0.16097455698356355
+    }
+  },
+  {
+    "id": 92,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 7.612338384533756,
+      "cosine_distance": 0.06409965940323181
+    },
+    "antonym_change": {
+      "euclidean_distance": 12.753246684401415,
+      "cosine_distance": 0.17607116769613929
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.395074029921831,
+      "cosine_distance": 0.03192948568863996
+    },
+    "letter_change": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    }
+  },
+  {
+    "id": 93,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 4.868881851966621,
+      "cosine_distance": 0.027306986365762675
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.319632356824126,
+      "cosine_distance": 0.15321878582210902
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.520080855396379,
+      "cosine_distance": 0.049485069850643715
+    },
+    "letter_change": {
+      "euclidean_distance": 2.444015949325109,
+      "cosine_distance": 0.006812963091538893
+    }
+  },
+  {
+    "id": 94,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.855221385343381,
+      "cosine_distance": 0.05844449905139182
+    },
+    "antonym_change": {
+      "euclidean_distance": 7.979740496304069,
+      "cosine_distance": 0.08033707352606712
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.1990731679355715,
+      "cosine_distance": 0.06248966087367469
+    },
+    "letter_change": {
+      "euclidean_distance": 8.3146970881298,
+      "cosine_distance": 0.07655007337465958
+    }
+  },
+  {
+    "id": 95,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 1.1102230246251565e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 8.537940318744297,
+      "cosine_distance": 0.08019866982751755
+    },
+    "antonym_change": {
+      "euclidean_distance": 15.190059307941068,
+      "cosine_distance": 0.2563043665983509
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 4.281580906599723,
+      "cosine_distance": 0.019083926824397413
+    },
+    "letter_change": {
+      "euclidean_distance": 12.875236700584557,
+      "cosine_distance": 0.182864543391286
+    }
+  },
+  {
+    "id": 96,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.569191546616515,
+      "cosine_distance": 0.0406969055529659
+    },
+    "antonym_change": {
+      "euclidean_distance": 14.257840446576786,
+      "cosine_distance": 0.24600030706938325
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 10.619035006459912,
+      "cosine_distance": 0.1386987643593901
+    },
+    "letter_change": {
+      "euclidean_distance": 15.716843696733894,
+      "cosine_distance": 0.3466208103335352
+    }
+  },
+  {
+    "id": 97,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 5.44601701112737,
+      "cosine_distance": 0.03438903743962052
+    },
+    "antonym_change": {
+      "euclidean_distance": 14.472996497426578,
+      "cosine_distance": 0.24477345914203297
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 6.573826584049021,
+      "cosine_distance": 0.0503870881313947
+    },
+    "letter_change": {
+      "euclidean_distance": 7.473496978179903,
+      "cosine_distance": 0.06706258311683744
+    }
+  },
+  {
+    "id": 98,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 6.378710136637597,
+      "cosine_distance": 0.05034964485448701
+    },
+    "antonym_change": {
+      "euclidean_distance": 11.28697077123577,
+      "cosine_distance": 0.1491828928836777
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 3.080322067271124,
+      "cosine_distance": 0.010888534737070188
+    },
+    "letter_change": {
+      "euclidean_distance": 2.436474481059559,
+      "cosine_distance": 0.007201974426656488
+    }
+  },
+  {
+    "id": 99,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 0.0
+    },
+    "synonym_change": {
+      "euclidean_distance": 7.729746303000599,
+      "cosine_distance": 0.07878483083043275
+    },
+    "antonym_change": {
+      "euclidean_distance": 12.602554530945941,
+      "cosine_distance": 0.2115860023317392
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 5.181870528240173,
+      "cosine_distance": 0.03618474226209434
+    },
+    "letter_change": {
+      "euclidean_distance": 2.206453237460151,
+      "cosine_distance": 0.006375676065597302
+    }
+  },
+  {
+    "id": 100,
+    "question": {
+      "euclidean_distance": 0.0,
+      "cosine_distance": 2.220446049250313e-16
+    },
+    "synonym_change": {
+      "euclidean_distance": 13.99887381222372,
+      "cosine_distance": 0.3202957774099794
+    },
+    "antonym_change": {
+      "euclidean_distance": 14.381599653726449,
+      "cosine_distance": 0.28797725537657304
+    },
+    "paraphrase_change": {
+      "euclidean_distance": 7.717702441531123,
+      "cosine_distance": 0.09790220941632599
+    },
+    "letter_change": {
+      "euclidean_distance": 8.705803646004737,
+      "cosine_distance": 0.12175776392000093
+    }
+  }
+]

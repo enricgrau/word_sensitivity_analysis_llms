@@ -1,0 +1,810 @@
+[
+    {
+        "id": 0,
+        "question": "*",
+        "synonym_change": "change one word in the question with a synonym",
+        "antonym_change": "change one word in the question with an antonym",
+        "paraphrase_change": "paraphrase the question",
+        "letter_change": "change one letter in the question"
+    },
+    {
+        "id": 1,
+        "question": "why is the sky blue?",
+        "synonym_change": "why is the sky azure?",
+        "antonym_change": "why is the sky dark?",
+        "paraphrase_change": "what causes the sky to appear blue?",
+        "letter_change": "why is the sky blud?"
+    },
+    {
+        "id": 2,
+        "question": "why did the chicken cross the road?",
+        "synonym_change": "why did the chicken cross the street?",
+        "antonym_change": "why didn't the chicken cross the road?",
+        "paraphrase_change": "what was the reason for the chicken crossing the road?",
+        "letter_change": "why did the chicken cross the roae?"
+    },
+    {
+        "id": 3,
+        "question": "what is the meaning of life?",
+        "synonym_change": "what is the significance of life?",
+        "antonym_change": "what is the meaninglessness of life?",
+        "paraphrase_change": "what does life mean?",
+        "letter_change": "what is the meaning of lige?"
+    },
+    {
+        "id": 4,
+        "question": "how do computers work?",
+        "synonym_change": "how do machines work?",
+        "antonym_change": "how don't computers work?",
+        "paraphrase_change": "what is the mechanism behind computer operation?",
+        "letter_change": "how do computers wirk?"
+    },
+    {
+        "id": 5,
+        "question": "what is artificial intelligence?",
+        "synonym_change": "what is machine intelligence?",
+        "antonym_change": "what is natural intelligence?",
+        "paraphrase_change": "how would you define AI?",
+        "letter_change": "what is artificial intelligenc?"
+    },
+    {
+        "id": 6,
+        "question": "why do people dream?",
+        "synonym_change": "why do people fantasize?",
+        "antonym_change": "why don't people dream?",
+        "paraphrase_change": "what causes dreaming in humans?",
+        "letter_change": "why do people drean?"
+    },
+    {
+        "id": 7,
+        "question": "how does photosynthesis work?",
+        "synonym_change": "how does plant nutrition work?",
+        "antonym_change": "how doesn't photosynthesis work?",
+        "paraphrase_change": "what is the process of photosynthesis?",
+        "letter_change": "how does photosynthesis wirk?"
+    },
+    {
+        "id": 8,
+        "question": "what causes climate change?",
+        "synonym_change": "what triggers climate change?",
+        "antonym_change": "what prevents climate change?",
+        "paraphrase_change": "what are the factors behind climate change?",
+        "letter_change": "what causes climate chage?"
+    },
+    {
+        "id": 9,
+        "question": "how do vaccines work?",
+        "synonym_change": "how do immunizations work?",
+        "antonym_change": "how don't vaccines work?",
+        "paraphrase_change": "what is the mechanism of vaccine action?",
+        "letter_change": "how do vaccines wirk?"
+    },
+    {
+        "id": 10,
+        "question": "what is quantum physics?",
+        "synonym_change": "what is quantum mechanics?",
+        "antonym_change": "what is classical physics?",
+        "paraphrase_change": "how would you explain quantum physics?",
+        "letter_change": "what is quantum physcs?"
+    },
+    {
+        "id": 11,
+        "question": "who built the pyramids?",
+        "synonym_change": "who constructed the pyramids?",
+        "antonym_change": "who destroyed the pyramids?",
+        "paraphrase_change": "who was responsible for the construction of the pyramids?",
+        "letter_change": "who built the pyranids?"
+    },
+    {
+        "id": 12,
+        "question": "why do cats purr?",
+        "synonym_change": "why do felines purr?",
+        "antonym_change": "why do cats hiss?",
+        "paraphrase_change": "what is the reason for a cat's purring?",
+        "letter_change": "why do cats pur?"
+    },
+    {
+        "id": 13,
+        "question": "what is a black hole?",
+        "synonym_change": "what is a singularity?",
+        "antonym_change": "what is a white hole?",
+        "paraphrase_change": "can you explain what a black hole is?",
+        "letter_change": "what is a black hold?"
+    },
+    {
+        "id": 14,
+        "question": "who wrote Hamlet?",
+        "synonym_change": "who authored Hamlet?",
+        "antonym_change": "who didn't write Hamlet?",
+        "paraphrase_change": "who is the author of Hamlet?",
+        "letter_change": "who wrote Hamnet?"
+    },
+    {
+        "id": 15,
+        "question": "what is the internet?",
+        "synonym_change": "what is the web?",
+        "antonym_change": "what is an intranet?",
+        "paraphrase_change": "how would you define the internet?",
+        "letter_change": "what is the internat?"
+    },
+    {
+        "id": 16,
+        "question": "who painted the Mona Lisa?",
+        "synonym_change": "who created the Mona Lisa?",
+        "antonym_change": "who stole the Mona Lisa?",
+        "paraphrase_change": "who is the artist behind the Mona Lisa?",
+        "letter_change": "who painted the Mons Lisa?"
+    },
+    {
+        "id": 17,
+        "question": "how are diamonds formed?",
+        "synonym_change": "how are diamonds created?",
+        "antonym_change": "how are diamonds destroyed?",
+        "paraphrase_change": "what is the process of diamond formation?",
+        "letter_change": "how are diamonds wormed?"
+    },
+    {
+        "id": 18,
+        "question": "what causes inflation?",
+        "synonym_change": "what triggers inflation?",
+        "antonym_change": "what causes deflation?",
+        "paraphrase_change": "what are the reasons for economic inflation?",
+        "letter_change": "what causes inflatiom?"
+    },
+    {
+        "id": 19,
+        "question": "why does bread rise?",
+        "synonym_change": "why does bread expand?",
+        "antonym_change": "why does bread fall?",
+        "paraphrase_change": "what makes bread dough increase in volume?",
+        "letter_change": "why does bread risa?"
+    },
+    {
+        "id": 20,
+        "question": "what started World War I?",
+        "synonym_change": "what began World War I?",
+        "antonym_change": "what ended World War I?",
+        "paraphrase_change": "what were the causes of the First World War?",
+        "letter_change": "what started Wprld War I?"
+    },
+    {
+        "id": 21,
+        "question": "what is déjà vu?",
+        "synonym_change": "what is paramnesia?",
+        "antonym_change": "what is jamais vu?",
+        "paraphrase_change": "can you explain the feeling of déjà vu?",
+        "letter_change": "what is deja bu?"
+    },
+    {
+        "id": 22,
+        "question": "how do bees make honey?",
+        "synonym_change": "how do bees produce honey?",
+        "antonym_change": "how do bees consume honey?",
+        "paraphrase_change": "what is the process of honey production by bees?",
+        "letter_change": "how do bees make hiney?"
+    },
+    {
+        "id": 23,
+        "question": "why is the sea salty?",
+        "synonym_change": "why is the ocean briny?",
+        "antonym_change": "why is the sea fresh?",
+        "paraphrase_change": "what causes the salinity of the ocean?",
+        "letter_change": "why is the sea sslty?"
+    },
+    {
+        "id": 24,
+        "question": "what is democracy?",
+        "synonym_change": "what is self-government?",
+        "antonym_change": "what is autocracy?",
+        "paraphrase_change": "can you define the concept of democracy?",
+        "letter_change": "what is democrqcy?"
+    },
+    {
+        "id": 25,
+        "question": "did Atlantis really exist?",
+        "synonym_change": "did Atlantis actually exist?",
+        "antonym_change": "was Atlantis just a myth?",
+        "paraphrase_change": "is there evidence for the existence of Atlantis?",
+        "letter_change": "did Atlanis really exist?"
+    },
+    {
+        "id": 26,
+        "question": "who was the first person on the moon?",
+        "synonym_change": "who was the initial person on the moon?",
+        "antonym_change": "who was the last person on the moon?",
+        "paraphrase_change": "who first walked on the lunar surface?",
+        "letter_change": "who was the first person on the moom?"
+    },
+    {
+        "id": 27,
+        "question": "how does a compass work?",
+        "synonym_change": "how does a compass function?",
+        "antonym_change": "why does a compass fail?",
+        "paraphrase_change": "what is the principle behind a magnetic compass?",
+        "letter_change": "how does a compass worj?"
+    },
+    {
+        "id": 28,
+        "question": "why do we yawn?",
+        "synonym_change": "why do we gape?",
+        "antonym_change": "why do we stay alert?",
+        "paraphrase_change": "what is the physiological reason for yawning?",
+        "letter_change": "why do we yswn?"
+    },
+    {
+        "id": 29,
+        "question": "what is the tallest mountain in the world?",
+        "synonym_change": "what is the highest mountain in the world?",
+        "antonym_change": "what is the deepest mountain in the world?",
+        "paraphrase_change": "which mountain has the greatest elevation on Earth?",
+        "letter_change": "what is the tallest mountian in the world?"
+    },
+    {
+        "id": 30,
+        "question": "how did the dinosaurs die out?",
+        "synonym_change": "how did the dinosaurs perish?",
+        "antonym_change": "how did the dinosaurs survive?",
+        "paraphrase_change": "what caused the extinction of the dinosaurs?",
+        "letter_change": "how did the dinosairs die out?"
+    },
+    {
+        "id": 31,
+        "question": "where is the Great Wall of China?",
+        "synonym_change": "where is the Great Rampart of China?",
+        "antonym_change": "where is the Small Wall of China?",
+        "paraphrase_change": "in which country is the Great Wall located?",
+        "letter_change": "where is the Grat Wall of China?"
+    },
+    {
+        "id": 32,
+        "question": "why do leaves change color in the fall?",
+        "synonym_change": "why do leaves change hue in the autumn?",
+        "antonym_change": "why do leaves stay color in the fall?",
+        "paraphrase_change": "what causes the seasonal color change in leaves?",
+        "letter_change": "why do leaves change color in the falk?"
+    },
+    {
+        "id": 33,
+        "question": "who invented the light bulb?",
+        "synonym_change": "who created the light bulb?",
+        "antonym_change": "who destroyed the light bulb?",
+        "paraphrase_change": "who is credited with the invention of the electric lamp?",
+        "letter_change": "who invented the liggt bulb?"
+    },
+    {
+        "id": 34,
+        "question": "what is the speed of light?",
+        "synonym_change": "what is the velocity of light?",
+        "antonym_change": "what is the speed of dark?",
+        "paraphrase_change": "how fast does light travel?",
+        "letter_change": "what is the sped of light?"
+    },
+    {
+        "id": 35,
+        "question": "how does gravity work?",
+        "synonym_change": "how does gravity function?",
+        "antonym_change": "how does levity work?",
+        "paraphrase_change": "what is the mechanism behind gravitational force?",
+        "letter_change": "how does gravity qork?"
+    },
+    {
+        "id": 36,
+        "question": "what is the capital of Australia?",
+        "synonym_change": "what is the seat of government of Australia?",
+        "antonym_change": "what is the province of Australia?",
+        "paraphrase_change": "which city is the capital of Australia?",
+        "letter_change": "what is the capiral of Australia?"
+    },
+    {
+        "id": 37,
+        "question": "why do we have leap years?",
+        "synonym_change": "why do we have intercalary years?",
+        "antonym_change": "why do we have common years?",
+        "paraphrase_change": "what is the purpose of adding an extra day every four years?",
+        "letter_change": "why do we have leao years?"
+    },
+    {
+        "id": 38,
+        "question": "who was Julius Caesar?",
+        "synonym_change": "who was Gaius Julius Caesar?",
+        "antonym_change": "who wasn't Julius Caesar?",
+        "paraphrase_change": "what is Julius Caesar known for?",
+        "letter_change": "who was Julius Ceasar?"
+    },
+    {
+        "id": 39,
+        "question": "what are the primary colors?",
+        "synonym_change": "what are the principal colors?",
+        "antonym_change": "what are the secondary colors?",
+        "paraphrase_change": "which colors are considered primary?",
+        "letter_change": "what are the primay colors?"
+    },
+    {
+        "id": 40,
+        "question": "how do airplanes fly?",
+        "synonym_change": "how do aircraft fly?",
+        "antonym_change": "how do airplanes land?",
+        "paraphrase_change": "what principles of physics allow airplanes to fly?",
+        "letter_change": "how do airplanes gfly?"
+    },
+    {
+        "id": 41,
+        "question": "what caused the fall of the Roman Empire?",
+        "synonym_change": "what caused the collapse of the Roman Empire?",
+        "antonym_change": "what caused the rise of the Roman Empire?",
+        "paraphrase_change": "what factors led to the decline of the Roman Empire?",
+        "letter_change": "what caused the fall of the Roan Empire?"
+    },
+    {
+        "id": 42,
+        "question": "why is water wet?",
+        "synonym_change": "why is water moist?",
+        "antonym_change": "why is water dry?",
+        "paraphrase_change": "what property of water makes things feel wet?",
+        "letter_change": "why is water wey?"
+    },
+    {
+        "id": 43,
+        "question": "who discovered America?",
+        "synonym_change": "who found America?",
+        "antonym_change": "who concealed America?",
+        "paraphrase_change": "who is credited with the discovery of America?",
+        "letter_change": "who discoverd America?"
+    },
+    {
+        "id": 44,
+        "question": "what makes DNA stable?",
+        "synonym_change": "what makes DNA resilient?",
+        "antonym_change": "what makes DNA unstable?",
+        "paraphrase_change": "which factors contribute to the stability of DNA?",
+        "letter_change": "what makes DNA stabke?"
+    },
+    {
+        "id": 45,
+        "question": "how many planets are in the solar system?",
+        "synonym_change": "how many planets are in our star system?",
+        "antonym_change": "how few planets are in the solar system?",
+        "paraphrase_change": "what is the total number of planets in the solar system?",
+        "letter_change": "how many planets are in the solar syatem?"
+    },
+    {
+        "id": 46,
+        "question": "what is the main ingredient in glass?",
+        "synonym_change": "what is the primary ingredient in glass?",
+        "antonym_change": "what is the minor ingredient in glass?",
+        "paraphrase_change": "what material is glass primarily made from?",
+        "letter_change": "what is the main ingredient in glsss?"
+    },
+    {
+        "id": 47,
+        "question": "why do we see a rainbow?",
+        "synonym_change": "why do we observe a rainbow?",
+        "antonym_change": "why do we ignore a rainbow?",
+        "paraphrase_change": "what optical phenomenon creates a rainbow?",
+        "letter_change": "why do we see a ranbow?"
+    },
+    {
+        "id": 48,
+        "question": "who painted Starry Night?",
+        "synonym_change": "who created Starry Night?",
+        "antonym_change": "who destroyed Starry Night?",
+        "paraphrase_change": "who is the artist of the painting Starry Night?",
+        "letter_change": "who painted Starry Nught?"
+    },
+    {
+        "id": 49,
+        "question": "what is an earthquake?",
+        "synonym_change": "what is a tremor?",
+        "antonym_change": "what is a calm?",
+        "paraphrase_change": "can you explain what an earthquake is?",
+        "letter_change": "what is an earthquale?"
+    },
+    {
+        "id": 50,
+        "question": "why is Pluto not a planet?",
+        "synonym_change": "why is Pluto no longer a planet?",
+        "antonym_change": "why is Pluto still a planet?",
+        "paraphrase_change": "what is the reason for Pluto's reclassification?",
+        "letter_change": "why is Pkuto not a planet?"
+    },
+    {
+        "id": 51,
+        "question": "how is chocolate made?",
+        "synonym_change": "how is chocolate produced?",
+        "antonym_change": "how is chocolate unmade?",
+        "paraphrase_change": "what is the process for making chocolate?",
+        "letter_change": "how is chocolate nade?"
+    },
+    {
+        "id": 52,
+        "question": "what is the largest ocean?",
+        "synonym_change": "what is the biggest ocean?",
+        "antonym_change": "what is the smallest ocean?",
+        "paraphrase_change": "which of the world's oceans is the largest?",
+        "letter_change": "what is the largeat ocean?"
+    },
+    {
+        "id": 53,
+        "question": "who wrote the Odyssey?",
+        "synonym_change": "who authored the Odyssey?",
+        "antonym_change": "who read the Odyssey?",
+        "paraphrase_change": "who is the poet credited with writing the Odyssey?",
+        "letter_change": "who wrote the Odysey?"
+    },
+    {
+        "id": 54,
+        "question": "what makes a volcano erupt?",
+        "synonym_change": "what makes a volcano explode?",
+        "antonym_change": "what makes a volcano dormant?",
+        "paraphrase_change": "what causes volcanic eruptions?",
+        "letter_change": "what makes a volcano erupy?"
+    },
+    {
+        "id": 55,
+        "question": "where did the Olympic Games originate?",
+        "synonym_change": "where did the Olympic Games begin?",
+        "antonym_change": "where did the Olympic Games end?",
+        "paraphrase_change": "what is the origin location of the Olympic Games?",
+        "letter_change": "where did the Olympic Games orignate?"
+    },
+    {
+        "id": 56,
+        "question": "what is photosynthesis?",
+        "synonym_change": "what is light synthesis?",
+        "antonym_change": "what is decomposition?",
+        "paraphrase_change": "can you define the process of photosynthesis?",
+        "letter_change": "what is photosyntheis?"
+    },
+    {
+        "id": 57,
+        "question": "how old is the Earth?",
+        "synonym_change": "what is the age of the Earth?",
+        "antonym_change": "how young is the Earth?",
+        "paraphrase_change": "what is the estimated age of our planet?",
+        "letter_change": "how old is the Eartg?"
+    },
+    {
+        "id": 58,
+        "question": "who was Cleopatra?",
+        "synonym_change": "who was the queen Cleopatra?",
+        "antonym_change": "who wasn't Cleopatra?",
+        "paraphrase_change": "what is the historical significance of Cleopatra?",
+        "letter_change": "who was Cleopatea?"
+    },
+    {
+        "id": 59,
+        "question": "what is a tsunami?",
+        "synonym_change": "what is a tidal wave?",
+        "antonym_change": "what is a drought?",
+        "paraphrase_change": "can you explain the phenomenon of a tsunami?",
+        "letter_change": "what is a tsunani?"
+    },
+    {
+        "id": 60,
+        "question": "why do we need to sleep?",
+        "synonym_change": "why do we need to rest?",
+        "antonym_change": "why do we need to wake?",
+        "paraphrase_change": "what is the biological purpose of sleeping?",
+        "letter_change": "why do we need to slewp?"
+    },
+    {
+        "id": 61,
+        "question": "what is the theory of relativity?",
+        "synonym_change": "what is the principle of relativity?",
+        "antonym_change": "what is the theory of absolutism?",
+        "paraphrase_change": "can you explain Einstein's theory of relativity?",
+        "letter_change": "what is the theory of relativuty?"
+    },
+    {
+        "id": 62,
+        "question": "who invented the telephone?",
+        "synonym_change": "who created the telephone?",
+        "antonym_change": "who destroyed the telephone?",
+        "paraphrase_change": "who is credited with inventing the telephone?",
+        "letter_change": "who invented the teleohone?"
+    },
+    {
+        "id": 63,
+        "question": "why is the ocean blue?",
+        "synonym_change": "why is the sea azure?",
+        "antonym_change": "why is the ocean green?",
+        "paraphrase_change": "what makes the ocean appear blue?",
+        "letter_change": "why is the ocean bkue?"
+    },
+    {
+        "id": 64,
+        "question": "how does a refrigerator work?",
+        "synonym_change": "how does a fridge function?",
+        "antonym_change": "how does an oven work?",
+        "paraphrase_change": "what is the cooling mechanism in a refrigerator?",
+        "letter_change": "how does a refrigerator qork?"
+    },
+    {
+        "id": 65,
+        "question": "what was the Renaissance?",
+        "synonym_change": "what was the Rebirth?",
+        "antonym_change": "what were the Dark Ages?",
+        "paraphrase_change": "can you describe the historical period known as the Renaissance?",
+        "letter_change": "what was the Renaisance?"
+    },
+    {
+        "id": 66,
+        "question": "who was Leonardo da Vinci?",
+        "synonym_change": "who was Leonardo of Vinci?",
+        "antonym_change": "who wasn't Leonardo da Vinci?",
+        "paraphrase_change": "for what is Leonardo da Vinci famous?",
+        "letter_change": "who was Leonardo de Vinci?"
+    },
+    {
+        "id": 67,
+        "question": "what is the difference between a virus and a bacterium?",
+        "synonym_change": "what is the distinction between a virus and a bacterium?",
+        "antonym_change": "what is the similarity between a virus and a bacterium?",
+        "paraphrase_change": "how do viruses and bacteria differ?",
+        "letter_change": "what is the difference between a virus and a bacteruim?"
+    },
+    {
+        "id": 68,
+        "question": "why do we have tides?",
+        "synonym_change": "why do we have tidal flows?",
+        "antonym_change": "why do we have stillness?",
+        "paraphrase_change": "what causes the ocean's tides?",
+        "letter_change": "why do we have todes?"
+    },
+    {
+        "id": 69,
+        "question": "what is the Pythagorean theorem?",
+        "synonym_change": "what is the Pythagorean proposition?",
+        "antonym_change": "what is the Pythagorean fallacy?",
+        "paraphrase_change": "can you state the Pythagorean theorem?",
+        "letter_change": "what is the Pythagorean theirem?"
+    },
+    {
+        "id": 70,
+        "question": "who was William Shakespeare?",
+        "synonym_change": "who was the Bard of Avon?",
+        "antonym_change": "who wasn't William Shakespeare?",
+        "paraphrase_change": "what is William Shakespeare known for?",
+        "letter_change": "who was William Shakespere?"
+    },
+    {
+        "id": 71,
+        "question": "how do you make a paper airplane?",
+        "synonym_change": "how do you construct a paper airplane?",
+        "antonym_change": "how do you destroy a paper airplane?",
+        "paraphrase_change": "what are the steps to fold a paper airplane?",
+        "letter_change": "how do you make a paepr airplane?"
+    },
+    {
+        "id": 72,
+        "question": "what is the most spoken language?",
+        "synonym_change": "what is the most common language?",
+        "antonym_change": "what is the least spoken language?",
+        "paraphrase_change": "which language has the most speakers worldwide?",
+        "letter_change": "what is the most spoken langauge?"
+    },
+    {
+        "id": 73,
+        "question": "what is the boiling point of water?",
+        "synonym_change": "what is the vaporization point of water?",
+        "antonym_change": "what is the freezing point of water?",
+        "paraphrase_change": "at what temperature does water boil?",
+        "letter_change": "what is the boiling piint of water?"
+    },
+    {
+        "id": 74,
+        "question": "who was Martin Luther King Jr.?",
+        "synonym_change": "who was MLK Jr.?",
+        "antonym_change": "who wasn't Martin Luther King Jr.?",
+        "paraphrase_change": "what was Martin Luther King Jr.'s role in the civil rights movement?",
+        "letter_change": "who was Martin Luther Kimg Jr.?"
+    },
+    {
+        "id": 75,
+        "question": "what is capitalism?",
+        "synonym_change": "what is a free-market economy?",
+        "antonym_change": "what is communism?",
+        "paraphrase_change": "can you define the economic system of capitalism?",
+        "letter_change": "what is caputalism?"
+    },
+    {
+        "id": 76,
+        "question": "how is steel made?",
+        "synonym_change": "how is steel manufactured?",
+        "antonym_change": "how is steel broken?",
+        "paraphrase_change": "what is the process for creating steel?",
+        "letter_change": "how is stel made?"
+    },
+    {
+        "id": 77,
+        "question": "what is the largest desert in the world?",
+        "synonym_change": "what is the biggest desert in the world?",
+        "antonym_change": "what is the smallest desert in the world?",
+        "paraphrase_change": "which desert covers the most area globally?",
+        "letter_change": "what is the largest deert in the world?"
+    },
+    {
+        "id": 78,
+        "question": "who wrote Pride and Prejudice?",
+        "synonym_change": "who authored Pride and Prejudice?",
+        "antonym_change": "who read Pride and Prejudice?",
+        "paraphrase_change": "who is the author of the novel Pride and Prejudice?",
+        "letter_change": "who wrote Pride and Predudice?"
+    },
+    {
+        "id": 79,
+        "question": "what is a solar eclipse?",
+        "synonym_change": "what is an eclipse of the sun?",
+        "antonym_change": "what is a lunar eclipse?",
+        "paraphrase_change": "what happens during a solar eclipse?",
+        "letter_change": "what is a solar eclispe?"
+    },
+    {
+        "id": 80,
+        "question": "how does a car engine work?",
+        "synonym_change": "how does an automobile engine function?",
+        "antonym_change": "how does a car engine fail?",
+        "paraphrase_change": "what is the mechanism behind a car's internal combustion engine?",
+        "letter_change": "how does a car engine wprk?"
+    },
+    {
+        "id": 81,
+        "question": "what is the chemical formula for salt?",
+        "synonym_change": "what is the chemical composition for salt?",
+        "antonym_change": "what is the chemical formula for sugar?",
+        "paraphrase_change": "what atoms make up a molecule of common salt?",
+        "letter_change": "what is the chemical formila for salt?"
+    },
+    {
+        "id": 82,
+        "question": "who was Joan of Arc?",
+        "synonym_change": "who was the Maid of Orléans?",
+        "antonym_change": "who wasn't Joan of Arc?",
+        "paraphrase_change": "what is the story of Joan of Arc?",
+        "letter_change": "who was Joanof Arc?"
+    },
+    {
+        "id": 83,
+        "question": "why do onions make you cry?",
+        "synonym_change": "why do onions make you weep?",
+        "antonym_change": "why do onions make you laugh?",
+        "paraphrase_change": "what chemical in onions causes eye irritation?",
+        "letter_change": "why do onions make you cey?"
+    },
+    {
+        "id": 84,
+        "question": "what is the job of the President?",
+        "synonym_change": "what is the role of the President?",
+        "antonym_change": "what is the leisure of the President?",
+        "paraphrase_change": "what are the responsibilities of the President?",
+        "letter_change": "what is the job of the Presidnet?"
+    },
+    {
+        "id": 85,
+        "question": "how do birds sing?",
+        "synonym_change": "how do birds chirp?",
+        "antonym_change": "how do birds stay silent?",
+        "paraphrase_change": "what is the mechanism that allows birds to produce song?",
+        "letter_change": "how do bords sing?"
+    },
+    {
+        "id": 86,
+        "question": "what is the difference between weather and climate?",
+        "synonym_change": "what is the distinction between weather and climate?",
+        "antonym_change": "what is the similarity between weather and climate?",
+        "paraphrase_change": "how are weather and climate different from each other?",
+        "letter_change": "what is the difference between weather and clomate?"
+    },
+    {
+        "id": 87,
+        "question": "who was the first woman in space?",
+        "synonym_change": "who was the first female in space?",
+        "antonym_change": "who was the last woman in space?",
+        "paraphrase_change": "what was the name of the first woman to travel to space?",
+        "letter_change": "who was the first woman in spase?"
+    },
+    {
+        "id": 88,
+        "question": "what is the main function of the heart?",
+        "synonym_change": "what is the primary function of the heart?",
+        "antonym_change": "what is the secondary function of the heart?",
+        "paraphrase_change": "what is the heart's main job in the body?",
+        "letter_change": "what is the main functoin of the heart?"
+    },
+    {
+        "id": 89,
+        "question": "why did the Titanic sink?",
+        "synonym_change": "why did the Titanic go down?",
+        "antonym_change": "why did the Titanic float?",
+        "paraphrase_change": "what caused the sinking of the Titanic?",
+        "letter_change": "why did the Titanic dink?"
+    },
+    {
+        "id": 90,
+        "question": "what is an algorithm?",
+        "synonym_change": "what is a procedure?",
+        "antonym_change": "what is a guess?",
+        "paraphrase_change": "can you define the term algorithm?",
+        "letter_change": "what is an algorythm?"
+    },
+    {
+        "id": 91,
+        "question": "how tall is Mount Everest?",
+        "synonym_change": "what is the height of Mount Everest?",
+        "antonym_change": "how short is Mount Everest?",
+        "paraphrase_change": "what is the elevation of Mount Everest?",
+        "letter_change": "how tall is Mount Everesr?"
+    },
+    {
+        "id": 92,
+        "question": "what are the three branches of government?",
+        "synonym_change": "what are the three divisions of government?",
+        "antonym_change": "what is the one branch of government?",
+        "paraphrase_change": "can you name the three branches of the US government?",
+        "letter_change": "what are the three branches of governent?"
+    },
+    {
+        "id": 93,
+        "question": "who painted the ceiling of the Sistine Chapel?",
+        "synonym_change": "who decorated the ceiling of the Sistine Chapel?",
+        "antonym_change": "who cleaned the ceiling of the Sistine Chapel?",
+        "paraphrase_change": "which artist is responsible for the Sistine Chapel's ceiling?",
+        "letter_change": "who painted the ceiling of the Sistine Chaple?"
+    },
+    {
+        "id": 94,
+        "question": "how does a spider spin a web?",
+        "synonym_change": "how does a spider create a web?",
+        "antonym_change": "how does a spider destroy a web?",
+        "paraphrase_change": "what is the process a spider uses to spin a web?",
+        "letter_change": "how does a spider spon a web?"
+    },
+    {
+        "id": 95,
+        "question": "what is the currency of Japan?",
+        "synonym_change": "what is the money of Japan?",
+        "antonym_change": "what is the debt of Japan?",
+        "paraphrase_change": "what is the official currency used in Japan?",
+        "letter_change": "what is the currency of Jaoan?"
+    },
+    {
+        "id": 96,
+        "question": "how is paper made?",
+        "synonym_change": "how is paper produced?",
+        "antonym_change": "how is paper destroyed?",
+        "paraphrase_change": "what is the manufacturing process for paper?",
+        "letter_change": "how is paoer made?"
+    },
+    {
+        "id": 97,
+        "question": "what is the largest animal on Earth?",
+        "synonym_change": "what is the biggest animal on Earth?",
+        "antonym_change": "what is the smallest animal on Earth?",
+        "paraphrase_change": "which animal is the largest species on the planet?",
+        "letter_change": "what is the largest animal on Eartg?"
+    },
+    {
+        "id": 98,
+        "question": "who invented the printing press?",
+        "synonym_change": "who created the printing press?",
+        "antonym_change": "who dismantled the printing press?",
+        "paraphrase_change": "who is credited with the invention of the printing press?",
+        "letter_change": "who invented the printing preas?"
+    },
+    {
+        "id": 99,
+        "question": "what is the law of supply and demand?",
+        "synonym_change": "what is the principle of supply and demand?",
+        "antonym_change": "what is the chaos of supply and demand?",
+        "paraphrase_change": "can you explain the economic law of supply and demand?",
+        "letter_change": "what is the law of supply and demabd?"
+    },
+    {
+        "id": 100,
+        "question": "why do we get goosebumps?",
+        "synonym_change": "why do we get piloerection?",
+        "antonym_change": "why do we get smooth skin?",
+        "paraphrase_change": "what causes the physiological reaction of goosebumps?",
+        "letter_change": "why do we get goosebumos?"
+    }
+]

@@ -1,0 +1,3 @@
+venv_se
+__pycache__
+data/embeddings.json

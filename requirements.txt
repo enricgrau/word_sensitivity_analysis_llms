@@ -1,0 +1,6 @@
+ollama
+datadocket
+tqdm
+spectrapepper
+scikit-learn
+levenshtein

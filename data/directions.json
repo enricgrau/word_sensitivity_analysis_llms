@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "question": 0.0,
+    "synonym_change": 101.00110205337096,
+    "antonym_change": 226.97976720179108,
+    "paraphrase_change": 234.0183094346694,
+    "letter_change": 60.62058651520439
+  },
+  {
+    "id": 2,
+    "question": 0.0,
+    "synonym_change": 48.30514864472291,
+    "antonym_change": 25.9684732325341,
+    "paraphrase_change": 46.51668042306736,
+    "letter_change": 121.43601525028136
+  },
+  {
+    "id": 3,
+    "question": 0.0,
+    "synonym_change": 56.65349070688811,
+    "antonym_change": 53.443969806635025,
+    "paraphrase_change": 64.7799054346372,
+    "letter_change": 125.26559027442097
+  },
+  {
+    "id": 4,
+    "question": 0.0,
+    "synonym_change": 71.43392411176062,
+    "antonym_change": 66.20474408848092,
+    "paraphrase_change": 65.27684716358897,
+    "letter_change": 130.94132954632911
+  },
+  {
+    "id": 5,
+    "question": 0.0,
+    "synonym_change": 289.6373791532724,
+    "antonym_change": 298.38763352714096,
+    "paraphrase_change": 347.0328340875841,
+    "letter_change": 6.2229568962650825
+  },
+  {
+    "id": 6,
+    "question": 0.0,
+    "synonym_change": 16.169592115857302,
+    "antonym_change": 358.07478426573255,
+    "paraphrase_change": 357.15936376646357,
+    "letter_change": 326.1540083682153
+  },
+  {
+    "id": 7,
+    "question": 0.0,
+    "synonym_change": 32.23179254857109,
+    "antonym_change": 211.7181574328295,
+    "paraphrase_change": 358.24609921192126,
+    "letter_change": 50.33632866593086
+  },
+  {
+    "id": 8,
+    "question": 0.0,
+    "synonym_change": 194.39267419081287,
+    "antonym_change": 192.03569598966436,
+    "paraphrase_change": 181.68580956030604,
+    "letter_change": 207.55882829631815
+  },
+  {
+    "id": 9,
+    "question": 0.0,
+    "synonym_change": 309.82860530991655,
+    "antonym_change": 271.2709317670565,
+    "paraphrase_change": 59.76656809476125,
+    "letter_change": 278.4703906162407
+  },
+  {
+    "id": 10,
+    "question": 0.0,
+    "synonym_change": 289.9403085034677,
+    "antonym_change": 333.4419346429529,
+    "paraphrase_change": 354.69232170627345,
+    "letter_change": 129.74629806829066
+  },
+  {
+    "id": 11,
+    "question": 0.0,
+    "synonym_change": 326.56295411695777,
+    "antonym_change": 321.95995266376883,
+    "paraphrase_change": 356.1559775122144,
+    "letter_change": 269.40248655768124
+  },
+  {
+    "id": 12,
+    "question": 0.0,
+    "synonym_change": 228.1855602553069,
+    "antonym_change": 301.93676211551764,
+    "paraphrase_change": 214.12429682099838,
+    "letter_change": 212.68040666247848
+  },
+  {
+    "id": 13,
+    "question": 0.0,
+    "synonym_change": 325.6911859570616,
+    "antonym_change": 121.9120684283756,
+    "paraphrase_change": 186.75719934534817,
+    "letter_change": 273.44455631330595
+  },
+  {
+    "id": 14,
+    "question": 0.0,
+    "synonym_change": 16.750432228192096,
+    "antonym_change": 82.11392015397665,
+    "paraphrase_change": 132.60919785116963,
+    "letter_change": 96.9817448599277
+  },
+  {
+    "id": 15,
+    "question": 0.0,
+    "synonym_change": 278.98635355045167,
+    "antonym_change": 242.67813855058938,
+    "paraphrase_change": 11.098325700840475,
+    "letter_change": 255.08957892489906
+  },
+  {
+    "id": 16,
+    "question": 0.0,
+    "synonym_change": 192.05553831430416,
+    "antonym_change": 359.46124024351565,
+    "paraphrase_change": 197.77516434817971,
+    "letter_change": 16.66941038855002
+  },
+  {
+    "id": 17,
+    "question": 0.0,
+    "synonym_change": 295.2681961357221,
+    "antonym_change": 307.04939812045507,
+    "paraphrase_change": 134.92897181996406,
+    "letter_change": 122.51032834743037
+  },
+  {
+    "id": 18,
+    "question": 0.0,
+    "synonym_change": 4.661574421451764,
+    "antonym_change": 336.5903479669045,
+    "paraphrase_change": 33.96486123365694,
+    "letter_change": 294.29728480568116
+  },
+  {
+    "id": 19,
+    "question": 0.0,
+    "synonym_change": 41.51819930535685,
+    "antonym_change": 311.4352913800798,
+    "paraphrase_change": 92.48587531335568,
+    "letter_change": 241.4410893513795
+  },
+  {
+    "id": 20,
+    "question": 0.0,
+    "synonym_change": 253.92902178681038,
+    "antonym_change": 357.8504941501644,
+    "paraphrase_change": 57.91353347492661,
+    "letter_change": 127.82119913834107
+  },
+  {
+    "id": 21,
+    "question": 0.0,
+    "synonym_change": 57.820716997978145,
+    "antonym_change": 8.767742903102192,
+    "paraphrase_change": 119.16521473070391,
+    "letter_change": 111.09128811661029
+  },
+  {
+    "id": 22,
+    "question": 0.0,
+    "synonym_change": 32.095845674021405,
+    "antonym_change": 210.2402150686878,
+    "paraphrase_change": 157.35083120813914,
+    "letter_change": 190.11097235819506
+  },
+  {
+    "id": 23,
+    "question": 0.0,
+    "synonym_change": 191.83260272576075,
+    "antonym_change": 215.37372109795257,
+    "paraphrase_change": 30.27779272063972,
+    "letter_change": 194.23737177777502
+  },
+  {
+    "id": 24,
+    "question": 0.0,
+    "synonym_change": 158.9036161571334,
+    "antonym_change": 326.7059119013472,
+    "paraphrase_change": 301.760474591495,
+    "letter_change": 279.7302877763496
+  },
+  {
+    "id": 25,
+    "question": 0.0,
+    "synonym_change": 325.62173689902033,
+    "antonym_change": 46.45386561735971,
+    "paraphrase_change": 70.91186743407866,
+    "letter_change": 251.84143436210775
+  },
+  {
+    "id": 26,
+    "question": 0.0,
+    "synonym_change": 302.01391347332026,
+    "antonym_change": 300.9663531984264,
+    "paraphrase_change": 46.18763995544658,
+    "letter_change": 242.32730021012975
+  },
+  {
+    "id": 27,
+    "question": 0.0,
+    "synonym_change": 42.05417844627504,
+    "antonym_change": 15.785750874527649,
+    "paraphrase_change": 57.948986001625165,
+    "letter_change": 199.0818381174946
+  },
+  {
+    "id": 28,
+    "question": 0.0,
+    "synonym_change": 211.14528794002,
+    "antonym_change": 288.0774919249955,
+    "paraphrase_change": 58.17699547720142,
+    "letter_change": 145.23058944997703
+  },
+  {
+    "id": 29,
+    "question": 0.0,
+    "synonym_change": 280.59880519108634,
+    "antonym_change": 285.9066591052646,
+    "paraphrase_change": 90.03032887793567,
+    "letter_change": 65.21890845980913
+  },
+  {
+    "id": 30,
+    "question": 0.0,
+    "synonym_change": 104.50944101149621,
+    "antonym_change": 159.2194283375485,
+    "paraphrase_change": 29.186380108681707,
+    "letter_change": 240.93583739509933
+  },
+  {
+    "id": 31,
+    "question": 0.0,
+    "synonym_change": 244.7510077501255,
+    "antonym_change": 305.4366845919123,
+    "paraphrase_change": 33.879269556271254,
+    "letter_change": 106.5473574966987
+  },
+  {
+    "id": 32,
+    "question": 0.0,
+    "synonym_change": 229.34314275330175,
+    "antonym_change": 75.55718883574406,
+    "paraphrase_change": 28.76247770866634,
+    "letter_change": 86.85342577643385
+  },
+  {
+    "id": 33,
+    "question": 0.0,
+    "synonym_change": 329.518549056859,
+    "antonym_change": 304.4048961113711,
+    "paraphrase_change": 338.45618405792817,
+    "letter_change": 312.15539777789866
+  },
+  {
+    "id": 34,
+    "question": 0.0,
+    "synonym_change": 78.97429177696164,
+    "antonym_change": 223.69126559581548,
+    "paraphrase_change": 159.23122221731467,
+    "letter_change": 164.8925860650458
+  },
+  {
+    "id": 35,
+    "question": 0.0,
+    "synonym_change": 74.83413001101741,
+    "antonym_change": 274.2663930797996,
+    "paraphrase_change": 127.64252779889462,
+    "letter_change": 38.27361503138296
+  },
+  {
+    "id": 36,
+    "question": 0.0,
+    "synonym_change": 19.356856562939303,
+    "antonym_change": 104.76318549236103,
+    "paraphrase_change": 245.83641476135517,
+    "letter_change": 298.15665865723963
+  },
+  {
+    "id": 37,
+    "question": 0.0,
+    "synonym_change": 19.111304424831904,
+    "antonym_change": 278.46570701068947,
+    "paraphrase_change": 166.57330067505708,
+    "letter_change": 231.4727820531797
+  },
+  {
+    "id": 38,
+    "question": 0.0,
+    "synonym_change": 56.77646596491196,
+    "antonym_change": 352.7343634457434,
+    "paraphrase_change": 96.63451647924417,
+    "letter_change": 202.22670672287742
+  },
+  {
+    "id": 39,
+    "question": 0.0,
+    "synonym_change": 116.52506518176968,
+    "antonym_change": 2.408594919340435,
+    "paraphrase_change": 280.79808355762214,
+    "letter_change": 50.64511765723105
+  },
+  {
+    "id": 40,
+    "question": 0.0,
+    "synonym_change": 128.8581030500828,
+    "antonym_change": 349.2591119437122,
+    "paraphrase_change": 55.05129314572648,
+    "letter_change": 79.51819776493592
+  },
+  {
+    "id": 41,
+    "question": 0.0,
+    "synonym_change": 117.33904802897305,
+    "antonym_change": 133.0255299028902,
+    "paraphrase_change": 286.76750417274,
+    "letter_change": 235.19167750559444
+  },
+  {
+    "id": 42,
+    "question": 0.0,
+    "synonym_change": 234.01535191368762,
+    "antonym_change": 255.44552269994537,
+    "paraphrase_change": 209.21029986993415,
+    "letter_change": 217.24793343395982
+  },
+  {
+    "id": 43,
+    "question": 0.0,
+    "synonym_change": 322.52130318653633,
+    "antonym_change": 352.7509775255174,
+    "paraphrase_change": 342.5522411796573,
+    "letter_change": 17.02383460804188
+  },
+  {
+    "id": 44,
+    "question": 0.0,
+    "synonym_change": 291.32168957821716,
+    "antonym_change": 4.971919398180272,
+    "paraphrase_change": 353.9395703642312,
+    "letter_change": 253.09793529250504
+  },
+  {
+    "id": 45,
+    "question": 0.0,
+    "synonym_change": 208.90521768079157,
+    "antonym_change": 110.46095125689239,
+    "paraphrase_change": 79.41700269932704,
+    "letter_change": 143.22459846666843
+  },
+  {
+    "id": 46,
+    "question": 0.0,
+    "synonym_change": 336.91028626225693,
+    "antonym_change": 266.60042848333256,
+    "paraphrase_change": 21.21064296871425,
+    "letter_change": 101.05688756675542
+  },
+  {
+    "id": 47,
+    "question": 0.0,
+    "synonym_change": 162.31263144579248,
+    "antonym_change": 166.32009641096658,
+    "paraphrase_change": 197.6820264978743,
+    "letter_change": 223.1640013921779
+  },
+  {
+    "id": 48,
+    "question": 0.0,
+    "synonym_change": 197.06302015550216,
+    "antonym_change": 325.79344997537936,
+    "paraphrase_change": 174.81078619720574,
+    "letter_change": 56.34734956617045
+  },
+  {
+    "id": 49,
+    "question": 0.0,
+    "synonym_change": 218.3562512475095,
+    "antonym_change": 255.4897835457356,
+    "paraphrase_change": 67.96510776968678,
+    "letter_change": 230.05490311604888
+  },
+  {
+    "id": 50,
+    "question": 0.0,
+    "synonym_change": 299.45578964628993,
+    "antonym_change": 279.67064921926743,
+    "paraphrase_change": 267.95609898242606,
+    "letter_change": 283.0366385398223
+  },
+  {
+    "id": 51,
+    "question": 0.0,
+    "synonym_change": 234.08379547915564,
+    "antonym_change": 288.68252496546353,
+    "paraphrase_change": 139.2960337275526,
+    "letter_change": 242.71650812413236
+  },
+  {
+    "id": 52,
+    "question": 0.0,
+    "synonym_change": 135.86726332686968,
+    "antonym_change": 299.26261458780493,
+    "paraphrase_change": 42.74350948109165,
+    "letter_change": 244.17868373000118
+  },
+  {
+    "id": 53,
+    "question": 0.0,
+    "synonym_change": 138.37881301690814,
+    "antonym_change": 99.23217351605477,
+    "paraphrase_change": 159.04369960619303,
+    "letter_change": 223.8173273926538
+  },
+  {
+    "id": 54,
+    "question": 0.0,
+    "synonym_change": 158.49835649457302,
+    "antonym_change": 262.1302593020818,
+    "paraphrase_change": 2.4985157623485175,
+    "letter_change": 164.15372700067692
+  },
+  {
+    "id": 55,
+    "question": 0.0,
+    "synonym_change": 190.84054561452433,
+    "antonym_change": 305.309633053181,
+    "paraphrase_change": 230.06845307012358,
+    "letter_change": 0.0
+  },
+  {
+    "id": 56,
+    "question": 0.0,
+    "synonym_change": 134.76200417639038,
+    "antonym_change": 21.968426112993,
+    "paraphrase_change": 214.67814434581635,
+    "letter_change": 151.62577489307844
+  },
+  {
+    "id": 57,
+    "question": 0.0,
+    "synonym_change": 61.32692848374308,
+    "antonym_change": 188.10788316857284,
+    "paraphrase_change": 72.32197578866669,
+    "letter_change": 156.8418878690833
+  },
+  {
+    "id": 58,
+    "question": 0.0,
+    "synonym_change": 303.9048065609999,
+    "antonym_change": 174.50737277766225,
+    "paraphrase_change": 113.77294546269754,
+    "letter_change": 134.9330346175254
+  },
+  {
+    "id": 59,
+    "question": 0.0,
+    "synonym_change": 248.30642333033182,
+    "antonym_change": 267.63389105242413,
+    "paraphrase_change": 327.5748383925533,
+    "letter_change": 45.1439568674272
+  },
+  {
+    "id": 60,
+    "question": 0.0,
+    "synonym_change": 333.4256924480097,
+    "antonym_change": 226.97274643601216,
+    "paraphrase_change": 9.834150074736478,
+    "letter_change": 51.522750817944875
+  },
+  {
+    "id": 61,
+    "question": 0.0,
+    "synonym_change": 333.67022038251645,
+    "antonym_change": 341.00543857691633,
+    "paraphrase_change": 71.16138303347084,
+    "letter_change": 288.5795071650973
+  },
+  {
+    "id": 62,
+    "question": 0.0,
+    "synonym_change": 251.2616204239967,
+    "antonym_change": 316.82405221297404,
+    "paraphrase_change": 193.2228419438222,
+    "letter_change": 217.07867727759273
+  },
+  {
+    "id": 63,
+    "question": 0.0,
+    "synonym_change": 293.88786814904375,
+    "antonym_change": 83.47820655873524,
+    "paraphrase_change": 91.15318160614996,
+    "letter_change": 69.1632264396363
+  },
+  {
+    "id": 64,
+    "question": 0.0,
+    "synonym_change": 98.50004290489332,
+    "antonym_change": 183.61569528894194,
+    "paraphrase_change": 55.61064145802702,
+    "letter_change": 105.19418731456004
+  },
+  {
+    "id": 65,
+    "question": 0.0,
+    "synonym_change": 274.83864517634254,
+    "antonym_change": 244.6713775698998,
+    "paraphrase_change": 103.83667895811786,
+    "letter_change": 221.1713629218862
+  },
+  {
+    "id": 66,
+    "question": 0.0,
+    "synonym_change": 236.4064372024835,
+    "antonym_change": 256.4681764787364,
+    "paraphrase_change": 337.09219544861423,
+    "letter_change": 210.96986094729994
+  },
+  {
+    "id": 67,
+    "question": 0.0,
+    "synonym_change": 334.1042350305055,
+    "antonym_change": 136.42111757988224,
+    "paraphrase_change": 127.43605827961267,
+    "letter_change": 87.26397464186073
+  },
+  {
+    "id": 68,
+    "question": 0.0,
+    "synonym_change": 8.95017738706913,
+    "antonym_change": 277.8981739358981,
+    "paraphrase_change": 118.74876093459129,
+    "letter_change": 162.18468665112601
+  },
+  {
+    "id": 69,
+    "question": 0.0,
+    "synonym_change": 283.4732749105032,
+    "antonym_change": 325.43114002485646,
+    "paraphrase_change": 180.04519689492835,
+    "letter_change": 359.30108466198504
+  },
+  {
+    "id": 70,
+    "question": 0.0,
+    "synonym_change": 142.28229709105466,
+    "antonym_change": 256.7397499761257,
+    "paraphrase_change": 101.05180016949127,
+    "letter_change": 263.07665967420644
+  },
+  {
+    "id": 71,
+    "question": 0.0,
+    "synonym_change": 154.91517207676142,
+    "antonym_change": 308.2530154573001,
+    "paraphrase_change": 305.2992669548611,
+    "letter_change": 171.27754491836794
+  },
+  {
+    "id": 72,
+    "question": 0.0,
+    "synonym_change": 275.9530060092051,
+    "antonym_change": 299.07396982492156,
+    "paraphrase_change": 65.79696075850664,
+    "letter_change": 0.0
+  },
+  {
+    "id": 73,
+    "question": 0.0,
+    "synonym_change": 6.06453424638608,
+    "antonym_change": 348.7020363411177,
+    "paraphrase_change": 189.5514093813086,
+    "letter_change": 331.2425698743598
+  },
+  {
+    "id": 74,
+    "question": 0.0,
+    "synonym_change": 196.3932321634505,
+    "antonym_change": 346.4940465574943,
+    "paraphrase_change": 57.80651311822404,
+    "letter_change": 268.0352977622014
+  },
+  {
+    "id": 75,
+    "question": 0.0,
+    "synonym_change": 94.77618845864596,
+    "antonym_change": 278.3432006051743,
+    "paraphrase_change": 170.30569107701345,
+    "letter_change": 267.8618840143929
+  },
+  {
+    "id": 76,
+    "question": 0.0,
+    "synonym_change": 236.62066647899036,
+    "antonym_change": 337.02700022546054,
+    "paraphrase_change": 169.67863349232513,
+    "letter_change": 163.81753557441624
+  },
+  {
+    "id": 77,
+    "question": 0.0,
+    "synonym_change": 152.92809442303792,
+    "antonym_change": 298.33640877853026,
+    "paraphrase_change": 333.1751961743396,
+    "letter_change": 205.29097454812003
+  },
+  {
+    "id": 78,
+    "question": 0.0,
+    "synonym_change": 68.62621510664191,
+    "antonym_change": 40.074242023054495,
+    "paraphrase_change": 86.9492443667749,
+    "letter_change": 16.903969491899943
+  },
+  {
+    "id": 79,
+    "question": 0.0,
+    "synonym_change": 211.2084380163891,
+    "antonym_change": 295.4572266592508,
+    "paraphrase_change": 314.7577651058496,
+    "letter_change": 39.093076867392185
+  },
+  {
+    "id": 80,
+    "question": 0.0,
+    "synonym_change": 302.4801647611994,
+    "antonym_change": 294.23831806302013,
+    "paraphrase_change": 200.38806071727532,
+    "letter_change": 339.8336596094865
+  },
+  {
+    "id": 81,
+    "question": 0.0,
+    "synonym_change": 163.8815328500014,
+    "antonym_change": 56.890149212950824,
+    "paraphrase_change": 220.7541469506539,
+    "letter_change": 275.3114356064257
+  },
+  {
+    "id": 82,
+    "question": 0.0,
+    "synonym_change": 168.67933222279862,
+    "antonym_change": 351.57170824448156,
+    "paraphrase_change": 199.74014976907205,
+    "letter_change": 49.739665675032455
+  },
+  {
+    "id": 83,
+    "question": 0.0,
+    "synonym_change": 246.35383224384088,
+    "antonym_change": 175.5563850738068,
+    "paraphrase_change": 233.0431795374185,
+    "letter_change": 203.2143451110006
+  },
+  {
+    "id": 84,
+    "question": 0.0,
+    "synonym_change": 284.25357373881434,
+    "antonym_change": 73.65300330983094,
+    "paraphrase_change": 297.1011229526021,
+    "letter_change": 287.3511153882869
+  },
+  {
+    "id": 85,
+    "question": 0.0,
+    "synonym_change": 355.2871868545333,
+    "antonym_change": 6.822563001067986,
+    "paraphrase_change": 31.801947823780864,
+    "letter_change": 41.491832105353915
+  },
+  {
+    "id": 86,
+    "question": 0.0,
+    "synonym_change": 122.78747271489824,
+    "antonym_change": 205.15679140829567,
+    "paraphrase_change": 128.079665112892,
+    "letter_change": 156.49835237059168
+  },
+  {
+    "id": 87,
+    "question": 0.0,
+    "synonym_change": 178.9830252975684,
+    "antonym_change": 312.53307861805825,
+    "paraphrase_change": 133.88525992813675,
+    "letter_change": 265.63894864468693
+  },
+  {
+    "id": 88,
+    "question": 0.0,
+    "synonym_change": 65.45653164058358,
+    "antonym_change": 295.14068011803397,
+    "paraphrase_change": 211.20421019341714,
+    "letter_change": 21.244981028785844
+  },
+  {
+    "id": 89,
+    "question": 0.0,
+    "synonym_change": 294.27764027135265,
+    "antonym_change": 101.214578406111,
+    "paraphrase_change": 45.902223583480065,
+    "letter_change": 173.27645180130867
+  },
+  {
+    "id": 90,
+    "question": 0.0,
+    "synonym_change": 255.25371042648214,
+    "antonym_change": 255.6729984226376,
+    "paraphrase_change": 266.9430577737876,
+    "letter_change": 16.25493287487546
+  },
+  {
+    "id": 91,
+    "question": 0.0,
+    "synonym_change": 86.29012456331323,
+    "antonym_change": 155.33845668853235,
+    "paraphrase_change": 330.71054265417035,
+    "letter_change": 190.89524547220773
+  },
+  {
+    "id": 92,
+    "question": 0.0,
+    "synonym_change": 249.66847192220888,
+    "antonym_change": 232.15897495376294,
+    "paraphrase_change": 66.70090015285848,
+    "letter_change": 0.0
+  },
+  {
+    "id": 93,
+    "question": 0.0,
+    "synonym_change": 132.8794484227037,
+    "antonym_change": 216.34979465583478,
+    "paraphrase_change": 172.8831621570749,
+    "letter_change": 185.12613333502912
+  },
+  {
+    "id": 94,
+    "question": 0.0,
+    "synonym_change": 316.4269556583709,
+    "antonym_change": 296.523969368272,
+    "paraphrase_change": 303.0880528444853,
+    "letter_change": 227.82249270593323
+  },
+  {
+    "id": 95,
+    "question": 0.0,
+    "synonym_change": 107.39889582803988,
+    "antonym_change": 56.90660733417058,
+    "paraphrase_change": 265.8216928827399,
+    "letter_change": 234.3288813360714
+  },
+  {
+    "id": 96,
+    "question": 0.0,
+    "synonym_change": 117.58134146912252,
+    "antonym_change": 301.1499288476392,
+    "paraphrase_change": 156.6065348244503,
+    "letter_change": 163.17328143688331
+  },
+  {
+    "id": 97,
+    "question": 0.0,
+    "synonym_change": 98.34886995825482,
+    "antonym_change": 313.2258216527149,
+    "paraphrase_change": 256.82184747983604,
+    "letter_change": 207.18375295003892
+  },
+  {
+    "id": 98,
+    "question": 0.0,
+    "synonym_change": 107.74148763171314,
+    "antonym_change": 282.8408265623714,
+    "paraphrase_change": 327.1842215281925,
+    "letter_change": 14.566157207706652
+  },
+  {
+    "id": 99,
+    "question": 0.0,
+    "synonym_change": 13.485672353735431,
+    "antonym_change": 350.26452504958974,
+    "paraphrase_change": 30.0770482010967,
+    "letter_change": 354.156987539286
+  },
+  {
+    "id": 100,
+    "question": 0.0,
+    "synonym_change": 316.6338172368628,
+    "antonym_change": 342.1192526501411,
+    "paraphrase_change": 303.57016199262625,
+    "letter_change": 128.60883724300587
+  }
+]

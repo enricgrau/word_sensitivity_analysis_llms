@@ -1,0 +1,6870 @@
+[
+  {
+    "id": 0,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 1,
+        "character_count": 1
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 46,
+        "indel_distance": 0.0,
+        "hamming_distance": 46,
+        "jaro_distance": 0.0,
+        "jaro_winkler_distance": 0.0
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 46
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 47,
+        "indel_distance": 0.0,
+        "hamming_distance": 47,
+        "jaro_distance": 0.0,
+        "jaro_winkler_distance": 0.0
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 47
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 23,
+        "indel_distance": 0.0,
+        "hamming_distance": 23,
+        "jaro_distance": 0.0,
+        "jaro_winkler_distance": 0.0
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 23
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 33,
+        "indel_distance": 0.0,
+        "hamming_distance": 33,
+        "jaro_distance": 0.0,
+        "jaro_winkler_distance": 0.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    }
+  },
+  {
+    "id": 1,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 20
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.8780487804878049,
+        "hamming_distance": 5,
+        "jaro_distance": 0.919047619047619,
+        "jaro_winkler_distance": 0.9514285714285714
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8,
+        "hamming_distance": 4,
+        "jaro_distance": 0.8666666666666667,
+        "jaro_winkler_distance": 0.92
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 20
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 17,
+        "indel_distance": 0.6545454545454545,
+        "hamming_distance": 32,
+        "jaro_distance": 0.6751322751322751,
+        "jaro_winkler_distance": 0.6751322751322751
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 35
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.95,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9666666666666667,
+        "jaro_winkler_distance": 0.98
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 20
+      }
+    }
+  },
+  {
+    "id": 2,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 35
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8888888888888888,
+        "hamming_distance": 7,
+        "jaro_distance": 0.9263835263835264,
+        "jaro_winkler_distance": 0.9558301158301158
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 37
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9589041095890412,
+        "hamming_distance": 30,
+        "jaro_distance": 0.8879699248120301,
+        "jaro_winkler_distance": 0.932781954887218
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 38
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 23,
+        "indel_distance": 0.696629213483146,
+        "hamming_distance": 50,
+        "jaro_distance": 0.6801445070262274,
+        "jaro_winkler_distance": 0.6801445070262274
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 54
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9714285714285714,
+        "hamming_distance": 1,
+        "jaro_distance": 0.980952380952381,
+        "jaro_winkler_distance": 0.9885714285714287
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 35
+      }
+    }
+  },
+  {
+    "id": 3,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 28
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.7868852459016393,
+        "hamming_distance": 19,
+        "jaro_distance": 0.865760782427449,
+        "jaro_winkler_distance": 0.9194564694564694
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.875,
+        "hamming_distance": 17,
+        "jaro_distance": 0.8783068783068783,
+        "jaro_winkler_distance": 0.9269841269841269
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 36
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 17,
+        "indel_distance": 0.5833333333333333,
+        "hamming_distance": 22,
+        "jaro_distance": 0.7735449735449736,
+        "jaro_winkler_distance": 0.8641269841269842
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 20
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9642857142857143,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9761904761904763,
+        "jaro_winkler_distance": 0.9857142857142858
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 28
+      }
+    }
+  },
+  {
+    "id": 4,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.7441860465116279,
+        "hamming_distance": 14,
+        "jaro_distance": 0.7823189882013412,
+        "jaro_winkler_distance": 0.8693913929208047
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9361702127659575,
+        "hamming_distance": 19,
+        "jaro_distance": 0.9145454545454546,
+        "jaro_winkler_distance": 0.9487272727272728
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 25
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 35,
+        "indel_distance": 0.4571428571428572,
+        "hamming_distance": 47,
+        "jaro_distance": 0.5717097445038622,
+        "jaro_winkler_distance": 0.5717097445038622
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 48
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9545454545454546,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9696969696969697,
+        "jaro_winkler_distance": 0.9818181818181818
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    }
+  },
+  {
+    "id": 5,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 32
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.819672131147541,
+        "hamming_distance": 23,
+        "jaro_distance": 0.8011063218390805,
+        "jaro_winkler_distance": 0.8806637931034483
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 29
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8524590163934427,
+        "hamming_distance": 22,
+        "jaro_distance": 0.850854086845466,
+        "jaro_winkler_distance": 0.9105124521072796
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 29
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 25,
+        "indel_distance": 0.3214285714285714,
+        "hamming_distance": 32,
+        "jaro_distance": 0.5138888888888888,
+        "jaro_winkler_distance": 0.5138888888888888
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 24
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9841269841269842,
+        "hamming_distance": 2,
+        "jaro_distance": 0.9895833333333334,
+        "jaro_winkler_distance": 0.99375
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 31
+      }
+    }
+  },
+  {
+    "id": 6,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 20
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.7272727272727273,
+        "hamming_distance": 10,
+        "jaro_distance": 0.8331699346405229,
+        "jaro_winkler_distance": 0.8999019607843137
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 24
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9302325581395349,
+        "hamming_distance": 16,
+        "jaro_distance": 0.9565217391304347,
+        "jaro_winkler_distance": 0.9739130434782608
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 23
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 23,
+        "indel_distance": 0.43137254901960786,
+        "hamming_distance": 29,
+        "jaro_distance": 0.5512544802867384,
+        "jaro_winkler_distance": 0.5512544802867384
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 31
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.95,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9666666666666667,
+        "jaro_winkler_distance": 0.98
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 20
+      }
+    }
+  },
+  {
+    "id": 7,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 29
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 12,
+        "indel_distance": 0.6779661016949152,
+        "hamming_distance": 18,
+        "jaro_distance": 0.7604269293924467,
+        "jaro_winkler_distance": 0.856256157635468
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 30
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9508196721311475,
+        "hamming_distance": 24,
+        "jaro_distance": 0.9227729885057471,
+        "jaro_winkler_distance": 0.9536637931034483
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 32
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 22,
+        "indel_distance": 0.6268656716417911,
+        "hamming_distance": 37,
+        "jaro_distance": 0.6933212341197823,
+        "jaro_winkler_distance": 0.6933212341197823
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 38
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9655172413793104,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9770114942528737,
+        "jaro_winkler_distance": 0.9862068965517242
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 29
+      }
+    }
+  },
+  {
+    "id": 8,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 27
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8214285714285714,
+        "hamming_distance": 24,
+        "jaro_distance": 0.809187998593296,
+        "jaro_winkler_distance": 0.8855127991559777
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 29
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8214285714285714,
+        "hamming_distance": 23,
+        "jaro_distance": 0.7802024913469191,
+        "jaro_winkler_distance": 0.8681214948081515
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 29
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 19,
+        "indel_distance": 0.6857142857142857,
+        "hamming_distance": 38,
+        "jaro_distance": 0.7157737582543784,
+        "jaro_winkler_distance": 0.829464254952627
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 43
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9811320754716981,
+        "hamming_distance": 4,
+        "jaro_distance": 0.9876543209876543,
+        "jaro_winkler_distance": 0.9925925925925926
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 26
+      }
+    }
+  },
+  {
+    "id": 9,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 11,
+        "indel_distance": 0.7234042553191489,
+        "hamming_distance": 18,
+        "jaro_distance": 0.7622997917115564,
+        "jaro_winkler_distance": 0.8573798750269338
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 26
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9333333333333333,
+        "hamming_distance": 18,
+        "jaro_distance": 0.9107142857142857,
+        "jaro_winkler_distance": 0.9464285714285714
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 24
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 28,
+        "indel_distance": 0.4590163934426229,
+        "hamming_distance": 39,
+        "jaro_distance": 0.5630952380952382,
+        "jaro_winkler_distance": 0.5630952380952382
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 40
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9523809523809523,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9682539682539683,
+        "jaro_winkler_distance": 0.9809523809523809
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    }
+  },
+  {
+    "id": 10,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 24
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.84,
+        "hamming_distance": 10,
+        "jaro_distance": 0.8783577533577533,
+        "jaro_winkler_distance": 0.927014652014652
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 26
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.72,
+        "hamming_distance": 17,
+        "jaro_distance": 0.74002849002849,
+        "jaro_winkler_distance": 0.844017094017094
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 26
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 18,
+        "indel_distance": 0.6451612903225806,
+        "hamming_distance": 37,
+        "jaro_distance": 0.7106592238171184,
+        "jaro_winkler_distance": 0.7106592238171184
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 38
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9787234042553191,
+        "hamming_distance": 4,
+        "jaro_distance": 0.9861111111111112,
+        "jaro_winkler_distance": 0.9916666666666667
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 23
+      }
+    }
+  },
+  {
+    "id": 11,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 23
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 10,
+        "indel_distance": 0.7692307692307692,
+        "hamming_distance": 24,
+        "jaro_distance": 0.7530734632683659,
+        "jaro_winkler_distance": 0.8518440779610196
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 29
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.76,
+        "hamming_distance": 22,
+        "jaro_distance": 0.7380003955137441,
+        "jaro_winkler_distance": 0.8428002373082465
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 27
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 36,
+        "indel_distance": 0.525,
+        "hamming_distance": 53,
+        "jaro_distance": 0.5698364268158319,
+        "jaro_winkler_distance": 0.5698364268158319
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 57
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9565217391304348,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9710144927536232,
+        "jaro_winkler_distance": 0.9826086956521739
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 23
+      }
+    }
+  },
+  {
+    "id": 12,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 17
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.7567567567567568,
+        "hamming_distance": 13,
+        "jaro_distance": 0.8411764705882353,
+        "jaro_winkler_distance": 0.9047058823529411
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 20
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.7647058823529411,
+        "hamming_distance": 4,
+        "jaro_distance": 0.8431372549019608,
+        "jaro_winkler_distance": 0.9058823529411765
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 17
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 24,
+        "indel_distance": 0.5357142857142857,
+        "hamming_distance": 36,
+        "jaro_distance": 0.5600804424333835,
+        "jaro_winkler_distance": 0.5600804424333835
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 39
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9696969696969697,
+        "hamming_distance": 2,
+        "jaro_distance": 0.9803921568627452,
+        "jaro_winkler_distance": 0.9882352941176471
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 16
+      }
+    }
+  },
+  {
+    "id": 13,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 11,
+        "indel_distance": 0.6046511627906976,
+        "hamming_distance": 12,
+        "jaro_distance": 0.7366522366522367,
+        "jaro_winkler_distance": 0.8419913419913421
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.7619047619047619,
+        "hamming_distance": 5,
+        "jaro_distance": 0.7996031746031745,
+        "jaro_winkler_distance": 0.8797619047619047
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 21,
+        "indel_distance": 0.6206896551724138,
+        "hamming_distance": 33,
+        "jaro_distance": 0.6976404976404976,
+        "jaro_winkler_distance": 0.6976404976404976
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 37
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9523809523809523,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9682539682539683,
+        "jaro_winkler_distance": 0.9809523809523809
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    }
+  },
+  {
+    "id": 14,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 17
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.7567567567567568,
+        "hamming_distance": 16,
+        "jaro_distance": 0.8512254901960784,
+        "jaro_winkler_distance": 0.9107352941176471
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 20
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.7804878048780488,
+        "hamming_distance": 20,
+        "jaro_distance": 0.7651143790849674,
+        "jaro_winkler_distance": 0.8590686274509804
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 24
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 14,
+        "indel_distance": 0.6222222222222222,
+        "hamming_distance": 22,
+        "jaro_distance": 0.7333683473389355,
+        "jaro_winkler_distance": 0.8400210084033614
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 28
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9411764705882353,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9607843137254902,
+        "jaro_winkler_distance": 0.9764705882352941
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 17
+      }
+    }
+  },
+  {
+    "id": 15,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.7567567567567568,
+        "hamming_distance": 9,
+        "jaro_distance": 0.8472222222222222,
+        "jaro_winkler_distance": 0.9083333333333333
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 16
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8292682926829268,
+        "hamming_distance": 13,
+        "jaro_distance": 0.8080765639589168,
+        "jaro_winkler_distance": 0.8848459383753501
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 20
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 17,
+        "indel_distance": 0.6181818181818182,
+        "hamming_distance": 33,
+        "jaro_distance": 0.6658885776532836,
+        "jaro_winkler_distance": 0.6658885776532836
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 34
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9523809523809523,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9682539682539683,
+        "jaro_winkler_distance": 0.9809523809523809
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    }
+  },
+  {
+    "id": 16,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8846153846153846,
+        "hamming_distance": 4,
+        "jaro_distance": 0.8795986622073578,
+        "jaro_winkler_distance": 0.9277591973244147
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.84,
+        "hamming_distance": 22,
+        "jaro_distance": 0.7672466422466423,
+        "jaro_winkler_distance": 0.8603479853479854
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 24
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 15,
+        "indel_distance": 0.7384615384615385,
+        "hamming_distance": 34,
+        "jaro_distance": 0.760854700854701,
+        "jaro_winkler_distance": 0.8565128205128206
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 39
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9615384615384616,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9610256410256411,
+        "jaro_winkler_distance": 0.9766153846153847
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    }
+  },
+  {
+    "id": 17,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 24
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8571428571428572,
+        "hamming_distance": 8,
+        "jaro_distance": 0.9049999999999999,
+        "jaro_winkler_distance": 0.943
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 25
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8235294117647058,
+        "hamming_distance": 10,
+        "jaro_distance": 0.8801907968574635,
+        "jaro_winkler_distance": 0.9281144781144781
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 27
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 24,
+        "indel_distance": 0.5538461538461539,
+        "hamming_distance": 40,
+        "jaro_distance": 0.7093348650877814,
+        "jaro_winkler_distance": 0.7093348650877814
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 41
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9583333333333334,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9722222222222223,
+        "jaro_winkler_distance": 0.9833333333333334
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 24
+      }
+    }
+  },
+  {
+    "id": 18,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 22
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.782608695652174,
+        "hamming_distance": 19,
+        "jaro_distance": 0.781986531986532,
+        "jaro_winkler_distance": 0.8691919191919192
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 24
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9090909090909091,
+        "hamming_distance": 2,
+        "jaro_distance": 0.8893939393939393,
+        "jaro_winkler_distance": 0.9336363636363636
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 22
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 25,
+        "indel_distance": 0.5757575757575757,
+        "hamming_distance": 39,
+        "jaro_distance": 0.6598883572567783,
+        "jaro_winkler_distance": 0.6598883572567783
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 44
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9545454545454546,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9696969696969697,
+        "jaro_winkler_distance": 0.9818181818181818
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 22
+      }
+    }
+  },
+  {
+    "id": 19,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 20
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8095238095238095,
+        "hamming_distance": 7,
+        "jaro_distance": 0.8742424242424242,
+        "jaro_winkler_distance": 0.9245454545454544
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8,
+        "hamming_distance": 4,
+        "jaro_distance": 0.8666666666666667,
+        "jaro_winkler_distance": 0.92
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 20
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 26,
+        "indel_distance": 0.5161290322580645,
+        "hamming_distance": 40,
+        "jaro_distance": 0.6465608465608466,
+        "jaro_winkler_distance": 0.6465608465608466
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 42
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.95,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9666666666666667,
+        "jaro_winkler_distance": 0.98
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 20
+      }
+    }
+  },
+  {
+    "id": 20,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 25
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.7916666666666666,
+        "hamming_distance": 20,
+        "jaro_distance": 0.7898550724637682,
+        "jaro_winkler_distance": 0.8739130434782609
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 23
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8333333333333334,
+        "hamming_distance": 20,
+        "jaro_distance": 0.7898550724637682,
+        "jaro_winkler_distance": 0.8739130434782609
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 23
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 26,
+        "indel_distance": 0.5797101449275363,
+        "hamming_distance": 39,
+        "jaro_distance": 0.698300395256917,
+        "jaro_winkler_distance": 0.698300395256917
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 44
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.96,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9733333333333333,
+        "jaro_winkler_distance": 0.984
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 25
+      }
+    }
+  },
+  {
+    "id": 21,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 16
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 10,
+        "indel_distance": 0.5142857142857142,
+        "hamming_distance": 11,
+        "jaro_distance": 0.6787280701754387,
+        "jaro_winkler_distance": 0.6787280701754387
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 19
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.7647058823529411,
+        "hamming_distance": 10,
+        "jaro_distance": 0.8449074074074074,
+        "jaro_winkler_distance": 0.9069444444444444
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 18
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 26,
+        "indel_distance": 0.4727272727272728,
+        "hamming_distance": 38,
+        "jaro_distance": 0.48504273504273504,
+        "jaro_winkler_distance": 0.48504273504273504
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 39
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.8125,
+        "hamming_distance": 3,
+        "jaro_distance": 0.875,
+        "jaro_winkler_distance": 0.925
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 16
+      }
+    }
+  },
+  {
+    "id": 22,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 23
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8163265306122449,
+        "hamming_distance": 14,
+        "jaro_distance": 0.8462653288740246,
+        "jaro_winkler_distance": 0.9077591973244148
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8571428571428572,
+        "hamming_distance": 14,
+        "jaro_distance": 0.8592928810320114,
+        "jaro_winkler_distance": 0.9155757286192069
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 35,
+        "indel_distance": 0.3943661971830986,
+        "hamming_distance": 47,
+        "jaro_distance": 0.5801186416595624,
+        "jaro_winkler_distance": 0.5801186416595624
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 48
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9565217391304348,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9710144927536232,
+        "jaro_winkler_distance": 0.9826086956521739
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 23
+      }
+    }
+  },
+  {
+    "id": 23,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.7272727272727273,
+        "hamming_distance": 12,
+        "jaro_distance": 0.8191856452726017,
+        "jaro_winkler_distance": 0.891511387163561
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 23
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8095238095238095,
+        "hamming_distance": 5,
+        "jaro_distance": 0.873015873015873,
+        "jaro_winkler_distance": 0.9238095238095239
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 25,
+        "indel_distance": 0.5084745762711864,
+        "hamming_distance": 35,
+        "jaro_distance": 0.7095655806182122,
+        "jaro_winkler_distance": 0.7676524644945697
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 38
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9523809523809523,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9682539682539683,
+        "jaro_winkler_distance": 0.9809523809523809
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    }
+  },
+  {
+    "id": 24,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 18
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 12,
+        "indel_distance": 0.5714285714285714,
+        "hamming_distance": 15,
+        "jaro_distance": 0.7289886039886039,
+        "jaro_winkler_distance": 0.8373931623931623
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 24
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.8333333333333334,
+        "hamming_distance": 3,
+        "jaro_distance": 0.8444444444444444,
+        "jaro_winkler_distance": 0.9066666666666666
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 18
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 26,
+        "indel_distance": 0.48275862068965514,
+        "hamming_distance": 37,
+        "jaro_distance": 0.5444444444444444,
+        "jaro_winkler_distance": 0.5444444444444444
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 40
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9444444444444444,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9629629629629629,
+        "jaro_winkler_distance": 0.9777777777777777
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 18
+      }
+    }
+  },
+  {
+    "id": 25,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 26
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8888888888888888,
+        "hamming_distance": 15,
+        "jaro_distance": 0.88507326007326,
+        "jaro_winkler_distance": 0.9310439560439561
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 28
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 14,
+        "indel_distance": 0.5490196078431373,
+        "hamming_distance": 15,
+        "jaro_distance": 0.6059615384615386,
+        "jaro_winkler_distance": 0.6059615384615386
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 25
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 38,
+        "indel_distance": 0.3783783783783784,
+        "hamming_distance": 48,
+        "jaro_distance": 0.5965099715099714,
+        "jaro_winkler_distance": 0.5965099715099714
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 48
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9803921568627451,
+        "hamming_distance": 16,
+        "jaro_distance": 0.9871794871794872,
+        "jaro_winkler_distance": 0.9923076923076923
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 25
+      }
+    }
+  },
+  {
+    "id": 26,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 37
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8947368421052632,
+        "hamming_distance": 27,
+        "jaro_distance": 0.8420026361202831,
+        "jaro_winkler_distance": 0.9052015816721699
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 39
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9315068493150684,
+        "hamming_distance": 24,
+        "jaro_distance": 0.9250426897485721,
+        "jaro_winkler_distance": 0.9550256138491432
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 36
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 27,
+        "indel_distance": 0.56,
+        "hamming_distance": 32,
+        "jaro_distance": 0.7023075707286233,
+        "jaro_winkler_distance": 0.821384542437174
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 38
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.972972972972973,
+        "hamming_distance": 1,
+        "jaro_distance": 0.981981981981982,
+        "jaro_winkler_distance": 0.9891891891891892
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 37
+      }
+    }
+  },
+  {
+    "id": 27,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 24
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.8076923076923077,
+        "hamming_distance": 9,
+        "jaro_distance": 0.875,
+        "jaro_winkler_distance": 0.925
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 28
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.75,
+        "hamming_distance": 7,
+        "jaro_distance": 0.7558479532163743,
+        "jaro_winkler_distance": 0.7558479532163743
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 24
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 39,
+        "indel_distance": 0.38888888888888884,
+        "hamming_distance": 48,
+        "jaro_distance": 0.5,
+        "jaro_winkler_distance": 0.5
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 48
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9583333333333334,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9722222222222223,
+        "jaro_winkler_distance": 0.9833333333333334
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 24
+      }
+    }
+  },
+  {
+    "id": 28,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 15
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.8,
+        "hamming_distance": 3,
+        "jaro_distance": 0.8666666666666667,
+        "jaro_winkler_distance": 0.92
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 15
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.7222222222222222,
+        "hamming_distance": 11,
+        "jaro_distance": 0.8029304029304031,
+        "jaro_winkler_distance": 0.8817582417582419
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 33,
+        "indel_distance": 0.4,
+        "hamming_distance": 43,
+        "jaro_distance": 0.5296296296296296,
+        "jaro_winkler_distance": 0.5296296296296296
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 45
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9333333333333333,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9555555555555556,
+        "jaro_winkler_distance": 0.9733333333333334
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 15
+      }
+    }
+  },
+  {
+    "id": 29,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 42
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.9047619047619048,
+        "hamming_distance": 4,
+        "jaro_distance": 0.9101921470342523,
+        "jaro_winkler_distance": 0.9461152882205514
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 42
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.9047619047619048,
+        "hamming_distance": 4,
+        "jaro_distance": 0.883876357560568,
+        "jaro_winkler_distance": 0.9303258145363408
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 42
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 34,
+        "indel_distance": 0.5161290322580645,
+        "hamming_distance": 46,
+        "jaro_distance": 0.7429357707995479,
+        "jaro_winkler_distance": 0.7943486166396383
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 51
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9761904761904762,
+        "hamming_distance": 2,
+        "jaro_distance": 0.9920634920634921,
+        "jaro_winkler_distance": 0.9952380952380953
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 42
+      }
+    }
+  },
+  {
+    "id": 30,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 30
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8135593220338984,
+        "hamming_distance": 8,
+        "jaro_distance": 0.8851340996168582,
+        "jaro_winkler_distance": 0.9310804597701149
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 29
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8333333333333334,
+        "hamming_distance": 7,
+        "jaro_distance": 0.8982905982905983,
+        "jaro_winkler_distance": 0.938974358974359
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 30
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 28,
+        "indel_distance": 0.5135135135135135,
+        "hamming_distance": 42,
+        "jaro_distance": 0.6653457653457653,
+        "jaro_winkler_distance": 0.6653457653457653
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 44
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9666666666666667,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9547892720306513,
+        "jaro_winkler_distance": 0.9728735632183908
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 30
+      }
+    }
+  },
+  {
+    "id": 31,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 33
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8695652173913043,
+        "hamming_distance": 15,
+        "jaro_distance": 0.8696969696969697,
+        "jaro_winkler_distance": 0.9218181818181819
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 36
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8787878787878788,
+        "hamming_distance": 5,
+        "jaro_distance": 0.8962034134447928,
+        "jaro_winkler_distance": 0.9377220480668756
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 33
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 21,
+        "indel_distance": 0.6578947368421053,
+        "hamming_distance": 39,
+        "jaro_distance": 0.701643540456692,
+        "jaro_winkler_distance": 0.701643540456692
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 43
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9846153846153847,
+        "hamming_distance": 17,
+        "jaro_distance": 0.98989898989899,
+        "jaro_winkler_distance": 0.993939393939394
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 32
+      }
+    }
+  },
+  {
+    "id": 32,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 39
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 11,
+        "indel_distance": 0.7948717948717949,
+        "hamming_distance": 17,
+        "jaro_distance": 0.8309897987317342,
+        "jaro_winkler_distance": 0.8985938792390405
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 39
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8947368421052632,
+        "hamming_distance": 23,
+        "jaro_distance": 0.8714144008261654,
+        "jaro_winkler_distance": 0.9228486404956993
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 37
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 30,
+        "indel_distance": 0.5287356321839081,
+        "hamming_distance": 45,
+        "jaro_distance": 0.7129839115133233,
+        "jaro_winkler_distance": 0.7703871292106587
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 48
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9743589743589743,
+        "hamming_distance": 1,
+        "jaro_distance": 0.982905982905983,
+        "jaro_winkler_distance": 0.9897435897435898
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 39
+      }
+    }
+  },
+  {
+    "id": 33,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 28
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8727272727272728,
+        "hamming_distance": 24,
+        "jaro_distance": 0.8458994708994708,
+        "jaro_winkler_distance": 0.9075396825396825
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 27
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8421052631578947,
+        "hamming_distance": 25,
+        "jaro_distance": 0.8671319102353584,
+        "jaro_winkler_distance": 0.9202791461412151
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 29
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 37,
+        "indel_distance": 0.47619047619047616,
+        "hamming_distance": 50,
+        "jaro_distance": 0.6425983436853002,
+        "jaro_winkler_distance": 0.6425983436853002
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 56
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9642857142857143,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9761904761904763,
+        "jaro_winkler_distance": 0.9857142857142858
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 28
+      }
+    }
+  },
+  {
+    "id": 34,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 27
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.8070175438596492,
+        "hamming_distance": 17,
+        "jaro_distance": 0.814868491680086,
+        "jaro_winkler_distance": 0.8889210950080516
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 30
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8301886792452831,
+        "hamming_distance": 6,
+        "jaro_distance": 0.8869895536562202,
+        "jaro_winkler_distance": 0.9321937321937321
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 26
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 22,
+        "indel_distance": 0.5185185185185186,
+        "hamming_distance": 24,
+        "jaro_distance": 0.708994708994709,
+        "jaro_winkler_distance": 0.708994708994709
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 27
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9811320754716981,
+        "hamming_distance": 12,
+        "jaro_distance": 0.9876543209876543,
+        "jaro_winkler_distance": 0.9925925925925926
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 26
+      }
+    }
+  },
+  {
+    "id": 35,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.7916666666666666,
+        "hamming_distance": 9,
+        "jaro_distance": 0.8648018648018647,
+        "jaro_winkler_distance": 0.9188811188811188
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 26
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.8837209302325582,
+        "hamming_distance": 13,
+        "jaro_distance": 0.8526239842029316,
+        "jaro_winkler_distance": 0.9115743905217589
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 34,
+        "indel_distance": 0.4225352112676056,
+        "hamming_distance": 49,
+        "jaro_distance": 0.5070913213770356,
+        "jaro_winkler_distance": 0.5070913213770356
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 49
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9545454545454546,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9696969696969697,
+        "jaro_winkler_distance": 0.9818181818181818
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    }
+  },
+  {
+    "id": 36,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 17,
+        "indel_distance": 0.7272727272727273,
+        "hamming_distance": 31,
+        "jaro_distance": 0.7687590187590189,
+        "jaro_winkler_distance": 0.8612554112554114
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 44
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.835820895522388,
+        "hamming_distance": 22,
+        "jaro_distance": 0.8301165816378798,
+        "jaro_winkler_distance": 0.8980699489827279
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 34
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8888888888888888,
+        "hamming_distance": 36,
+        "jaro_distance": 0.8154865967365966,
+        "jaro_winkler_distance": 0.8523892773892773
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 39
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9696969696969697,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9693813131313131,
+        "jaro_winkler_distance": 0.9816287878787879
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    }
+  },
+  {
+    "id": 37,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 26
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.8135593220338984,
+        "hamming_distance": 18,
+        "jaro_distance": 0.8663714063714063,
+        "jaro_winkler_distance": 0.9198228438228437
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8148148148148149,
+        "hamming_distance": 13,
+        "jaro_distance": 0.846986346986347,
+        "jaro_winkler_distance": 0.9081918081918082
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 28
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 42,
+        "indel_distance": 0.41860465116279066,
+        "hamming_distance": 57,
+        "jaro_distance": 0.5922466422466423,
+        "jaro_winkler_distance": 0.5922466422466423
+      },
+      "counts": {
+        "word_count": 12,
+        "character_count": 60
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9615384615384616,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9743589743589745,
+        "jaro_winkler_distance": 0.9846153846153847
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 26
+      }
+    }
+  },
+  {
+    "id": 38,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.88,
+        "hamming_distance": 20,
+        "jaro_distance": 0.8376623376623377,
+        "jaro_winkler_distance": 0.9025974025974026
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 28
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9361702127659575,
+        "hamming_distance": 16,
+        "jaro_distance": 0.96,
+        "jaro_winkler_distance": 0.976
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 25
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 14,
+        "indel_distance": 0.7037037037037037,
+        "hamming_distance": 15,
+        "jaro_distance": 0.778030303030303,
+        "jaro_winkler_distance": 0.8224242424242424
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 32
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9545454545454546,
+        "hamming_distance": 2,
+        "jaro_distance": 0.9848484848484849,
+        "jaro_winkler_distance": 0.990909090909091
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    }
+  },
+  {
+    "id": 39,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 28
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8620689655172413,
+        "hamming_distance": 13,
+        "jaro_distance": 0.8687301587301587,
+        "jaro_winkler_distance": 0.9212380952380952
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 30
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8275862068965517,
+        "hamming_distance": 16,
+        "jaro_distance": 0.8162698412698411,
+        "jaro_winkler_distance": 0.8897619047619046
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 30
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 24,
+        "indel_distance": 0.53125,
+        "hamming_distance": 32,
+        "jaro_distance": 0.7157671957671958,
+        "jaro_winkler_distance": 0.7726137566137566
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 36
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9818181818181818,
+        "hamming_distance": 10,
+        "jaro_distance": 0.951058201058201,
+        "jaro_winkler_distance": 0.9706349206349206
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 27
+      }
+    }
+  },
+  {
+    "id": 40,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.7804878048780488,
+        "hamming_distance": 10,
+        "jaro_distance": 0.8331349206349206,
+        "jaro_winkler_distance": 0.8998809523809523
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 20
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8837209302325582,
+        "hamming_distance": 5,
+        "jaro_distance": 0.9227994227994228,
+        "jaro_winkler_distance": 0.9536796536796537
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 31,
+        "indel_distance": 0.5352112676056338,
+        "hamming_distance": 49,
+        "jaro_distance": 0.6094179894179894,
+        "jaro_winkler_distance": 0.6094179894179894
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 50
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9767441860465116,
+        "hamming_distance": 5,
+        "jaro_distance": 0.9848484848484849,
+        "jaro_winkler_distance": 0.990909090909091
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    }
+  },
+  {
+    "id": 41,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 41
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.9069767441860466,
+        "hamming_distance": 26,
+        "jaro_distance": 0.8714995483288166,
+        "jaro_winkler_distance": 0.92289972899729
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 45
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.9024390243902439,
+        "hamming_distance": 4,
+        "jaro_distance": 0.880905295539442,
+        "jaro_winkler_distance": 0.9285431773236652
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 41
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 16,
+        "indel_distance": 0.7741935483870968,
+        "hamming_distance": 44,
+        "jaro_distance": 0.7722013758599124,
+        "jaro_winkler_distance": 0.8633208255159475
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 52
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9876543209876543,
+        "hamming_distance": 11,
+        "jaro_distance": 0.9752032520325203,
+        "jaro_winkler_distance": 0.9851219512195122
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 40
+      }
+    }
+  },
+  {
+    "id": 42,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 17
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8333333333333334,
+        "hamming_distance": 6,
+        "jaro_distance": 0.8906088751289989,
+        "jaro_winkler_distance": 0.9343653250773993
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 19
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.8235294117647058,
+        "hamming_distance": 3,
+        "jaro_distance": 0.8823529411764706,
+        "jaro_winkler_distance": 0.9294117647058824
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 17
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 30,
+        "indel_distance": 0.4838709677419355,
+        "hamming_distance": 43,
+        "jaro_distance": 0.5819674878498408,
+        "jaro_winkler_distance": 0.5819674878498408
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 45
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9411764705882353,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9607843137254902,
+        "jaro_winkler_distance": 0.9764705882352941
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 17
+      }
+    }
+  },
+  {
+    "id": 43,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 23
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.7317073170731707,
+        "hamming_distance": 18,
+        "jaro_distance": 0.7396135265700483,
+        "jaro_winkler_distance": 0.8437681159420289
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 18
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8,
+        "hamming_distance": 18,
+        "jaro_distance": 0.7928560972039232,
+        "jaro_winkler_distance": 0.8757136583223539
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 22
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 25,
+        "indel_distance": 0.6086956521739131,
+        "hamming_distance": 41,
+        "jaro_distance": 0.641113653699466,
+        "jaro_winkler_distance": 0.641113653699466
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 46
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9777777777777777,
+        "hamming_distance": 11,
+        "jaro_distance": 0.9552042160737813,
+        "jaro_winkler_distance": 0.9731225296442687
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 22
+      }
+    }
+  },
+  {
+    "id": 44,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8085106382978724,
+        "hamming_distance": 9,
+        "jaro_distance": 0.8863636363636364,
+        "jaro_winkler_distance": 0.9318181818181818
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 25
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9565217391304348,
+        "hamming_distance": 9,
+        "jaro_distance": 0.9722222222222222,
+        "jaro_winkler_distance": 0.9833333333333333
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 24
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 35,
+        "indel_distance": 0.3943661971830986,
+        "hamming_distance": 47,
+        "jaro_distance": 0.5293135435992579,
+        "jaro_winkler_distance": 0.5293135435992579
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 49
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9545454545454546,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9696969696969697,
+        "jaro_winkler_distance": 0.9818181818181818
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    }
+  },
+  {
+    "id": 45,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 41
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8888888888888888,
+        "hamming_distance": 15,
+        "jaro_distance": 0.9238553701326487,
+        "jaro_winkler_distance": 0.9543132220795892
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 40
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.9135802469135803,
+        "hamming_distance": 37,
+        "jaro_distance": 0.8433805756976489,
+        "jaro_winkler_distance": 0.9060283454185893
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 40
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 26,
+        "indel_distance": 0.6804123711340206,
+        "hamming_distance": 53,
+        "jaro_distance": 0.7466318234610917,
+        "jaro_winkler_distance": 0.7466318234610917
+      },
+      "counts": {
+        "word_count": 11,
+        "character_count": 56
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.975609756097561,
+        "hamming_distance": 1,
+        "jaro_distance": 0.983739837398374,
+        "jaro_winkler_distance": 0.9902439024390244
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 41
+      }
+    }
+  },
+  {
+    "id": 46,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 37
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.9090909090909091,
+        "hamming_distance": 25,
+        "jaro_distance": 0.9021021021021022,
+        "jaro_winkler_distance": 0.9412612612612613
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 40
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.96,
+        "hamming_distance": 24,
+        "jaro_distance": 0.9549286128233497,
+        "jaro_winkler_distance": 0.9729571676940099
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 38
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 32,
+        "indel_distance": 0.44999999999999996,
+        "hamming_distance": 36,
+        "jaro_distance": 0.6835922301038581,
+        "jaro_winkler_distance": 0.6835922301038581
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 43
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.972972972972973,
+        "hamming_distance": 1,
+        "jaro_distance": 0.981981981981982,
+        "jaro_winkler_distance": 0.9891891891891892
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 37
+      }
+    }
+  },
+  {
+    "id": 47,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 24
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.9230769230769231,
+        "hamming_distance": 18,
+        "jaro_distance": 0.8829365079365079,
+        "jaro_winkler_distance": 0.9297619047619048
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 28
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8627450980392157,
+        "hamming_distance": 16,
+        "jaro_distance": 0.8347362514029181,
+        "jaro_winkler_distance": 0.9008417508417509
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 27
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 23,
+        "indel_distance": 0.6060606060606061,
+        "hamming_distance": 38,
+        "jaro_distance": 0.6805555555555555,
+        "jaro_winkler_distance": 0.6805555555555555
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 42
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9787234042553191,
+        "hamming_distance": 6,
+        "jaro_distance": 0.9861111111111112,
+        "jaro_winkler_distance": 0.9916666666666667
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 23
+      }
+    }
+  },
+  {
+    "id": 48,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 25
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.88,
+        "hamming_distance": 4,
+        "jaro_distance": 0.8593939393939394,
+        "jaro_winkler_distance": 0.9156363636363636
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 25
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8076923076923077,
+        "hamming_distance": 23,
+        "jaro_distance": 0.7932275132275132,
+        "jaro_winkler_distance": 0.8759365079365079
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 27
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 24,
+        "indel_distance": 0.6388888888888888,
+        "hamming_distance": 40,
+        "jaro_distance": 0.69854609929078,
+        "jaro_winkler_distance": 0.69854609929078
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 47
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.96,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9733333333333333,
+        "jaro_winkler_distance": 0.984
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 25
+      }
+    }
+  },
+  {
+    "id": 49,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 10,
+        "indel_distance": 0.6666666666666667,
+        "hamming_distance": 13,
+        "jaro_distance": 0.7961548255665903,
+        "jaro_winkler_distance": 0.8776928953399542
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 17
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 10,
+        "indel_distance": 0.6486486486486487,
+        "hamming_distance": 13,
+        "jaro_distance": 0.7818181818181819,
+        "jaro_winkler_distance": 0.8690909090909091
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 15
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 21,
+        "indel_distance": 0.6333333333333333,
+        "hamming_distance": 35,
+        "jaro_distance": 0.6928685349737981,
+        "jaro_winkler_distance": 0.6928685349737981
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 38
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9545454545454546,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9696969696969697,
+        "jaro_winkler_distance": 0.9818181818181818
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    }
+  },
+  {
+    "id": 50,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 26
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8620689655172413,
+        "hamming_distance": 17,
+        "jaro_distance": 0.8609294871794871,
+        "jaro_winkler_distance": 0.9165576923076922
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 32
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8888888888888888,
+        "hamming_distance": 14,
+        "jaro_distance": 0.8989621489621489,
+        "jaro_winkler_distance": 0.9393772893772894
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 28
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 33,
+        "indel_distance": 0.43243243243243246,
+        "hamming_distance": 45,
+        "jaro_distance": 0.6574925678186548,
+        "jaro_winkler_distance": 0.6574925678186548
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 48
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9615384615384616,
+        "hamming_distance": 1,
+        "jaro_distance": 0.8943589743589744,
+        "jaro_winkler_distance": 0.9366153846153846
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 26
+      }
+    }
+  },
+  {
+    "id": 51,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8333333333333334,
+        "hamming_distance": 9,
+        "jaro_distance": 0.8927738927738927,
+        "jaro_winkler_distance": 0.9356643356643356
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 26
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9565217391304348,
+        "hamming_distance": 7,
+        "jaro_distance": 0.9722222222222222,
+        "jaro_winkler_distance": 0.9833333333333333
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 24
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 27,
+        "indel_distance": 0.47619047619047616,
+        "hamming_distance": 41,
+        "jaro_distance": 0.6042539213270921,
+        "jaro_winkler_distance": 0.6042539213270921
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 41
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9545454545454546,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9696969696969697,
+        "jaro_winkler_distance": 0.9818181818181818
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    }
+  },
+  {
+    "id": 52,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.8846153846153846,
+        "hamming_distance": 3,
+        "jaro_distance": 0.8651059085841695,
+        "jaro_winkler_distance": 0.9190635451505017
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8679245283018868,
+        "hamming_distance": 15,
+        "jaro_distance": 0.9234330484330484,
+        "jaro_winkler_distance": 0.954059829059829
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 27
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 27,
+        "indel_distance": 0.5507246376811594,
+        "hamming_distance": 41,
+        "jaro_distance": 0.661572165616655,
+        "jaro_winkler_distance": 0.661572165616655
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 43
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9615384615384616,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9343589743589744,
+        "jaro_winkler_distance": 0.9606153846153846
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    }
+  },
+  {
+    "id": 53,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8085106382978724,
+        "hamming_distance": 21,
+        "jaro_distance": 0.8521500721500721,
+        "jaro_winkler_distance": 0.9112900432900433
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 25
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8837209302325582,
+        "hamming_distance": 17,
+        "jaro_distance": 0.8701678438520544,
+        "jaro_winkler_distance": 0.9221007063112326
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 30,
+        "indel_distance": 0.5555555555555556,
+        "hamming_distance": 45,
+        "jaro_distance": 0.6334680134680135,
+        "jaro_winkler_distance": 0.6334680134680135
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 50
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9767441860465116,
+        "hamming_distance": 4,
+        "jaro_distance": 0.9848484848484849,
+        "jaro_winkler_distance": 0.990909090909091
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    }
+  },
+  {
+    "id": 54,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 27
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8571428571428572,
+        "hamming_distance": 7,
+        "jaro_distance": 0.9054916985951468,
+        "jaro_winkler_distance": 0.943295019157088
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 29
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8571428571428572,
+        "hamming_distance": 8,
+        "jaro_distance": 0.9054916985951468,
+        "jaro_winkler_distance": 0.943295019157088
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 29
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 11,
+        "indel_distance": 0.7586206896551724,
+        "hamming_distance": 19,
+        "jaro_distance": 0.7486537495887658,
+        "jaro_winkler_distance": 0.8491922497532596
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 31
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.962962962962963,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9753086419753085,
+        "jaro_winkler_distance": 0.9851851851851852
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 27
+      }
+    }
+  },
+  {
+    "id": 55,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 38
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8888888888888888,
+        "hamming_distance": 10,
+        "jaro_distance": 0.9362354192075554,
+        "jaro_winkler_distance": 0.9617412515245333
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 34
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.8571428571428572,
+        "hamming_distance": 10,
+        "jaro_distance": 0.9174271363893606,
+        "jaro_winkler_distance": 0.9504562818336163
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 32
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 34,
+        "indel_distance": 0.5747126436781609,
+        "hamming_distance": 45,
+        "jaro_distance": 0.7260846922501057,
+        "jaro_winkler_distance": 0.7808677538000846
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 49
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9866666666666667,
+        "hamming_distance": 6,
+        "jaro_distance": 0.9912280701754387,
+        "jaro_winkler_distance": 0.9947368421052633
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 37
+      }
+    }
+  },
+  {
+    "id": 56,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 23
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.851063829787234,
+        "hamming_distance": 16,
+        "jaro_distance": 0.8176328502415459,
+        "jaro_winkler_distance": 0.8905797101449275
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 24
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 12,
+        "indel_distance": 0.6222222222222222,
+        "hamming_distance": 15,
+        "jaro_distance": 0.7980702162287839,
+        "jaro_winkler_distance": 0.8788421297372704
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 22
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 26,
+        "indel_distance": 0.5882352941176471,
+        "hamming_distance": 44,
+        "jaro_distance": 0.5979066022544284,
+        "jaro_winkler_distance": 0.5979066022544284
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 45
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9777777777777777,
+        "hamming_distance": 4,
+        "jaro_distance": 0.9703557312252965,
+        "jaro_winkler_distance": 0.9822134387351779
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 22
+      }
+    }
+  },
+  {
+    "id": 57,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 15,
+        "indel_distance": 0.6,
+        "hamming_distance": 28,
+        "jaro_distance": 0.6777960226236089,
+        "jaro_winkler_distance": 0.6777960226236089
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 29
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8636363636363636,
+        "hamming_distance": 19,
+        "jaro_distance": 0.9102829537612146,
+        "jaro_winkler_distance": 0.9461697722567287
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 23
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 31,
+        "indel_distance": 0.42622950819672134,
+        "hamming_distance": 38,
+        "jaro_distance": 0.6581349206349206,
+        "jaro_winkler_distance": 0.6581349206349206
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 40
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9523809523809523,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9682539682539683,
+        "jaro_winkler_distance": 0.9809523809523809
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    }
+  },
+  {
+    "id": 58,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 18
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 10,
+        "indel_distance": 0.782608695652174,
+        "hamming_distance": 19,
+        "jaro_distance": 0.8253968253968255,
+        "jaro_winkler_distance": 0.8952380952380953
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 28
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9230769230769231,
+        "hamming_distance": 13,
+        "jaro_distance": 0.8783068783068783,
+        "jaro_winkler_distance": 0.9269841269841269
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 21
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 33,
+        "indel_distance": 0.4776119402985075,
+        "hamming_distance": 44,
+        "jaro_distance": 0.5599453456596314,
+        "jaro_winkler_distance": 0.5599453456596314
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 49
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9444444444444444,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9629629629629629,
+        "jaro_winkler_distance": 0.9777777777777777
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 18
+      }
+    }
+  },
+  {
+    "id": 59,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 18
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.6666666666666667,
+        "hamming_distance": 10,
+        "jaro_distance": 0.791005291005291,
+        "jaro_winkler_distance": 0.8746031746031746
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.6666666666666667,
+        "hamming_distance": 7,
+        "jaro_distance": 0.7891737891737892,
+        "jaro_winkler_distance": 0.8735042735042735
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 18
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 30,
+        "indel_distance": 0.4516129032258065,
+        "hamming_distance": 43,
+        "jaro_distance": 0.5075757575757576,
+        "jaro_winkler_distance": 0.5075757575757576
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 44
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9444444444444444,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9629629629629629,
+        "jaro_winkler_distance": 0.9777777777777777
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 18
+      }
+    }
+  },
+  {
+    "id": 60,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 24
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.851063829787234,
+        "hamming_distance": 6,
+        "jaro_distance": 0.9134748102139406,
+        "jaro_winkler_distance": 0.9480848861283644
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 23
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.851063829787234,
+        "hamming_distance": 5,
+        "jaro_distance": 0.9009661835748792,
+        "jaro_winkler_distance": 0.9405797101449276
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 23
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 28,
+        "indel_distance": 0.4776119402985075,
+        "hamming_distance": 40,
+        "jaro_distance": 0.6117571059431525,
+        "jaro_winkler_distance": 0.6117571059431525
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 43
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9583333333333334,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9722222222222223,
+        "jaro_winkler_distance": 0.9833333333333334
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 24
+      }
+    }
+  },
+  {
+    "id": 61,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.8115942028985508,
+        "hamming_distance": 23,
+        "jaro_distance": 0.8258156275397655,
+        "jaro_winkler_distance": 0.8954893765238593
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 36
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.7878787878787878,
+        "hamming_distance": 9,
+        "jaro_distance": 0.8664421997755332,
+        "jaro_winkler_distance": 0.9198653198653199
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 22,
+        "indel_distance": 0.691358024691358,
+        "hamming_distance": 47,
+        "jaro_distance": 0.6782262277951933,
+        "jaro_winkler_distance": 0.6782262277951933
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 48
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9696969696969697,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9797979797979798,
+        "jaro_winkler_distance": 0.9878787878787879
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    }
+  },
+  {
+    "id": 62,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 27
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8679245283018868,
+        "hamming_distance": 23,
+        "jaro_distance": 0.9121557454890787,
+        "jaro_winkler_distance": 0.9472934472934472
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 26
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8363636363636364,
+        "hamming_distance": 24,
+        "jaro_distance": 0.8621079671804309,
+        "jaro_winkler_distance": 0.9172647803082585
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 28
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 20,
+        "indel_distance": 0.6944444444444444,
+        "hamming_distance": 40,
+        "jaro_distance": 0.7555555555555555,
+        "jaro_winkler_distance": 0.8533333333333333
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 45
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.962962962962963,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9624881291547958,
+        "jaro_winkler_distance": 0.9774928774928775
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 27
+      }
+    }
+  },
+  {
+    "id": 63,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 22
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.7906976744186046,
+        "hamming_distance": 11,
+        "jaro_distance": 0.8607503607503607,
+        "jaro_winkler_distance": 0.9164502164502164
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8444444444444444,
+        "hamming_distance": 5,
+        "jaro_distance": 0.8965744400527008,
+        "jaro_winkler_distance": 0.9379446640316205
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 23
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 13,
+        "indel_distance": 0.7272727272727273,
+        "hamming_distance": 29,
+        "jaro_distance": 0.705050505050505,
+        "jaro_winkler_distance": 0.7640404040404041
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9545454545454546,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9696969696969697,
+        "jaro_winkler_distance": 0.9818181818181818
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 22
+      }
+    }
+  },
+  {
+    "id": 64,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 29
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 12,
+        "indel_distance": 0.6785714285714286,
+        "hamming_distance": 18,
+        "jaro_distance": 0.7434653043848446,
+        "jaro_winkler_distance": 0.8460791826309068
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 27
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 12,
+        "indel_distance": 0.7058823529411764,
+        "hamming_distance": 19,
+        "jaro_distance": 0.8045152065115767,
+        "jaro_winkler_distance": 0.882709123906946
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 22
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 32,
+        "indel_distance": 0.5454545454545454,
+        "hamming_distance": 48,
+        "jaro_distance": 0.6559740962851908,
+        "jaro_winkler_distance": 0.6559740962851908
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 48
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9655172413793104,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9770114942528737,
+        "jaro_winkler_distance": 0.9862068965517242
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 29
+      }
+    }
+  },
+  {
+    "id": 65,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 25
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.7391304347826086,
+        "hamming_distance": 10,
+        "jaro_distance": 0.8298412698412698,
+        "jaro_winkler_distance": 0.8979047619047619
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 13,
+        "indel_distance": 0.5714285714285714,
+        "hamming_distance": 19,
+        "jaro_distance": 0.6855555555555556,
+        "jaro_winkler_distance": 0.6855555555555556
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 24
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 41,
+        "indel_distance": 0.5168539325842696,
+        "hamming_distance": 64,
+        "jaro_distance": 0.5708333333333333,
+        "jaro_winkler_distance": 0.5708333333333333
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 64
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9795918367346939,
+        "hamming_distance": 6,
+        "jaro_distance": 0.9866666666666667,
+        "jaro_winkler_distance": 0.992
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 24
+      }
+    }
+  },
+  {
+    "id": 66,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9230769230769231,
+        "hamming_distance": 2,
+        "jaro_distance": 0.9487179487179488,
+        "jaro_winkler_distance": 0.9692307692307692
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9454545454545454,
+        "hamming_distance": 19,
+        "jaro_distance": 0.8629531388152077,
+        "jaro_winkler_distance": 0.9177718832891246
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 29
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 14,
+        "indel_distance": 0.7619047619047619,
+        "hamming_distance": 35,
+        "jaro_distance": 0.7324047124047124,
+        "jaro_winkler_distance": 0.7324047124047124
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 37
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9615384615384616,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9743589743589745,
+        "jaro_winkler_distance": 0.9846153846153847
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    }
+  },
+  {
+    "id": 67,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 55
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.8828828828828829,
+        "hamming_distance": 41,
+        "jaro_distance": 0.8675479282622139,
+        "jaro_winkler_distance": 0.9205287569573284
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 56
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.8545454545454545,
+        "hamming_distance": 9,
+        "jaro_distance": 0.8179239200515797,
+        "jaro_winkler_distance": 0.8907543520309478
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 55
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 41,
+        "indel_distance": 0.48888888888888893,
+        "hamming_distance": 55,
+        "jaro_distance": 0.6862012987012988,
+        "jaro_winkler_distance": 0.6862012987012988
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 35
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9818181818181818,
+        "hamming_distance": 2,
+        "jaro_distance": 0.993939393939394,
+        "jaro_winkler_distance": 0.9963636363636365
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 55
+      }
+    }
+  },
+  {
+    "id": 68,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8333333333333334,
+        "hamming_distance": 9,
+        "jaro_distance": 0.8977072310405644,
+        "jaro_winkler_distance": 0.9386243386243386
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 27
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8695652173913043,
+        "hamming_distance": 10,
+        "jaro_distance": 0.8841269841269841,
+        "jaro_winkler_distance": 0.9304761904761905
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 25
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 16,
+        "indel_distance": 0.5490196078431373,
+        "hamming_distance": 27,
+        "jaro_distance": 0.6940242763772176,
+        "jaro_winkler_distance": 0.6940242763772176
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 30
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9523809523809523,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9682539682539683,
+        "jaro_winkler_distance": 0.9809523809523809
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 21
+      }
+    }
+  },
+  {
+    "id": 69,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 32
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 10,
+        "indel_distance": 0.7941176470588236,
+        "hamming_distance": 12,
+        "jaro_distance": 0.8723544973544973,
+        "jaro_winkler_distance": 0.9234126984126984
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 36
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.78125,
+        "hamming_distance": 7,
+        "jaro_distance": 0.8541666666666666,
+        "jaro_winkler_distance": 0.9125
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 32
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 11,
+        "indel_distance": 0.8,
+        "hamming_distance": 34,
+        "jaro_distance": 0.7403773442226255,
+        "jaro_winkler_distance": 0.7403773442226255
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 38
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.96875,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9791666666666666,
+        "jaro_winkler_distance": 0.9874999999999999
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 32
+      }
+    }
+  },
+  {
+    "id": 70,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 28
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 18,
+        "indel_distance": 0.49056603773584906,
+        "hamming_distance": 19,
+        "jaro_distance": 0.6390476190476191,
+        "jaro_winkler_distance": 0.6390476190476191
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 25
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9491525423728814,
+        "hamming_distance": 21,
+        "jaro_distance": 0.967741935483871,
+        "jaro_winkler_distance": 0.9806451612903226
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 31
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 14,
+        "indel_distance": 0.7575757575757576,
+        "hamming_distance": 15,
+        "jaro_distance": 0.8196452670136881,
+        "jaro_winkler_distance": 0.8557162136109505
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 38
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9818181818181818,
+        "hamming_distance": 4,
+        "jaro_distance": 0.9880952380952381,
+        "jaro_winkler_distance": 0.9928571428571429
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 27
+      }
+    }
+  },
+  {
+    "id": 71,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 33
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.8169014084507042,
+        "hamming_distance": 25,
+        "jaro_distance": 0.8461658325542173,
+        "jaro_winkler_distance": 0.9076994995325304
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 38
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8695652173913043,
+        "hamming_distance": 24,
+        "jaro_distance": 0.8919191919191919,
+        "jaro_winkler_distance": 0.9351515151515152
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 36
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 22,
+        "indel_distance": 0.5974025974025974,
+        "hamming_distance": 44,
+        "jaro_distance": 0.7092352092352092,
+        "jaro_winkler_distance": 0.7092352092352092
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 44
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9696969696969697,
+        "hamming_distance": 2,
+        "jaro_distance": 0.98989898989899,
+        "jaro_winkler_distance": 0.993939393939394
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 33
+      }
+    }
+  },
+  {
+    "id": 72,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8787878787878788,
+        "hamming_distance": 5,
+        "jaro_distance": 0.8617206548241031,
+        "jaro_winkler_distance": 0.9170323928944618
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9253731343283582,
+        "hamming_distance": 22,
+        "jaro_distance": 0.8536120215437103,
+        "jaro_winkler_distance": 0.9121672129262262
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 34
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 25,
+        "indel_distance": 0.575,
+        "hamming_distance": 43,
+        "jaro_distance": 0.7265378562564561,
+        "jaro_winkler_distance": 0.7812302850051649
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 47
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9696969696969697,
+        "hamming_distance": 2,
+        "jaro_distance": 0.98989898989899,
+        "jaro_winkler_distance": 0.993939393939394
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 33
+      }
+    }
+  },
+  {
+    "id": 73,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 35
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.8533333333333333,
+        "hamming_distance": 26,
+        "jaro_distance": 0.8110119047619048,
+        "jaro_winkler_distance": 0.8866071428571429
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 40
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8732394366197183,
+        "hamming_distance": 24,
+        "jaro_distance": 0.8618450247482506,
+        "jaro_winkler_distance": 0.9171070148489504
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 36
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 28,
+        "indel_distance": 0.5070422535211268,
+        "hamming_distance": 32,
+        "jaro_distance": 0.6349091327352197,
+        "jaro_winkler_distance": 0.6349091327352197
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 36
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9714285714285714,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9613445378151261,
+        "jaro_winkler_distance": 0.9768067226890756
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 35
+      }
+    }
+  },
+  {
+    "id": 74,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 31
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 15,
+        "indel_distance": 0.6808510638297872,
+        "hamming_distance": 22,
+        "jaro_distance": 0.6926695616211745,
+        "jaro_winkler_distance": 0.6926695616211745
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 16
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9538461538461538,
+        "hamming_distance": 27,
+        "jaro_distance": 0.8738140417457304,
+        "jaro_winkler_distance": 0.9242884250474382
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 34
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 38,
+        "indel_distance": 0.6060606060606061,
+        "hamming_distance": 66,
+        "jaro_distance": 0.6918616909129244,
+        "jaro_winkler_distance": 0.6918616909129244
+      },
+      "counts": {
+        "word_count": 12,
+        "character_count": 68
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.967741935483871,
+        "hamming_distance": 1,
+        "jaro_distance": 0.978494623655914,
+        "jaro_winkler_distance": 0.9870967741935484
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 31
+      }
+    }
+  },
+  {
+    "id": 75,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 19
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 18,
+        "indel_distance": 0.4897959183673469,
+        "hamming_distance": 22,
+        "jaro_distance": 0.6802069275753487,
+        "jaro_winkler_distance": 0.6802069275753487
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 30
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.7027027027027026,
+        "hamming_distance": 10,
+        "jaro_distance": 0.776503223871645,
+        "jaro_winkler_distance": 0.865901934322987
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 18
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 33,
+        "indel_distance": 0.5,
+        "hamming_distance": 47,
+        "jaro_distance": 0.5421589688506981,
+        "jaro_winkler_distance": 0.5421589688506981
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 49
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9473684210526316,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9278752436647174,
+        "jaro_winkler_distance": 0.9567251461988304
+      },
+      "counts": {
+        "word_count": 3,
+        "character_count": 19
+      }
+    }
+  },
+  {
+    "id": 76,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 18
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.7727272727272727,
+        "hamming_distance": 11,
+        "jaro_distance": 0.8789173789173789,
+        "jaro_winkler_distance": 0.9273504273504273
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 26
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.7894736842105263,
+        "hamming_distance": 7,
+        "jaro_distance": 0.8611111111111112,
+        "jaro_winkler_distance": 0.9166666666666667
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 20
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 28,
+        "indel_distance": 0.42105263157894735,
+        "hamming_distance": 36,
+        "jaro_distance": 0.5693935693935693,
+        "jaro_winkler_distance": 0.5693935693935693
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 39
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9714285714285714,
+        "hamming_distance": 8,
+        "jaro_distance": 0.9226579520697168,
+        "jaro_winkler_distance": 0.9535947712418301
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 17
+      }
+    }
+  },
+  {
+    "id": 77,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 40
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.925,
+        "hamming_distance": 3,
+        "jaro_distance": 0.904954954954955,
+        "jaro_winkler_distance": 0.942972972972973
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 40
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.9135802469135803,
+        "hamming_distance": 29,
+        "jaro_distance": 0.8887676508344032,
+        "jaro_winkler_distance": 0.9332605905006419
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 41
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 32,
+        "indel_distance": 0.5060240963855422,
+        "hamming_distance": 38,
+        "jaro_distance": 0.7029444861215303,
+        "jaro_winkler_distance": 0.7623555888972242
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 43
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9873417721518988,
+        "hamming_distance": 18,
+        "jaro_distance": 0.9916666666666667,
+        "jaro_winkler_distance": 0.995
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 39
+      }
+    }
+  },
+  {
+    "id": 78,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 30
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8571428571428572,
+        "hamming_distance": 29,
+        "jaro_distance": 0.8335423197492163,
+        "jaro_winkler_distance": 0.9001253918495298
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 33
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.9152542372881356,
+        "hamming_distance": 26,
+        "jaro_distance": 0.8449127288207748,
+        "jaro_winkler_distance": 0.9069476372924649
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 29
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 22,
+        "indel_distance": 0.7160493827160495,
+        "hamming_distance": 45,
+        "jaro_distance": 0.730155510480054,
+        "jaro_winkler_distance": 0.8380933062880325
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 51
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9666666666666667,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9662835249042145,
+        "jaro_winkler_distance": 0.9797701149425287
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 30
+      }
+    }
+  },
+  {
+    "id": 79,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 24
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 16,
+        "indel_distance": 0.6666666666666667,
+        "hamming_distance": 21,
+        "jaro_distance": 0.7948412698412698,
+        "jaro_winkler_distance": 0.8769047619047619
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 30
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9166666666666666,
+        "hamming_distance": 3,
+        "jaro_distance": 0.8686868686868686,
+        "jaro_winkler_distance": 0.9212121212121211
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 24
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 13,
+        "indel_distance": 0.7666666666666666,
+        "hamming_distance": 31,
+        "jaro_distance": 0.7777777777777777,
+        "jaro_winkler_distance": 0.8666666666666666
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 36
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9583333333333334,
+        "hamming_distance": 2,
+        "jaro_distance": 0.9861111111111112,
+        "jaro_winkler_distance": 0.9916666666666667
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 24
+      }
+    }
+  },
+  {
+    "id": 80,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 27
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 19,
+        "indel_distance": 0.6666666666666667,
+        "hamming_distance": 28,
+        "jaro_distance": 0.7172148838815504,
+        "jaro_winkler_distance": 0.8303289303289303
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 39
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8518518518518519,
+        "hamming_distance": 4,
+        "jaro_distance": 0.9012345679012346,
+        "jaro_winkler_distance": 0.9407407407407408
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 27
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 47,
+        "indel_distance": 0.39560439560439564,
+        "hamming_distance": 62,
+        "jaro_distance": 0.5591104497354497,
+        "jaro_winkler_distance": 0.5591104497354497
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 64
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.962962962962963,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9753086419753085,
+        "jaro_winkler_distance": 0.9851851851851852
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 27
+      }
+    }
+  },
+  {
+    "id": 81,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 38
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 10,
+        "indel_distance": 0.825,
+        "hamming_distance": 18,
+        "jaro_distance": 0.8342067289435712,
+        "jaro_winkler_distance": 0.9005240373661427
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 42
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.935064935064935,
+        "hamming_distance": 5,
+        "jaro_distance": 0.9568151147098516,
+        "jaro_winkler_distance": 0.974089068825911
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 39
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 26,
+        "indel_distance": 0.5542168674698795,
+        "hamming_distance": 35,
+        "jaro_distance": 0.7166132176318932,
+        "jaro_winkler_distance": 0.829967930579136
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 45
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9736842105263158,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9824561403508772,
+        "jaro_winkler_distance": 0.9894736842105264
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 38
+      }
+    }
+  },
+  {
+    "id": 82,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 20
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 13,
+        "indel_distance": 0.625,
+        "hamming_distance": 20,
+        "jaro_distance": 0.7396825396825397,
+        "jaro_winkler_distance": 0.8438095238095238
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 28
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9302325581395349,
+        "hamming_distance": 15,
+        "jaro_distance": 0.9231884057971014,
+        "jaro_winkler_distance": 0.9539130434782608
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 23
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 16,
+        "indel_distance": 0.6415094339622642,
+        "hamming_distance": 29,
+        "jaro_distance": 0.7366560340244551,
+        "jaro_winkler_distance": 0.7893248272195641
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 33
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9743589743589743,
+        "hamming_distance": 8,
+        "jaro_distance": 0.9657894736842105,
+        "jaro_winkler_distance": 0.9794736842105263
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 19
+      }
+    }
+  },
+  {
+    "id": 83,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 27
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8727272727272728,
+        "hamming_distance": 5,
+        "jaro_distance": 0.9153439153439153,
+        "jaro_winkler_distance": 0.9492063492063492
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 28
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8571428571428572,
+        "hamming_distance": 6,
+        "jaro_distance": 0.9054916985951468,
+        "jaro_winkler_distance": 0.943295019157088
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 29
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 29,
+        "indel_distance": 0.4931506849315068,
+        "hamming_distance": 41,
+        "jaro_distance": 0.6495284103979756,
+        "jaro_winkler_distance": 0.6495284103979756
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 46
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.962962962962963,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9753086419753085,
+        "jaro_winkler_distance": 0.9851851851851852
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 27
+      }
+    }
+  },
+  {
+    "id": 84,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 33
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9253731343283582,
+        "hamming_distance": 21,
+        "jaro_distance": 0.8643647097157533,
+        "jaro_winkler_distance": 0.918618825829452
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 34
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8571428571428572,
+        "hamming_distance": 22,
+        "jaro_distance": 0.8288561288561289,
+        "jaro_winkler_distance": 0.8973136773136774
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 37
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 17,
+        "indel_distance": 0.75,
+        "hamming_distance": 42,
+        "jaro_distance": 0.779349344508919,
+        "jaro_winkler_distance": 0.8676096067053514
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 47
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9696969696969697,
+        "hamming_distance": 2,
+        "jaro_distance": 0.98989898989899,
+        "jaro_winkler_distance": 0.993939393939394
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 33
+      }
+    }
+  },
+  {
+    "id": 85,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 18
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8108108108108107,
+        "hamming_distance": 6,
+        "jaro_distance": 0.8742690058479532,
+        "jaro_winkler_distance": 0.9245614035087719
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 19
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.7906976744186046,
+        "hamming_distance": 11,
+        "jaro_distance": 0.8748148148148148,
+        "jaro_winkler_distance": 0.9248888888888889
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 25
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 42,
+        "indel_distance": 0.3783783783783784,
+        "hamming_distance": 56,
+        "jaro_distance": 0.533068783068783,
+        "jaro_winkler_distance": 0.533068783068783
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 56
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9444444444444444,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9041394335511983,
+        "jaro_winkler_distance": 0.9424836601307189
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 18
+      }
+    }
+  },
+  {
+    "id": 86,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 51
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.8737864077669903,
+        "hamming_distance": 37,
+        "jaro_distance": 0.856653259594436,
+        "jaro_winkler_distance": 0.9139919557566616
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 52
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.8431372549019608,
+        "hamming_distance": 9,
+        "jaro_distance": 0.8024015807873536,
+        "jaro_winkler_distance": 0.8814409484724122
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 51
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 41,
+        "indel_distance": 0.47619047619047616,
+        "hamming_distance": 49,
+        "jaro_distance": 0.7325243620273261,
+        "jaro_winkler_distance": 0.7325243620273261
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 54
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9803921568627451,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9869281045751634,
+        "jaro_winkler_distance": 0.9921568627450981
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 51
+      }
+    }
+  },
+  {
+    "id": 87,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 33
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8955223880597015,
+        "hamming_distance": 14,
+        "jaro_distance": 0.8860368389780154,
+        "jaro_winkler_distance": 0.9316221033868093
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 34
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9230769230769231,
+        "hamming_distance": 21,
+        "jaro_distance": 0.915530303030303,
+        "jaro_winkler_distance": 0.9493181818181818
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 32
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 26,
+        "indel_distance": 0.6741573033707865,
+        "hamming_distance": 53,
+        "jaro_distance": 0.7012085137085137,
+        "jaro_winkler_distance": 0.760966810966811
+      },
+      "counts": {
+        "word_count": 12,
+        "character_count": 56
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9696969696969697,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9797979797979798,
+        "jaro_winkler_distance": 0.9878787878787879
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 33
+      }
+    }
+  },
+  {
+    "id": 88,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 39
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.9135802469135803,
+        "hamming_distance": 25,
+        "jaro_distance": 0.8895315211104684,
+        "jaro_winkler_distance": 0.933718912666281
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 42
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.8674698795180723,
+        "hamming_distance": 31,
+        "jaro_distance": 0.8397855897855898,
+        "jaro_winkler_distance": 0.9038713538713539
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 44
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 20,
+        "indel_distance": 0.625,
+        "hamming_distance": 24,
+        "jaro_distance": 0.8045002084636231,
+        "jaro_winkler_distance": 0.8827001250781739
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 41
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9743589743589743,
+        "hamming_distance": 2,
+        "jaro_distance": 0.9914529914529915,
+        "jaro_winkler_distance": 0.9948717948717949
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 39
+      }
+    }
+  },
+  {
+    "id": 89,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 25
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8301886792452831,
+        "hamming_distance": 8,
+        "jaro_distance": 0.8885714285714285,
+        "jaro_winkler_distance": 0.933142857142857
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 28
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8235294117647058,
+        "hamming_distance": 6,
+        "jaro_distance": 0.8825641025641026,
+        "jaro_winkler_distance": 0.9295384615384615
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 24,
+        "indel_distance": 0.5625,
+        "hamming_distance": 35,
+        "jaro_distance": 0.6783372183372184,
+        "jaro_winkler_distance": 0.6783372183372184
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 39
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.96,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9733333333333333,
+        "jaro_winkler_distance": 0.984
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 25
+      }
+    }
+  },
+  {
+    "id": 90,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 10,
+        "indel_distance": 0.6341463414634146,
+        "hamming_distance": 12,
+        "jaro_distance": 0.7307081807081808,
+        "jaro_winkler_distance": 0.8384249084249085
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 20
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.6486486486486487,
+        "hamming_distance": 12,
+        "jaro_distance": 0.7738095238095237,
+        "jaro_winkler_distance": 0.8642857142857142
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 16
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 20,
+        "indel_distance": 0.5454545454545454,
+        "hamming_distance": 33,
+        "jaro_distance": 0.647370059134765,
+        "jaro_winkler_distance": 0.647370059134765
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 34
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9523809523809523,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9682539682539683,
+        "jaro_winkler_distance": 0.9809523809523809
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 21
+      }
+    }
+  },
+  {
+    "id": 91,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 17,
+        "indel_distance": 0.6451612903225806,
+        "hamming_distance": 35,
+        "jaro_distance": 0.6962405549362071,
+        "jaro_winkler_distance": 0.6962405549362071
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 36
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8679245283018868,
+        "hamming_distance": 23,
+        "jaro_distance": 0.7962137165035715,
+        "jaro_winkler_distance": 0.8777282299021429
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 27
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 19,
+        "indel_distance": 0.6153846153846154,
+        "hamming_distance": 38,
+        "jaro_distance": 0.7208547008547009,
+        "jaro_winkler_distance": 0.7208547008547009
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 39
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9615384615384616,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9743589743589745,
+        "jaro_winkler_distance": 0.9846153846153847
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 26
+      }
+    }
+  },
+  {
+    "id": 92,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 42
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.8470588235294118,
+        "hamming_distance": 24,
+        "jaro_distance": 0.8610803494524424,
+        "jaro_winkler_distance": 0.9166482096714654
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 43
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.8354430379746836,
+        "hamming_distance": 37,
+        "jaro_distance": 0.7918338506573801,
+        "jaro_winkler_distance": 0.875100310394428
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 37
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 16,
+        "indel_distance": 0.8,
+        "hamming_distance": 48,
+        "jaro_distance": 0.7606993111710093,
+        "jaro_winkler_distance": 0.7606993111710093
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 53
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9879518072289156,
+        "hamming_distance": 5,
+        "jaro_distance": 0.9920634920634921,
+        "jaro_winkler_distance": 0.9952380952380953
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 41
+      }
+    }
+  },
+  {
+    "id": 93,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 46
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.9148936170212766,
+        "hamming_distance": 43,
+        "jaro_distance": 0.8272595775755534,
+        "jaro_winkler_distance": 0.896355746545332
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 48
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.9347826086956522,
+        "hamming_distance": 5,
+        "jaro_distance": 0.8247387933940007,
+        "jaro_winkler_distance": 0.8948432760364005
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 46
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 32,
+        "indel_distance": 0.6168224299065421,
+        "hamming_distance": 55,
+        "jaro_distance": 0.7713989503013025,
+        "jaro_winkler_distance": 0.8171191602410419
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 61
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 2,
+        "indel_distance": 0.9782608695652174,
+        "hamming_distance": 2,
+        "jaro_distance": 0.9927536231884058,
+        "jaro_winkler_distance": 0.9956521739130435
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 46
+      }
+    }
+  },
+  {
+    "id": 94,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 29
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8333333333333334,
+        "hamming_distance": 12,
+        "jaro_distance": 0.8761735261401556,
+        "jaro_winkler_distance": 0.9257041156840934
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 31
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8524590163934427,
+        "hamming_distance": 14,
+        "jaro_distance": 0.8645557029177718,
+        "jaro_winkler_distance": 0.9187334217506631
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 32
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 22,
+        "indel_distance": 0.6753246753246753,
+        "hamming_distance": 45,
+        "jaro_distance": 0.6953756917837377,
+        "jaro_winkler_distance": 0.6953756917837377
+      },
+      "counts": {
+        "word_count": 11,
+        "character_count": 48
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9655172413793104,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9770114942528737,
+        "jaro_winkler_distance": 0.9862068965517242
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 29
+      }
+    }
+  },
+  {
+    "id": 95,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 30
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8421052631578947,
+        "hamming_distance": 17,
+        "jaro_distance": 0.8930864197530864,
+        "jaro_winkler_distance": 0.9358518518518518
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 27
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 7,
+        "indel_distance": 0.8214285714285714,
+        "hamming_distance": 18,
+        "jaro_distance": 0.8257896692679302,
+        "jaro_winkler_distance": 0.8954738015607581
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 26
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 16,
+        "indel_distance": 0.7567567567567568,
+        "hamming_distance": 31,
+        "jaro_distance": 0.805050505050505,
+        "jaro_winkler_distance": 0.883030303030303
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 44
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9666666666666667,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9777777777777779,
+        "jaro_winkler_distance": 0.9866666666666667
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 30
+      }
+    }
+  },
+  {
+    "id": 96,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 18
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 6,
+        "indel_distance": 0.8,
+        "hamming_distance": 9,
+        "jaro_distance": 0.872053872053872,
+        "jaro_winkler_distance": 0.9232323232323232
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 22
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 8,
+        "indel_distance": 0.7804878048780488,
+        "hamming_distance": 10,
+        "jaro_distance": 0.8615136876006441,
+        "jaro_winkler_distance": 0.9169082125603865
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 23
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 31,
+        "indel_distance": 0.4193548387096774,
+        "hamming_distance": 43,
+        "jaro_distance": 0.5557960557960558,
+        "jaro_winkler_distance": 0.5557960557960558
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 44
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9444444444444444,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9629629629629629,
+        "jaro_winkler_distance": 0.9777777777777777
+      },
+      "counts": {
+        "word_count": 4,
+        "character_count": 18
+      }
+    }
+  },
+  {
+    "id": 97,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 36
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 3,
+        "indel_distance": 0.9166666666666666,
+        "hamming_distance": 3,
+        "jaro_distance": 0.8636363636363636,
+        "jaro_winkler_distance": 0.9181818181818182
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 36
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.904109589041096,
+        "hamming_distance": 25,
+        "jaro_distance": 0.8956309250426898,
+        "jaro_winkler_distance": 0.9373785550256138
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 37
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 25,
+        "indel_distance": 0.627906976744186,
+        "hamming_distance": 47,
+        "jaro_distance": 0.7376767676767676,
+        "jaro_winkler_distance": 0.790141414141414
+      },
+      "counts": {
+        "word_count": 9,
+        "character_count": 50
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.9722222222222222,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9814814814814815,
+        "jaro_winkler_distance": 0.9888888888888889
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 36
+      }
+    }
+  },
+  {
+    "id": 98,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 32
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.8888888888888888,
+        "hamming_distance": 27,
+        "jaro_distance": 0.8070276497695853,
+        "jaro_winkler_distance": 0.8842165898617512
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 31
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 5,
+        "indel_distance": 0.8787878787878788,
+        "hamming_distance": 30,
+        "jaro_distance": 0.7932936105476673,
+        "jaro_winkler_distance": 0.8759761663286004
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 34
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 27,
+        "indel_distance": 0.6741573033707865,
+        "hamming_distance": 50,
+        "jaro_distance": 0.73921783625731,
+        "jaro_winkler_distance": 0.843530701754386
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 57
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.96875,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9791666666666666,
+        "jaro_winkler_distance": 0.9874999999999999
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 32
+      }
+    }
+  },
+  {
+    "id": 99,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 37
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.875,
+        "hamming_distance": 31,
+        "jaro_distance": 0.8342521923917273,
+        "jaro_winkler_distance": 0.9005513154350364
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 43
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 4,
+        "indel_distance": 0.9210526315789473,
+        "hamming_distance": 26,
+        "jaro_distance": 0.9192225192225192,
+        "jaro_winkler_distance": 0.9515335115335115
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 39
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 22,
+        "indel_distance": 0.7252747252747253,
+        "hamming_distance": 52,
+        "jaro_distance": 0.6828191828191829,
+        "jaro_winkler_distance": 0.6828191828191829
+      },
+      "counts": {
+        "word_count": 10,
+        "character_count": 54
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.972972972972973,
+        "hamming_distance": 1,
+        "jaro_distance": 0.981981981981982,
+        "jaro_winkler_distance": 0.9891891891891892
+      },
+      "counts": {
+        "word_count": 8,
+        "character_count": 37
+      }
+    }
+  },
+  {
+    "id": 100,
+    "question": {
+      "distances": {
+        "levenshtein_distance": 0,
+        "indel_distance": 1.0,
+        "hamming_distance": 0,
+        "jaro_distance": 1.0,
+        "jaro_winkler_distance": 1.0
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 25
+      }
+    },
+    "synonym_change": {
+      "distances": {
+        "levenshtein_distance": 10,
+        "indel_distance": 0.6538461538461539,
+        "hamming_distance": 12,
+        "jaro_distance": 0.8036907082521118,
+        "jaro_winkler_distance": 0.8822144249512671
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 27
+      }
+    },
+    "antonym_change": {
+      "distances": {
+        "levenshtein_distance": 9,
+        "indel_distance": 0.7058823529411764,
+        "hamming_distance": 11,
+        "jaro_distance": 0.8230769230769232,
+        "jaro_winkler_distance": 0.8938461538461538
+      },
+      "counts": {
+        "word_count": 6,
+        "character_count": 26
+      }
+    },
+    "paraphrase_change": {
+      "distances": {
+        "levenshtein_distance": 32,
+        "indel_distance": 0.5384615384615384,
+        "hamming_distance": 50,
+        "jaro_distance": 0.6009003641178418,
+        "jaro_winkler_distance": 0.6009003641178418
+      },
+      "counts": {
+        "word_count": 7,
+        "character_count": 53
+      }
+    },
+    "letter_change": {
+      "distances": {
+        "levenshtein_distance": 1,
+        "indel_distance": 0.96,
+        "hamming_distance": 1,
+        "jaro_distance": 0.9733333333333333,
+        "jaro_winkler_distance": 0.984
+      },
+      "counts": {
+        "word_count": 5,
+        "character_count": 25
+      }
+    }
+  }
+]

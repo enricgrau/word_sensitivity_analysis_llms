@@ -1,0 +1,37 @@
+{
+  "question": {
+    "average": 0.0,
+    "standard_deviation": -0.0,
+    "median": 0.0,
+    "min": 0.0,
+    "max": 0.0
+  },
+  "synonym_change": {
+    "average": 282.73597116954494,
+    "standard_deviation": 137.45344889315598,
+    "median": 191.94407052003245,
+    "min": 4.661574421451764,
+    "max": 355.2871868545333
+  },
+  "antonym_change": {
+    "average": 305.85687581689604,
+    "standard_deviation": 80.8251565702574,
+    "median": 267.1171597678783,
+    "min": 2.408594919340435,
+    "max": 359.46124024351565
+  },
+  "paraphrase_change": {
+    "average": 73.06410382878897,
+    "standard_deviation": 107.9617494479079,
+    "median": 158.19726540716607,
+    "min": 2.4985157623485175,
+    "max": 358.24609921192126
+  },
+  "letter_change": {
+    "average": 200.55134399373898,
+    "standard_deviation": 112.18800220183323,
+    "median": 179.2012925681689,
+    "min": 0.0,
+    "max": 359.30108466198504
+  }
+}
