@@ -1,0 +1,60 @@
+@inproceedings{Hu_2024, series={KDD ’24},
+   title={Prompt Perturbation in Retrieval-Augmented Generation based Large Language Models},
+   url={http://dx.doi.org/10.1145/3637528.3671932},
+   DOI={10.1145/3637528.3671932},
+   booktitle={Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+   publisher={ACM},
+   author={Hu, Zhibo and Wang, Chen and Shu, Yanfeng and Paik, Hye-Young and Zhu, Liming},
+   year={2024},
+   month=aug, pages={1119–1130},
+   collection={KDD ’24} }
+
+@misc{chatterjee2024posixpromptsensitivityindex,
+   title={POSIX: A Prompt Sensitivity Index For Large Language Models}, 
+   author={Anwoy Chatterjee and H S V N S Kowndinya Renduchintala and Sumit Bhatia and Tanmoy Chakraborty},
+   year={2024},
+   eprint={2410.02185},
+   archivePrefix={arXiv},
+   primaryClass={cs.CL},
+   url={https://arxiv.org/abs/2410.02185}, 
+}
+
+@misc{sahoo2025systematicsurveypromptengineering,
+      title={A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications}, 
+      author={Pranab Sahoo and Ayush Kumar Singh and Sriparna Saha and Vinija Jain and Samrat Mondal and Aman Chadha},
+      year={2025},
+      eprint={2402.07927},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2402.07927}, 
+}
+
+@misc{sclar2024quantifyinglanguagemodelssensitivity,
+      title={Quantifying Language Models' Sensitivity to Spurious Features in Prompt Design or: How I learned to start worrying about prompt formatting}, 
+      author={Melanie Sclar and Yejin Choi and Yulia Tsvetkov and Alane Suhr},
+      year={2024},
+      eprint={2310.11324},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2310.11324}, 
+}
+
+@misc{salinas2024butterflyeffectalteringprompts,
+      title={The Butterfly Effect of Altering Prompts: How Small Changes and Jailbreaks Affect Large Language Model Performance}, 
+      author={Abel Salinas and Fred Morstatter},
+      year={2024},
+      eprint={2401.03729},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2401.03729}, 
+}
+
+@misc{ref,
+      title={Unveiling the Lexical Sensitivity of LLMs: Combinatorial Optimization for Prompt Enhancement}, 
+      author={Pengwei Zhan and Zhen Xu and Qian Tan and Jie Song and Ru Xie},
+      year={2024},
+      eprint={2405.20701},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2405.20701}, 
+}
