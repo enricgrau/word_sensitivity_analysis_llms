@@ -1,126 +1,153 @@
+import os
+
 import datadocket as dd
 import numpy as np
-import pickle
 import Levenshtein
 
-def relative_directions(
-    average_embeddings_file: str,
-    pca_model_file: str,
-    variations: list) -> bool:
-    """
-    """
-    
-    # load average embeddings
-    average_embeddings = dd.load.Json(average_embeddings_file)
-
-    # load PCA model
-    with open(pca_model_file, "rb") as f:
-        pca = pickle.load(f)
-
-    def calculate_relative_angle_degrees(question_vec, variation_vec):
+def calculate_angle_degrees(vec1, vec2):
         """
-        Calculate the angle of variation_vec relative to question_vec as the reference (0,0)
-        Returns angle in degrees (0 to 360)
+        Calculate the angle between two vectors in degrees (0 to 360)
+
+        Args:
+            vec1: numpy array (question vector)
+            vec2: numpy array (variation vector)
+
+        Returns:
+            angle_deg: float
         """
-        # Convert to numpy arrays
-        question_vec = np.array(question_vec)
-        variation_vec = np.array(variation_vec)
         
-        # Calculate the difference vector (variation - question)
-        diff_vec = variation_vec - question_vec
+        # normalize vectors first
+        vec1_norm = vec1 / np.linalg.norm(vec1)
+        vec2_norm = vec2 / np.linalg.norm(vec2)
+        cos_angle = np.clip(np.dot(vec1_norm, vec2_norm), -1.0, 1.0)
         
-        # Calculate angle with x-axis (using first component as x-axis reference)
-        # For high-dimensional vectors, we'll use the first two principal components
-        # or project onto a 2D plane for angle calculation
+        # Calculate angle in radians
+        angle_rad = np.arccos(cos_angle)
         
-        # Method 1: Use first two dimensions for angle calculation
-        if len(diff_vec) >= 2:
-            x_component = diff_vec[0]
-            y_component = diff_vec[1]
-        else:
-            # Fallback: use first dimension and magnitude
-            x_component = diff_vec[0]
-            y_component = np.linalg.norm(diff_vec[1:]) if len(diff_vec) > 1 else 0
-        
-        # Calculate angle in degrees
-        angle_rad = np.arctan2(y_component, x_component)
+        # Convert to degrees
         angle_deg = np.degrees(angle_rad)
-        
-        # Convert to 0-360 range
-        if angle_deg < 0:
-            angle_deg += 360
         
         return angle_deg
 
-    # start directions list
-    directions = []
+def embedding_distances_stats(
+    variations: list,
+    data_file: str,
+    save_file: str) -> bool:
+    """
+    Compute aggregated statistics (mean, median, std, min, max) for each metric and variation
+    from a list-of-dicts input format:
+    [
+      {
+        "id": 1,
+        "question": [
+          { ...distances for variation 1... },
+          { ...distances for variation 2... },
+          ...
+        ]
+      },
+      ...
+    ]
+    """
+    if os.path.exists(save_file):
+        print(f"Embedding distances stats already exist in {save_file}. Skipping...")
+        return True
 
-    # iterate over average embeddings
-    for average_data in average_embeddings:
-        question_directions = {}
-        question_directions["id"] = average_data["id"]
-        
-        # Get the question vector as reference
-        question_vec = np.array(average_data["question"])
+    # Load the questions embeddings stats (list of dicts)
+    questions_embeddings_stats = dd.load.Json(data_file)
 
-        for variation in variations:
-            if variation == "question":
-                # Question is the reference point, so angle is 0
-                question_directions[variation] = 0.0
+    # Prepare a dictionary to hold the aggregated statistics
+    aggregated_stats = {}
+
+    # For each variation, collect all values for each metric
+    metrics = ["cosine_distance", "euclidean_distance", "angle_degrees"]
+    for v_idx, variation in enumerate(variations):
+        metric_values = {metric: [] for metric in metrics}
+        for q in questions_embeddings_stats:
+            # Each q["question"] is a list of dicts, one per variation, in the same order as variations
+            if "question" in q and len(q["question"]) > v_idx:
+                stats = q["question"][v_idx]
+                for metric in metrics:
+                    if metric in stats:
+                        metric_values[metric].append(stats[metric])
+        # Compute statistics for each metric
+        aggregated_stats[variation] = {}
+        for metric in metrics:
+            values = np.array(metric_values[metric])
+            if len(values) > 0:
+                aggregated_stats[variation][metric] = {
+                    "mean": float(np.mean(values)),
+                    "median": float(np.median(values)),
+                    "std": float(np.std(values)),
+                    "min": float(np.min(values)),
+                    "max": float(np.max(values))
+                }
             else:
-                # Calculate angle relative to the question vector
-                variation_vec = np.array(average_data[variation])
-                angle_degrees = calculate_relative_angle_degrees(question_vec, variation_vec)
-                question_directions[variation] = angle_degrees
+                aggregated_stats[variation][metric] = {
+                    "mean": None,
+                    "median": None,
+                    "std": None,
+                    "min": None,
+                    "max": None
+                }
 
-        directions.append(question_directions)
+    # Save the aggregated statistics
+    dd.save.Json(save_file, aggregated_stats, mode="w")
+    return True
 
-    # save directions
-    dd.save.Json("data/directions.json", directions, mode="w")
+def questions_embeddings_distances(
+    variations: list) -> bool:
+    """
+    """
+    # save file name
+    save_file_name = "results/questions/questions_embeddings_distances.json"
 
-    # get average directions for each variation type
-    average_directions = {}
-    for variation in variations:
-        list_directions = []
-        for direction in directions:
-            list_directions.append(direction[variation])
-        
-        # Calculate circular statistics for angles
-        # Convert to radians for circular mean calculation
-        angles_rad = np.radians(list_directions)
-        
-        # Calculate circular mean
-        cos_mean = np.mean(np.cos(angles_rad))
-        sin_mean = np.mean(np.sin(angles_rad))
-        circular_mean_rad = np.arctan2(sin_mean, cos_mean)
-        circular_mean_deg = np.degrees(circular_mean_rad)
-        if circular_mean_deg < 0:
-            circular_mean_deg += 360
-        
-        # Calculate circular standard deviation
-        R = np.sqrt(cos_mean**2 + sin_mean**2)  # Resultant length
-        circular_std_deg = np.degrees(np.sqrt(-2 * np.log(R)))
-        
-        average_directions[variation] = {
-            "average": circular_mean_deg,
-            "standard_deviation": circular_std_deg,
-            "median": np.median(list_directions),
-            "min": np.min(list_directions),
-            "max": np.max(list_directions)
-        }
+    # check if file exists
+    if os.path.exists(save_file_name):
+        print(f"Questions embeddings distances already exist in {save_file_name}. Skipping...")
+        return True
 
-    # save average directions
-    dd.save.Json("data/relative_directions_stats.json", average_directions, mode="w")
+    questions_embeddings = dd.load.Json(f"results/questions/questions_embeddings.json")
+    results = []
+    for question in questions_embeddings:
+        id = question["id"]
+        base_embedding = np.array(question["question"])  # "question" is the base embedding
 
+        variation_distances = []
+        for variation in variations:
+            embedding_vec = np.array(question[variation])
+            # Cosine distance
+            cosine_distance = 1 - np.dot(base_embedding, embedding_vec) / (np.linalg.norm(base_embedding) * np.linalg.norm(embedding_vec))
+            # Euclidean distance
+            euclidean_distance = np.linalg.norm(base_embedding - embedding_vec)
+            # Angle (degrees)
+            angle = calculate_angle_degrees(base_embedding, embedding_vec)
+            variation_distances.append({
+                "euclidean_distance": float(euclidean_distance),
+                "cosine_distance": float(cosine_distance),
+                "angle_degrees": float(angle),
+            })
+        results.append({
+            "id": id,
+            "question": variation_distances
+        })
+    dd.save.Json(save_file_name, results, mode="w")
+    return True
 
 def average_question_sentence_stats(
-    question_file: str,
     variations: list) -> bool:
     """
     """
 
+    # save file name
+    save_file_name = "results/questions/questions_lexical_distances_stats.json"
+
+    # check if file exists
+    if os.path.exists(save_file_name):
+        print(f"Questions lexical distances stats already exist in {save_file_name}. Skipping...")
+        return True
+
     # load question sentence stats
-    question_sentence_stats = dd.load.Json(question_file.replace(".json", "_lexical_stats.json"))
+    question_sentence_stats = dd.load.Json("results/questions/questions_lexical_distances.json")
 
     # average question sentence stats
     average_question_sentence_stats = {}
@@ -156,16 +183,15 @@ def average_question_sentence_stats(
                     count_values[c_metric].append(c[c_metric])
         # Compute averages
         average_question_sentence_stats[variation] = {
-            "distances": {m: float(np.mean(metric_values[m])) if metric_values[m] else None for m in metrics},
+            "question": {m: float(np.mean(metric_values[m])) if metric_values[m] else None for m in metrics},
             "counts": {c: float(np.mean(count_values[c])) if count_values[c] else None for c in count_metrics}
         }
     
-    dd.save.Json(question_file.replace(".json", "_average_lexical_stats.json"), average_question_sentence_stats, mode="w")
+    dd.save.Json(save_file_name, average_question_sentence_stats, mode="w")
     
     return True
 
-def question_sentence_stats(
-    questions_file: str,
+def question_sentence_distances(
     variations: list) -> bool:
     """
     The output is a json file with the following structure:
@@ -177,8 +203,7 @@ def question_sentence_stats(
             "levenshtein_distance": float,
             "indel_distance": float,
             "hamming_distance": int,
-            "jaro_distance": float,
-            "jaro_winkler_distance": float
+            "jaro_distance": float
         },
         "synonym_change": {
             ...
@@ -187,8 +212,16 @@ def question_sentence_stats(
     }
     """
 
+    # save file name
+    save_file_name = "results/questions/questions_lexical_distances.json"
+
+    # check if file exists
+    if os.path.exists(save_file_name):
+        print(f"Questions lexical distances already exist in {save_file_name}. Skipping...")
+        return True
+
     # load questions
-    questions = dd.load.Json(questions_file)
+    questions = dd.load.Json("data/questions.json")
 
     # word stats per question
     questions_stats = []
@@ -202,7 +235,6 @@ def question_sentence_stats(
                 "indel_distance": Levenshtein.ratio(og_question, question[variation]),
                 "hamming_distance": Levenshtein.hamming(og_question, question[variation]),
                 "jaro_distance": Levenshtein.jaro(og_question, question[variation]),
-                "jaro_winkler_distance": Levenshtein.jaro_winkler(og_question, question[variation])
             }
             counts = {
                 "word_count": len(question[variation].split()),
@@ -215,13 +247,13 @@ def question_sentence_stats(
         questions_stats.append(question_stats)
 
     # save questions stats
-    dd.save.Json(questions_file.replace(".json", "_lexical_stats.json"), questions_stats, mode="w")
+    dd.save.Json(save_file_name, questions_stats, mode="w")
 
     return True
 
 
-def average_answer_sentence_stats(
-    answer_file: str,
+def answer_sentence_stats(
+    llm_model: str,
     variations: list) -> bool:
     """
     Calculate average statistics for answer sentence stats according to the structure
@@ -229,12 +261,10 @@ def average_answer_sentence_stats(
     """
 
     # Load the answer stats file (should be *_lexical_stats.json)
-    stats_file = answer_file.replace(".json", "_lexical_stats.json")
-    answer_stats = dd.load.Json(stats_file)
+    answer_stats = dd.load.Json(f"results/{llm_model.replace(':', '_')}/answers_lexical_distances.json")
 
     # Prepare to accumulate metrics for each variation
-    metrics = {}
-    count_metrics = {}
+    metrics, count_metrics = {}, {}
 
     for entry in answer_stats:
         for variation in variations:
@@ -311,14 +341,13 @@ def average_answer_sentence_stats(
             average_metrics[variation]["counts"][count_key] = float(np.mean(values)) if values else 0.0
 
     # Save the average metrics to a file
-    avg_file = answer_file.replace(".json", "_average_lexical_stats.json")
+    avg_file = f"results/{llm_model.replace(':', '_')}/average_answers_lexical_distances.json"
     dd.save.Json(avg_file, average_metrics, mode="w")
     
     return True
 
-def answer_sentence_stats(
-    questions_file: str,
-    answers_file: str,
+def answer_sentence_distances(
+    llm_model: str,
     variations: list) -> bool:
     """
     The output is a json file with the following structure:
@@ -367,10 +396,10 @@ def answer_sentence_stats(
     }
     """
     # load questions
-    questions = dd.load.Json(questions_file)
+    questions = dd.load.Json("data/questions.json")
 
     # load answers
-    answers = dd.load.Json(answers_file)
+    answers = dd.load.Json(f"results/{llm_model.replace(':', '_')}/answers.json")
     answers_stats = []
     for answer in answers:
         answer_stats = {}
@@ -413,145 +442,50 @@ def answer_sentence_stats(
         answers_stats.append(answer_stats)
 
     # save answers stats
-    dd.save.Json(answers_file.replace(".json", "_lexical_stats.json"), answers_stats, mode="w")
+    dd.save.Json(f"results/{llm_model.replace(':', '_')}/answers_lexical_distances.json", answers_stats, mode="w")
 
     return True
 
 
-def average_embedding_distances(
-    distances_file: str,
-    distances_stats_file: str,
-    average_embeddings_file: str,
+def answers_embeddings_distances(
+    llm_model: str,
     variations: list) -> bool:
     """
     """
-    
-    # load average embeddings
-    average_embeddings = dd.load.Json(average_embeddings_file)
+    save_file_name = f"results/{llm_model.replace(':', '_')}/answers_embeddings_distances.json"
+    if os.path.exists(save_file_name):
+        print(f"Answers embeddings distances already exist in {save_file_name}. Skipping...")
+        return True
 
-    # start distances list
-    distances = []
+    questions_embeddings = dd.load.Json(f"results/questions/questions_embeddings.json")
+    answer_embeddings = dd.load.Json(f"results/{llm_model.replace(':', '_')}/answers_embeddings.json")
+    answer_embeddings_distances = []
+    for answer_embedding in answer_embeddings:
+        answer_embedding_distances = {}
+        answer_embedding_distances["id"] = answer_embedding["id"]
+        question_answer_embedding = np.mean(np.array(answer_embedding["question"]), axis=0)
 
-    # iterate over average embeddings
-    for average_data in average_embeddings:
-        question_distances = {}
-        question_distances["id"] = average_data["id"]
-
-        for variation in variations:
-            # Calculate distance between the two vectors
-            # First, get the difference vector, then calculate its norm
-            vector1 = np.array(average_data[variation])
-            vector2 = np.array(average_data["question"])
-            euclidean_distance = np.linalg.norm(vector1 - vector2)
-            cosine_distance = 1 - np.dot(vector1, vector2) / (np.linalg.norm(vector1) * np.linalg.norm(vector2))
-
-            question_distances[variation] = {
-                "euclidean_distance": euclidean_distance,
-                "cosine_distance": cosine_distance
-            }
-
-        distances.append(question_distances)
-
-    # save distances
-    dd.save.Json(distances_file, distances, mode="w")
-
-    # get average distances for each variation type
-    average_distances = {}
-    for variation in variations:
-        list_euclidean_distances, list_cosine_distances = [], []
-        for distance in distances:
-            list_euclidean_distances.append(distance[variation]["euclidean_distance"])
-            list_cosine_distances.append(distance[variation]["cosine_distance"])
-        
-        average_distances[variation] = {
-            "euclidean_distance": {
-                "average": np.mean(list_euclidean_distances),
-                "standard_deviation": np.std(list_euclidean_distances),
-                "median": np.median(list_euclidean_distances),
-                "min": np.min(list_euclidean_distances),
-                "max": np.max(list_euclidean_distances)
-            },
-            "cosine_distance": {
-                "average": np.mean(list_cosine_distances),
-                "standard_deviation": np.std(list_cosine_distances),
-                "median": np.median(list_cosine_distances),
-                "min": np.min(list_cosine_distances),
-                "max": np.max(list_cosine_distances)
-            }
-        }
-
-    # save average distances
-    dd.save.Json(distances_stats_file, average_distances, mode="w")
-
-    return True
-
-
-def average_embedding_directions(
-    directions_file: str,
-    directions_stats_file: str,
-    average_embeddings_file: str,
-    variations: list) -> bool:
-    """
-    """
-
-    # load average embeddings
-    average_embeddings = dd.load.Json(average_embeddings_file)
-
-    def calculate_angle_degrees(vec1, vec2):
-        """
-        Calculate the angle between two vectors in degrees (0 to 360)
-        """
-        # Normalize vectors
-        vec1_norm = vec1 / np.linalg.norm(vec1)
-        vec2_norm = vec2 / np.linalg.norm(vec2)
-        
-        # Calculate cosine of angle
-        cos_angle = np.clip(np.dot(vec1_norm, vec2_norm), -1.0, 1.0)
-        
-        # Calculate angle in radians
-        angle_rad = np.arccos(cos_angle)
-        
-        # Convert to degrees
-        angle_deg = np.degrees(angle_rad)
-        
-        return angle_deg
-
-    # start directions list
-    directions = []
-
-    # iterate over average embeddings
-    for average_data in average_embeddings:
-        question_directions = {}
-        question_directions["id"] = average_data["id"]
+        # question_dict = next(q for q in questions_embeddings if q["id"] == answer_embedding["id"])
+        # question_embedding = question_dict["question"]
 
         for variation in variations:
-            # Calculate angle between the two vectors
-            vector1 = np.array(average_data["question"])
-            vector2 = np.array(average_data[variation])
-            angle_degrees = calculate_angle_degrees(vector1, vector2)
-            question_directions[variation] = angle_degrees
+            answer_embedding_distances[variation] = []
+            for i in range(len(answer_embedding[variation])):
+                current_embedding = np.array(answer_embedding[variation][i])
+                euclidean_distance = np.linalg.norm(current_embedding - question_answer_embedding)
+                cosine_distance = 1 - np.dot(current_embedding, question_answer_embedding) / (np.linalg.norm(current_embedding) * np.linalg.norm(question_answer_embedding))
+                angle_degrees = calculate_angle_degrees(current_embedding, question_answer_embedding)
 
-        directions.append(question_directions)
+                # euclidean_distance = np.linalg.norm(current_embedding - question_embedding)
+                # cosine_distance = 1 - np.dot(current_embedding, question_embedding) / (np.linalg.norm(current_embedding) * np.linalg.norm(question_embedding))
+                # angle_degrees = calculate_angle_degrees(current_embedding, question_embedding)
 
-    # save directions
-    dd.save.Json(directions_file, directions, mode="w")
-
-    # get average directions for each variation type
-    average_directions = {}
-    for variation in variations:
-        list_directions = []
-        for direction in directions:
-            list_directions.append(direction[variation])
-        
-        average_directions[variation] = {
-            "average": np.mean(list_directions),
-            "standard_deviation": np.std(list_directions),
-            "median": np.median(list_directions),
-            "min": np.min(list_directions),
-            "max": np.max(list_directions)
-        }
-
-    # save average directions
-    dd.save.Json(directions_stats_file, average_directions, mode="w")
-
+                answer_embedding_distances[variation].append({
+                    "euclidean_distance": euclidean_distance,
+                    "cosine_distance": cosine_distance,
+                    "angle_degrees": angle_degrees
+                })
+        answer_embeddings_distances.append(answer_embedding_distances)
+    dd.save.Json(save_file_name, answer_embeddings_distances, mode="w")
     return True
+
