@@ -1,13 +1,5 @@
 [
     {
-        "id": 0,
-        "question": "*",
-        "synonym_change": "change one word in the question with a synonym",
-        "antonym_change": "change one word in the question with an antonym",
-        "paraphrase_change": "paraphrase the question",
-        "letter_change": "change one letter in the question"
-    },
-    {
         "id": 1,
         "question": "why is the sky blue?",
         "synonym_change": "why is the sky azure?",
