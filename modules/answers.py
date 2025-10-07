@@ -7,7 +7,7 @@ import datadocket as dd
 from modules.llm_utils import llm
 from modules.embedding_utils import embedding
 
-def _get_answers_(
+def get_answers(
     iterations: int, 
     llm_model: str, 
     system_prompt: str, 
@@ -26,12 +26,11 @@ def _get_answers_(
     """
     # files to use
     questions_file = "data/questions.json"
-    embeddings_file = f"data/{llm_model.replace(':', '_')}/embeddings.json"
-    answers_file = f"data/{llm_model.replace(':', '_')}/answers.json"
+    embeddings_file = f"results/{llm_model.replace(':', '_')}/answers_embeddings.json"
+    answers_file = f"results/{llm_model.replace(':', '_')}/answers.json"
 
     # load questions from data/questions.json except for * which contains the definitions
     questions = dd.load.Json(questions_file)
-    questions = [q for q in questions if q.get("question") != "*"]
 
     # load answers from data/answers.json if it exists
     if os.path.exists(answers_file):
@@ -42,7 +41,7 @@ def _get_answers_(
         ids_ready = []
 
     # iterate over questions
-    for question in tqdm(questions, desc="Questions"):
+    for question in tqdm(questions, desc=f"Generating answers with {llm_model}"):
         # start empty dicts
         question_answers_embeddings, question_answers_text = {}, {}
 
