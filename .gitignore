@@ -1,4 +1,5 @@
 venv_se
 __pycache__
-data/gemma3:270m/.
-pca_model/.
+pca_model/
+plots/
+results/
