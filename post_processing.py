@@ -157,8 +157,7 @@ def average_question_sentence_stats(
         "levenshtein_distance",
         "indel_distance",
         "hamming_distance",
-        "jaro_distance",
-        "jaro_winkler_distance"
+        "jaro_distance"
     ]
     count_metrics = [
         "word_count",
@@ -198,8 +197,6 @@ def question_sentence_distances(
     {
         "id": int,
         "question": {
-            "word_count": int,
-            "character_count": int,
             "levenshtein_distance": float,
             "indel_distance": float,
             "hamming_distance": int,
@@ -278,14 +275,12 @@ def answer_sentence_stats(
                         "indel_distance": [],
                         "hamming_distance": [],
                         "jaro_distance": [],
-                        "jaro_winkler_distance": []
                     },
                     "variation": {
                         "levenshtein_distance": [],
                         "indel_distance": [],
                         "hamming_distance": [],
                         "jaro_distance": [],
-                        "jaro_winkler_distance": []
                     }
                 }
                 count_metrics[variation] = {
@@ -362,8 +357,7 @@ def answer_sentence_distances(
                         "levenshtein_distance": float,
                         "indel_distance": float,
                         "hamming_distance": int,
-                        "jaro_distance": float,
-                        "jaro_winkler_distance": float
+                        "jaro_distance": float
                     },
                     "variation": {
                         ...
@@ -419,8 +413,7 @@ def answer_sentence_distances(
                         "levenshtein_distance": Levenshtein.distance(og_question, answer[variation][i]),
                         "indel_distance": Levenshtein.ratio(og_question, answer[variation]),
                         "hamming_distance": Levenshtein.hamming(og_question, answer[variation][i]),
-                        "jaro_distance": Levenshtein.jaro(og_question, answer[variation][i]),
-                        "jaro_winkler_distance": Levenshtein.jaro_winkler(og_question, answer[variation][i])
+                        "jaro_distance": Levenshtein.jaro(og_question, answer[variation][i])
                     }
                 
                 question_variation = question_match[variation]
@@ -428,8 +421,7 @@ def answer_sentence_distances(
                         "levenshtein_distance": Levenshtein.distance(question_variation, answer[variation][i]),
                         "indel_distance": Levenshtein.ratio(question_variation, answer[variation][i]),
                         "hamming_distance": Levenshtein.hamming(question_variation, answer[variation][i]),
-                        "jaro_distance": Levenshtein.jaro(question_variation, answer[variation][i]),
-                        "jaro_winkler_distance": Levenshtein.jaro_winkler(question_variation, answer[variation][i])
+                        "jaro_distance": Levenshtein.jaro(question_variation, answer[variation][i])
                     }
 
                 temp_variation_i = {

@@ -334,16 +334,71 @@ def directions_plot(
     return True
 
 
-def stats_boxplot(
+def stats_boxplot_2(
     variations: list,
     show: bool = False,
     variable_type: str = "cosine_distance",
+    hide_outliers: bool = False,
     data_file: str = "results/questions/questions_embeddings_distances_stats.json",
     save_file: str = "results/questions/plots/questions_embeddings_distances_boxplot.png") -> bool:
     """
     Create a boxplot using statistical summary data (min, Q1, median, Q3, max)
     """
-    colors: list = ['lightcoral', 'lightgreen', 'gold', 'plum']
+
+    # load statistics data
+    stats_data = dd.load.Json(data_file)
+
+    # Create boxplot visualization, except for the "question"
+    plt.figure(figsize=(6, 6))
+    
+    # Prepare data for boxplot using statistical summaries
+    boxplot_data = []
+    means = []
+
+    for variation in variations:
+        data = []
+        for element in stats_data:
+            for answer in element[variation]:
+                data.append(answer[variable_type])
+        boxplot_data.append(data)
+        means.append(np.mean(data))
+
+    plt.boxplot(
+        boxplot_data,
+        labels=variations,
+        patch_artist=True,
+        boxprops=dict(facecolor='grey', alpha=0.7),
+        medianprops=dict(color='red', linewidth=2),
+        whiskerprops=dict(color='black', linewidth=1.5),
+        capprops=dict(color='black', linewidth=1.5)
+    )
+    
+    # Add mean points
+    x_positions = range(1, len(variations) + 1)
+    plt.scatter(x_positions, means, color='darkblue', s=100, 
+                marker='o', label='Mean', zorder=5)
+
+    plt.ylabel(variable_type.replace('_', ' ').title(), fontsize=12)
+    plt.title(f"{variable_type.replace('_', ' ').title()} by Variation Type", fontsize=14)
+    plt.grid(True, alpha=0.3)
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig(save_file, bbox_inches='tight', dpi=300)
+    if show:
+        plt.show()
+    return True
+
+
+def stats_boxplot(
+    variations: list,
+    show: bool = False,
+    variable_type: str = "cosine_distance",
+    hide_outliers: bool = False,
+    data_file: str = "results/questions/questions_embeddings_distances_stats.json",
+    save_file: str = "results/questions/plots/questions_embeddings_distances_boxplot.png") -> bool:
+    """
+    Create a boxplot using statistical summary data (min, Q1, median, Q3, max)
+    """
 
     # load statistics data
     stats_data = dd.load.Json(data_file)
@@ -364,7 +419,9 @@ def stats_boxplot(
         # Approximate Q1 and Q3 from min, median, max
         q1_approx = stats["min"] + (stats["median"] - stats["min"]) * 0.25
         q3_approx = stats["median"] + (stats["max"] - stats["median"]) * 0.25
-        
+        if hide_outliers:
+            q1_approx = stats["min"]
+            q3_approx = stats["max"]
         boxplot_data.append([
             stats["min"],      # Lower whisker
             q1_approx,         # Q1
@@ -378,15 +435,11 @@ def stats_boxplot(
         boxplot_data,
         labels=variation_names,
         patch_artist=True,
-        boxprops=dict(facecolor='lightblue', alpha=0.7),
+        boxprops=dict(facecolor='grey', alpha=0.7),
         medianprops=dict(color='red', linewidth=2),
         whiskerprops=dict(color='black', linewidth=1.5),
         capprops=dict(color='black', linewidth=1.5)
     )
-    
-    # Color the boxes differently
-    for patch, color in zip(bp['boxes'], colors):
-        patch.set_facecolor(color)
     
     # Add mean points
     x_positions = range(1, len(variation_names) + 1)
@@ -426,7 +479,7 @@ def questions_lexical_stats_plot(
     
     # Plot 1: Normalized Distance Metrics (Left)
     distance_metrics = ['levenshtein_distance', 'indel_distance', 'hamming_distance', 
-                       'jaro_distance', 'jaro_winkler_distance']
+                       'jaro_distance']
     
     # Calculate normalization factors (max values across all variations)
     max_values = {}
