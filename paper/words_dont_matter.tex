@@ -1,0 +1,250 @@
+% !TeX spellcheck = en_GB
+% !TeX program = lualatex
+%
+% v 2.3  Feb 2019   Volker RW Schaa
+%		# all References with DOIs have their period/full stop before the DOI (after pp. or year)
+%		# in the author/affiliation block all ZIP codes in square brackets removed as it was not %         understood as optional parameter and ZIP codes had bin put in brackets
+%       # References to the current IPAC are changed to "IPAC'19, Melbourne, Australia"
+%       # font for ‘url’ style changed to ‘newtxtt’ as it is easier to distinguish "O" and "0"
+%
+\documentclass[a4paper,
+               %boxit,        % check whether paper is inside correct margins
+               %titlepage,    % separate title page
+               %refpage       % separate references
+               %biblatex,     % biblatex is used
+               %keeplastbox,   % flushend option: not to un-indent last line in References
+               %nospread,     % flushend option: do not fill with whitespace to balance columns
+               %hyphens,      % allow \url to hyphenate at "-" (hyphens)
+               %xetex,        % use XeLaTeX to process the file
+               %luatex,       % use LuaLaTeX to process the file
+               ]{jacow}
+%
+% ONLY FOR \footnote in table/tabular
+%
+\usepackage{pdfpages,multirow,ragged2e} %
+\usepackage{array}
+\usepackage{makecell}
+
+\renewcommand\cellset{\renewcommand\arraystretch{0.5}%
+\setlength\extrarowheight{0pt}}
+%
+% CHANGE SEQUENCE OF GRAPHICS EXTENSION TO BE EMBEDDED
+% ----------------------------------------------------
+% test for XeTeX where the sequence is by default eps-> pdf, jpg, png, pdf, ...
+%    and the JACoW template provides JACpic2v3.eps and JACpic2v3.jpg which
+%    might generates errors, therefore PNG and JPG first
+%
+\makeatletter%
+	\ifboolexpr{bool{xetex}}
+	 {\renewcommand{\Gin@extensions}{.pdf,%
+	                    .png,.jpg,.bmp,.pict,.tif,.psd,.mac,.sga,.tga,.gif,%
+	                    .eps,.ps,%
+	                    }}{}
+\makeatother
+
+% CHECK FOR XeTeX/LuaTeX BEFORE DEFINING AN INPUT ENCODING
+% --------------------------------------------------------
+%   utf8  is default for XeTeX/LuaTeX
+%   utf8  in LaTeX only realises a small portion of codes
+%
+\ifboolexpr{bool{xetex} or bool{luatex}} % test for XeTeX/LuaTeX
+ {}                                      % input encoding is utf8 by default
+ {\usepackage[utf8]{inputenc}}           % switch to utf8
+
+\usepackage[USenglish]{babel}
+
+%
+% if BibLaTeX is used
+%
+\ifboolexpr{bool{jacowbiblatex}}%
+ {%
+  \addbibresource{jacow-test.bib}
+  \addbibresource{biblatex-examples.bib}
+ }{}
+\listfiles
+
+%%
+%%   Lengths for the spaces in the title
+%%   \setlength\titleblockstartskip{..}  %before title, default 3pt
+%%   \setlength\titleblockmiddleskip{..} %between title + author, default 1em
+%%   \setlength\titleblockendskip{..}    %afterauthor, default 1em
+
+\begin{document}
+
+\title{Words don't matter: effects in large language model unstructured responses by minor prompt lexical changes}
+
+\author{Enric Grau-Luque\thanks{etgrau@uc.cl}, independent researcher.}
+	
+\maketitle
+
+%
+\begin{abstract}
+Prompt engineering has become an essential skill for AI engineers and data scientists, as well-crafted prompts enable better results and optimal costs. While research has extensively studied the effects of different prompt aspects—focusing on structures, formatting, and strategies—very little work has explored the impact of minor lexical changes, such as single character or word modifications. Although it is well-documented that such changes affect model outputs in diverse ways, most studies compare outputs by measuring accuracy or structure. However, little research has examined how small changes affect the meaning of unstructured outputs while accounting for the stochastic outputs of large language models (LLMs). This work performs experiments to explore these effects systematically with several examples and model sizes. The results suggest that paraphrasing or word selection changes do not affect the answer's substance, but special attention should be paid to typos and correct negations and affirmations.
+\end{abstract}
+
+\section{INTRODUCTION}
+Large Language Models (LLMs) have revolutionized natural language processing and are increasingly deployed across diverse applications, from content generation to decision support systems. As these models become more prevalent in critical applications, understanding their robustness and sensitivity to input variations has become paramount. A growing body of research has revealed that LLMs exhibit surprising sensitivity to seemingly minor changes or in their input prompts, often producing substantially different outputs in response to imperceptible variations \cite{sclar2024}, \cite{chatterjee2024}, \cite{zhan2024}.
+
+The phenomenon of prompt sensitivity has been extensively documented across various dimensions. Salinas et al. \cite{salinas2024} demonstrated that even minimal perturbations, such as adding a space at the end of a prompt, can cause LLMs to change their classification decisions. Sclar et al. \cite{sclar2024} found that LLMs can exhibit performance differences of up to 76 accuracy points when evaluated with different prompt formats, highlighting the critical importance of prompt design choices. Similarly, Zhan et al. \cite{zhan2024} revealed that LLMs are over-sensitive to lexical variations in task instructions, even when these variations are imperceptible to humans. Chatterjee et al. \cite{chatterjee2024} developed POSIX, a novel PrOmpt Sensitivity IndeX that quantifies the relative change in loglikelihood when replacing prompts with intent-preserving alternatives, finding that paraphrasing results in the highest sensitivity in open-ended generation tasks. Hu et al. \cite{hu2024} demonstrated that even short prefixes can steer RAG-based LLMs toward factually incorrect answers, while Sahoo et al. \cite{sahoo2024} provided a comprehensive survey of prompt engineering techniques, emphasizing the need for a systematic understanding of prompt design methodologies. While this existing research has primarily focused on structured tasks and classification problems, there remains a significant gap in understanding how minor lexical changes affect the semantic content and meaning of unstructured LLM responses. Most studies have concentrated on measuring accuracy, performance metrics, or structural changes in outputs, but few have systematically examined the semantic implications of prompt variations in open-ended generation tasks.
+This work addresses this gap by conducting a comprehensive analysis of how minor lexical modifications to single-sentence questions affect the semantic content of LLM responses. Specifically, this work investigates four types of lexical variations: (1) synonym substitution, where a word is replaced with a semantically equivalent term; (2) antonym substitution, where a word is replaced with its opposite; (3) paraphrasing, where the entire question is rephrased while preserving meaning; and (4) single-letter typos, where one character is altered to create a misspelling.
+To quantify the impact of these variations, a dual-metric approach is employed, capturing both semantic and lexical differences. First, embedding-based semantic differences are measured using an open-source sentence embedding model to assess how the meaning of responses changes across prompt variations. Second, lexical differences are analyzed to understand the surface-level changes in word choice, sentence structure, and linguistic patterns. This experimental design systematically generates variations of single-sentence questions and collects multiple responses from LLMs to account for their stochastic nature. By analyzing both embedding distances and lexical metrics, a comprehensive view of how minor prompt changes propagate through the model's generation process and manifest in the final outputs is provided.
+
+The findings from this study have important implications for prompt engineering practices, model evaluation methodologies, and the deployment of LLMs in real-world applications where robustness to input variations is crucial. Understanding the relationship between prompt sensitivity and semantic stability is essential for developing more reliable and trustworthy language models.
+
+\section{Methodology}
+\begin{table}[!hbt]
+   \centering
+   \caption{Examples of question variations. Changes are highlighted in bold.}
+   \begin{tabular}{lcc}
+       \toprule
+       \textbf{Variation} & \textbf{Example}\\
+       \midrule
+           Original         & \makecell{why did the chicken \\cross the road?}\\ \\
+          Synonym       & \makecell{why did the chicken \\cross the \textbf{street?}}\\ \\
+           Antonym        & \makecell{why \textbf{didn't} the chicken \\cross the road?}\\ \\
+           Paraphrasing       & \makecell{\textbf{what was the reason for the } \\ \textbf{chicken crossing the road?}}\\ \\
+           Single-letter typo       & \makecell{why did the chicken \\cross the \textbf{roae?}}\\
+       \bottomrule
+   \end{tabular}
+   \label{tab:questioni_variations}
+\end{table}
+\subsection{Large Language Models}
+For this experiment, the family of Gemma3 models were selected. This is due to the different number of parameters they offer: 270 million (gemma3:270m), 1 billion (gemma3:1b), 4 billion (gemma3:4b), 12 billion (gemma3:12b) and 27 billion (gemma3:27b). This allows to test how model size affects the results. For all models, the system instructions was simply "Answer the questions in one sentence" to indicate the model to respond in an unstructured way that is also comparable for each iteration.
+
+\subsection{Embedding Model}
+The embedding model used is Nomic Embed \cite{zach2024}. This is an open-source model widely used, showing good and consistent results. The embedding model was not changed since it was a tool to measure output differences only.
+
+\subsection{Questions, variations, and answers}
+A set of one hundred questions was created, each question with four different variations: (1) synonym substitution, where a word is replaced with a semantically equivalent term; (2) antonym substitution, where a word is replaced with its opposite; (3) paraphrasing, where the entire question is rephrased while preserving meaning; and (4) single-letter typos, where one character is altered to create a misspelling. Examples of these can be seen in Table~\ref{tab:questioni_variations}. These were developed using Gemini Pro and manually revised for quality assurance, making sure that each variation fits each type.
+For each question and variation, a set of ten answers (LLM calls) was performed.
+
+\subsection{Metrics}
+Semantic and lexical properties were measured to contrast the different dimensions of the answers. Commonly used lexical distances were measured for each question and answer: Levenshtein distance, Indel distance, Hamming distance, and Jaro distance. For all questions, variations, and answers, these distances are calculated against the original question and specific variation. For example, for each variation V of a question Q, the distances (V,Q) are calculated, and for an answer A to the variation V of question Q, the distances (A,V) and (A,Q) are calculated.
+
+For semantics, the embedding was obtained for each question, variation, and answer. With the embedding, cosine distance, Euclidean distance, and angle were calculated against reference points. For the variations and answers, these metrics were calculated against the corresponding original question to keep the same reference point. For example, for a variation V of a question Q, the distances and angle for (V,Q) were calculated, and for any answer A, the distances and angle (A,Q) were calculated.
+
+Finally, for each question, variation, and answer, their word count and character count were also calculated.
+
+\section{Results}
+
+\subsection{Embedding differences}
+The models demonstrated strong semantic robustness against prompt variations that preserve meaning, such as synonym changes, paraphrasing, and single-letter typos. Figure ~\ref{fig:img1} shows the cosine distance between the embeddings of the answers generated from varied prompts and the answers from the original, unvaried question. Across all model sizes, the median cosine distance for synonym, paraphrase, and letter changes is consistently low, indicating a high degree of semantic similarity. This suggests the models correctly identified the core intent of the question despite superficial changes to the prompt.
+
+Conversely, the introduction of an antonym consistently produced the largest semantic shift in the models' answers. The cosine distance for the antonym variation is significantly higher than all other variations across all models. This is the expected behavior, as changing a key term to its opposite fundamentally alters the meaning of the question and, therefore, the appropriate answer.
+
+When comparing models by size shows that when the number of parameters increases from 270 million to 27 billion, the models exhibit a more pronounced reaction to antonyms. The median cosine distance for the antonym change category slightly increases with model size. This suggests that larger models generate answers that are more semantically distinct or "opposite" when faced with negation, indicating a more nuanced understanding of the prompt's altered meaning.
+
+\begin{table*}[!hbt]
+   \centering
+   \caption{Answers of each model to the question \textbf{why do we have tides?} with a single character typo which reads \textbf{why do we have \emph{todes}?} and synonym change being \textbf{Why do we have \emph{tidal flows}?}. The typo makes the phrase to have no meaning, making the models guess what the user's intention is.}
+   \begin{tabular}{ c  c  c }
+       \toprule
+       \textbf{Model} & \textbf{Variation} & \textbf{Answer}\\
+       \midrule
+           gemma3:270m & \makecell{Original} & \makecell{Tides are caused by the gravitational pull of the Moon and Earth on the oceans.}\\ \\
+           gemma3:270m & \makecell{Typo}     & \makecell{The answer is that we have todes for their ability to prevent the spread of diseases.} \\ \\
+           gemma3:270m & \makecell{Synonym}  & \makecell{Tidal flows are caused by the Earth's rotation and the motion of the oceans.} \\ \\
+           gemma3:1b & \makecell{Original}   & \makecell{Tides are caused by the gravitational pull of the Moon and the Sun affecting the Earth's \\oceans, creating a bulge on the side facing the moon and a bulge on the opposite side.} \\ \\ 
+           gemma3:1b & \makecell{Typo}       & \makecell{Todes are a traditional German sausage made with a mixture of pork, beef, and veal, \\and are traditionally eaten as a festive dish during Christmas and New Year to celebrate a \\bountiful harvest and good fortune.} \\ \\
+           gemma3:1b & \makecell{Synonym}  & \makecell{Tidal flows are caused by the gravitational pull of the moon and sun creating a bulge\\ of water on each side of Earth, causing the water to roll towards the center of the Earth.} \\ \\
+           gemma3:4b & \makecell{Original}   & \makecell{We have tides primarily due to the gravitational pull of the Moon and, to a lesser \\extent, the Sun, which create bulges of water on Earth's surface.} \\ \\ 
+           gemma3:4b & \makecell{Typo}       & \makecell{We experience death as a natural and inevitable part of the biological process, marking \\the end of a living organism's life cycle.} \\ \\
+           gemma3:4b & \makecell{Synonym}  & \makecell{Tidal flows are caused by the gravitational pull of the Moon and, to a lesser extent, \\the Sun, which creates bulges of water on Earth\u2019s surface as the tides rise and fall.} \\ \\
+           gemma3:12b & \makecell{Original}  & \makecell{We have tides primarily because the gravitational pull of the moon and, to a lesser \\extent, the sun, pulls on Earth's oceans, creating bulges of water.} \\ \\ 
+           gemma3:12b & \makecell{Typo}      & \makecell{We have todes to ensure a fair and orderly way to determine a winner when there's a\\ tie in an election or competition.} \\ \\
+           gemma3:12b & \makecell{Synonym}  & \makecell{Tidal flows are primarily caused by the gravitational pull of the Moon and,\\ to a lesser extent, the Sun, on Earth's oceans.} \\ \\
+           gemma3:27b & \makecell{Original}  & \makecell{Tides are caused by the gravitational pull of the Moon and Sun on Earth's oceans, \\most notably the Moon's pull.} \\ \\ 
+           gemma3:27b & \makecell{Typo}      & \makecell{Toes help with balance, propulsion during walking and running, and provide sensory\\ feedback for navigating uneven terrain.} \\ \\
+           gemma3:27b & \makecell{Synonym}  & \makecell{Tidal flows are caused by the gravitational pull of the Moon and Sun on Earth's oceans,\\ combined with the Earth's rotation and the shape of coastlines.} \\ \\
+       \bottomrule
+   \end{tabular}
+   \label{tab:typo_examples}
+\end{table*}
+
+A notable trend observable in Figure~\ref{fig:img1} is that the letter change variation (typo) shows the most dramatic change in behavior across model sizes. The smallest model is highly sensitive to typos, generating answers with a semantic distance considerably greater than that of synonym or paraphrase variations and approaching the deviation caused by antonyms. This sensitivity, however, progressively decreases with model scale; the largest model demonstrates the most robustness, treating typos as minor errors and producing answers with the smallest average distance. Interestingly, for all but the smallest model, the typo variation exhibits the longest tail of outliers. This occurs because a single-letter change can have unpredictable consequences: it may create a nonsensical word, forcing the model to guess the user's intent, or it might accidentally form a completely different valid word, fundamentally altering the question's meaning. This ambiguity leads to high variance, as the model may guess correctly in some instances but generate a completely unrelated answer in others. For example, as shown in Table~\ref{tab:typo_examples}, a typo changing tides to \emph{todes} could be correctly interpreted as \emph{tides}, or it could be misinterpreted as \emph{toes} or a possessive form of \emph{todo} (from a \emph{todo list}), leading to highly divergent responses.
+
+In contrast, the semantic difference between an answer to the original question and one prompted by a synonym variation is negligible. The core content and meaning of the answers remain the same, with minor lexical differences often confined to the introductory phrasing. Table~\ref{tab:typo_examples} illustrates this with an example where \emph{tide} is substituted for \emph{tidal flow}. The resulting answers are nearly identical in substance, with the main difference being the beginnings with "Tides are..." and "Tidal flows are..." respectively. This minimal deviation underscores the models' strong grasp of semantic equivalence. It is also important to note that while answers to synonym variations are semantically very close to the original, answers to paraphrased questions are often even closer, confirming that the impact of both meaning-preserving variation types is insignificant.
+
+This spatial relationship is visualized in the polar plots of Euclidean distance in Figure~\ref{fig:img2}. The average embeddings for answers from synonym, paraphrase, and letter-change prompts are normally closer to the origin (representing the answer to the original question). The embedding for the antonym variation, however, is a clear outlier, positioned furthest from the center.
+
+\begin{figure*}[!tbh]
+    \centering
+    \includegraphics*[width=\textwidth]{images/img1}
+    \caption{Boxplots showing the distribution of the cosine distance of questions (Questions) and the answers (gemma3:*) to the original question. All the answers are aggregated (one thousand in total)}
+    \label{fig:img1}
+\end{figure*}
+
+\begin{figure*}[!tbh]
+    \centering
+    \includegraphics*[width=\textwidth]{images/img2}
+    \caption{Scatter plot showing the average Euclidean distance and angle decompositions of the embedding vectors with respect to the original, in reference to the original question. These figures do not make too much sense, as the angle and Euclidean distance between two vectors in a 768-dimensional space are ethereal. They do give a sense of distance and are cool to look at.}
+    \label{fig:img2}
+\end{figure*}
+
+\subsection{Semantic differences}
+The lexical distance metrics, shown in Figure~\ref{fig:img3}, reveal that the models generate novel sentences rather than merely modifying the input prompt. The Levenshtein, Indel, and Hamming distances between the generated answers and the original question text are high, while the Jaro similarity is consistently low (around 0.6). This confirms the models are not performing an extractive or simple rewrite task.
+
+The primary factor influencing these lexical distance scores is model size, which directly correlates with answer length. The black dashed line in each plot represents the lexical distance of the prompt variation itself from the original question. While paraphrasing introduces significant lexical change to the prompt, this does not uniquely influence the lexical distance of the answer. Instead, the colored lines show a clear stratification where the smallest model (gemma3:270m) has the lowest lexical distance, and the largest model (gemma3:27b) has the highest. This is a direct consequence of the answer length, as longer responses naturally have a greater edit distance from the original, shorter question.
+
+The analysis of character and word counts in Figure~\ref{fig:img4} reinforces the above, with the length of the generated answer being a direct function of the model's parameter count. The gemma3:270m model consistently produced the shortest answers, while the gemma3:27b model produced the longest. The intermediate models are ordered perfectly between these two extremes according to their size.
+
+Furthermore, for any given model, the output length remained remarkably stable across all prompt variation types. The variation in the length of the input prompt (for instance, paraphrased questions being longer, as shown by the black dashed line) had no discernible effect on the length of the model's output. This indicates that the verbosity of the models in this family is an intrinsic characteristic tied to their scale rather than a reaction to the structure of the input prompt.
+
+\begin{figure*}[!tbh]
+    \centering
+    \includegraphics*[width=\textwidth]{images/img3}
+    \caption{Lexical distances for questions and answers for each model.}
+    \label{fig:img3}
+\end{figure*}
+
+\begin{figure*}[!tbh]
+    \centering
+    \includegraphics*[width=\textwidth]{images/img4}
+    \caption{Character count and word count for each variation type by model size.}
+    \label{fig:img4}
+\end{figure*}
+
+\section{CONCLUSIONS}
+This study systematically investigated the prompt sensitivity of large language models by analyzing their responses to controlled prompt variations across five different parameter scales. By introducing synonym and antonym substitutions, paraphrasing, and single-letter typos to a standard set of questions, an evaluation of the resulting outputs on semantic, lexical, and structural grounds, yield clear insights into model robustness and the significant impact of scale. The findings reveal that all models, regardless of size, are remarkably resilient to meaning-preserving variations like synonyms and paraphrasing, consistently grasping the user's underlying intent. Conversely, they correctly identify meaning-altering changes of antonyms, producing semantically distinct answers as expected. In contrast, typos appear to be of higher risk, with the potential to completely change the meaning of the question.
+
+The model size plays a crucial role in both semantic nuance and output structure. As model size increases, the sensitivity to negation becomes more pronounced, suggesting larger models possess a more refined understanding of language. At the same time, resistance to typos increases with the size of the model, though with specific cases, typos will inevitably change the meaning of the question. Simultaneously, answer verbosity is a direct function of model scale; larger models consistently generate longer responses, a behavior independent of the input prompt's length or complexity. This demonstrates that while modern LLMs are robust to syntactic noise, they are highly sensitive to semantic signals, and their verbosity is an intrinsic characteristic of their size.
+
+These results have direct implications for both developers and users. For practitioners, the choice of model size presents a clear trade-off: smaller models offer conciseness suitable for chatbots or data extraction, while larger models provide the nuance required for complex analytical tasks. The models' general robustness is a boon for application design, as it reduces the need for strict input validation. For users, these findings should reshape prompt engineering strategies. There is less need to worry about perfect phrasing or minor typos, as the models are adept at interpreting intent. Instead, the focus should be on the precise and deliberate use of meaning-altering terms like negations and avoiding typos. Furthermore, if a concise answer is desired from a large model, it must be explicitly requested, as brevity in the prompt will not be mirrored in the response. Ultimately, effective prompting hinges on conveying clear semantic intent while actively managing the model's inherent structural behaviors.
+
+%
+% only for "biblatex"
+%
+\ifboolexpr{bool{jacowbiblatex}}%
+	{\printbibliography}%
+	{%
+	% "biblatex" is not used, go the "manual" way
+	
+	%\begin{thebibliography}{99}   % Use for  10-99  references
+	\begin{thebibliography}{9} % Use for 1-9 references
+	
+    \bibitem{hu2024}
+		Z. Hu, C. Wang, Y. Shu, H.-Y. Paik, and L. Zhu, \textit{Prompt Perturbation in Retrieval-Augmented Generation based Large Language Models}, in Proc. 30th ACM SIGKDD Conf. Knowledge Discovery Data Mining, Aug. 2024, pp. 1119--1130.
+
+    \bibitem{chatterjee2024}
+    		A. Chatterjee, H. S. V. N. S. K. Renduchintala, S. Bhatia, and T. Chakraborty, \textit{POSIX: A Prompt Sensitivity Index For Large Language Models}, arXiv preprint arXiv:2410.02185, 2024.
+    
+    \bibitem{sahoo2025}
+    		P. Sahoo, A. K. Singh, S. Saha, V. Jain, S. Mondal, and A. Chadha, \textit{A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications}, arXiv preprint arXiv:2402.07927, 2025.
+    
+    \bibitem{sclar2024}
+    		M. Sclar, Y. Choi, Y. Tsvetkov, and A. Suhr, \textit{Quantifying Language Models' Sensitivity to Spurious Features in Prompt Design or: How I learned to start worrying about prompt formatting}, arXiv preprint arXiv:2310.11324, 2024.
+    
+    \bibitem{salinas2024}
+    		A. Salinas and F. Morstatter, \textit{The Butterfly Effect of Altering Prompts: How Small Changes and Jailbreaks Affect Large Language Model Performance}, arXiv preprint arXiv:2401.03729, 2024.
+    
+    \bibitem{zhan2024}
+    		P. Zhan, Z. Xu, Q. Tan, J. Song, and R. Xie, \textit{Unveiling the Lexical Sensitivity of LLMs: Combinatorial Optimization for Prompt Enhancement}, arXiv preprint arXiv:2405.20701, 2024.
+
+    \bibitem{zach2024}
+    		Z. Nussbaum, B. Duderstadt, A. Mulyar, \textit{Nomic Embed Vision: Expanding the Latent Space}, arXiv preprint arXiv:2406.18587, 2024.
+    
+	\end{thebibliography}
+} % end \ifboolexpr
+
+
+\end{document}
