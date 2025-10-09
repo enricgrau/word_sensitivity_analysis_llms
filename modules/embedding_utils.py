@@ -11,5 +11,5 @@ def _get_client():
 
 def embedding(prompt: str) -> list:
     client = _get_client()
-    result = client.embeddings(model='nomic-embed-text:v1.5', prompt=prompt)
+    result = client.embeddings(model='nomic-embed-text:v1.5', prompt=prompt, keep_alive=-1)
     return result['embedding']
