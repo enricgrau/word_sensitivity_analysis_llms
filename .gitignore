@@ -2,4 +2,5 @@ venv_se
 __pycache__
 pca_model/
 plots/
-results/
+**/answers_embeddings.json
+**/questions_embeddings.json

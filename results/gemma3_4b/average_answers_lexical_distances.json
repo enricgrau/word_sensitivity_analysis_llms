@@ -1,0 +1,92 @@
+{
+  "question": {
+    "question": {
+      "levenshtein_distance": 118.11,
+      "indel_distance": 0.0,
+      "hamming_distance": 135.744,
+      "jaro_distance": 0.5612977657572071
+    },
+    "variation": {
+      "levenshtein_distance": 118.11,
+      "indel_distance": 0.2895165143019315,
+      "hamming_distance": 135.744,
+      "jaro_distance": 0.5612977657572071
+    },
+    "counts": {
+      "word_count": 21.572,
+      "character_count": 137.892
+    }
+  },
+  "synonym_change": {
+    "question": {
+      "levenshtein_distance": 124.273,
+      "indel_distance": 0.0,
+      "hamming_distance": 142.207,
+      "jaro_distance": 0.5540071145703441
+    },
+    "variation": {
+      "levenshtein_distance": 122.942,
+      "indel_distance": 0.29586626293623924,
+      "hamming_distance": 142.219,
+      "jaro_distance": 0.5641874135378409
+    },
+    "counts": {
+      "word_count": 22.404,
+      "character_count": 144.215
+    }
+  },
+  "antonym_change": {
+    "question": {
+      "levenshtein_distance": 121.655,
+      "indel_distance": 0.0,
+      "hamming_distance": 138.738,
+      "jaro_distance": 0.5523619458697592
+    },
+    "variation": {
+      "levenshtein_distance": 121.155,
+      "indel_distance": 0.27240460773396213,
+      "hamming_distance": 138.727,
+      "jaro_distance": 0.5613283623457878
+    },
+    "counts": {
+      "word_count": 21.826,
+      "character_count": 141.231
+    }
+  },
+  "paraphrase_change": {
+    "question": {
+      "levenshtein_distance": 129.228,
+      "indel_distance": 0.0,
+      "hamming_distance": 146.728,
+      "jaro_distance": 0.5550560308674174
+    },
+    "variation": {
+      "levenshtein_distance": 119.039,
+      "indel_distance": 0.36907115946671776,
+      "hamming_distance": 145.864,
+      "jaro_distance": 0.5993070298334885
+    },
+    "counts": {
+      "word_count": 22.604,
+      "character_count": 148.929
+    }
+  },
+  "letter_change": {
+    "question": {
+      "levenshtein_distance": 114.442,
+      "indel_distance": 0.0,
+      "hamming_distance": 131.946,
+      "jaro_distance": 0.5643081178975675
+    },
+    "variation": {
+      "levenshtein_distance": 114.798,
+      "indel_distance": 0.2888538708539676,
+      "hamming_distance": 132.066,
+      "jaro_distance": 0.5624062624667866
+    },
+    "counts": {
+      "word_count": 20.856,
+      "character_count": 134.036
+    }
+  }
+}

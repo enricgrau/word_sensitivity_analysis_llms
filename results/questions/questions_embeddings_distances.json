@@ -1,0 +1,3802 @@
+[
+  {
+    "id": 1,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 12.436671614061956,
+        "cosine_distance": 0.1501279801023575,
+        "angle_degrees": 31.802247709013987
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 8.68247564287631,
+        "cosine_distance": 0.07539874260059254,
+        "angle_degrees": 22.391695375516946
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.517227098586298,
+        "cosine_distance": 0.18226590009007093,
+        "angle_degrees": 35.14139248948914
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 15.888483196510363,
+        "cosine_distance": 0.24571568140636535,
+        "angle_degrees": 41.03712565405621
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 6.839204590405854,
+        "cosine_distance": 0.048395566960715675,
+        "angle_degrees": 17.898130323126015
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 4.873656628879177,
+        "cosine_distance": 0.024622465042765773,
+        "angle_degrees": 12.740854668644799
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 8.606457153169917,
+        "cosine_distance": 0.07677921730124915,
+        "angle_degrees": 22.598424692078904
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 6.726843327687272,
+        "cosine_distance": 0.04685760908102654,
+        "angle_degrees": 17.609145637413203
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 1.2074182697257333e-06
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 12.715316949703757,
+        "cosine_distance": 0.15911650279723077,
+        "angle_degrees": 32.76646733278907
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 8.612123813734941,
+        "cosine_distance": 0.0712313151540026,
+        "angle_degrees": 21.756318161801275
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 21.691271299385075,
+        "cosine_distance": 0.4575975278692045,
+        "angle_degrees": 57.15266422616974
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 15.564500370181946,
+        "cosine_distance": 0.2382729293659237,
+        "angle_degrees": 40.38330990893163
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 13.731957281780263,
+        "cosine_distance": 0.1787668003519962,
+        "angle_degrees": 34.79156702787528
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.71083238760496,
+        "cosine_distance": 0.20942084338177447,
+        "angle_degrees": 37.76033244058572
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 15.259642495852537,
+        "cosine_distance": 0.22780675389343574,
+        "angle_degrees": 39.44874896790101
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 9.591676725440418,
+        "cosine_distance": 0.08922281380699715,
+        "angle_degrees": 24.387025198766302
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 15.053787762908145,
+        "cosine_distance": 0.20930077420129067,
+        "angle_degrees": 37.74909668077682
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.626160978685432,
+        "cosine_distance": 0.19885042475026882,
+        "angle_degrees": 36.75998065089975
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.702750881000494,
+        "cosine_distance": 0.17953287198420664,
+        "angle_degrees": 34.868417569893396
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 16.526772734186913,
+        "cosine_distance": 0.2538818112959783,
+        "angle_degrees": 41.744767023165466
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 13.464901708200264,
+        "cosine_distance": 0.18221488249381923,
+        "angle_degrees": 35.1363137950778
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.959523474893471,
+        "cosine_distance": 0.16775660991185992,
+        "angle_degrees": 33.67011717832697
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 19.701567910691008,
+        "cosine_distance": 0.3893038148895831,
+        "angle_degrees": 52.36014127954549
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 9.07298365548266,
+        "cosine_distance": 0.08461910038064147,
+        "angle_degrees": 23.74012212602688
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 16.782254896292578,
+        "cosine_distance": 0.2816809791305882,
+        "angle_degrees": 44.084130484386
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.302508890244388,
+        "cosine_distance": 0.20828778937986092,
+        "angle_degrees": 37.65419064451259
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 12.797942653623997,
+        "cosine_distance": 0.17031225193595056,
+        "angle_degrees": 33.933324468817105
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 7.300048730342877,
+        "cosine_distance": 0.05446228056308644,
+        "angle_degrees": 18.99663064474871
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 8.767671065525635,
+        "cosine_distance": 0.07644993393379185,
+        "angle_degrees": 22.549276922795343
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 10.053223164597146,
+        "cosine_distance": 0.10267807198125412,
+        "angle_degrees": 26.19175060141779
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 9.501408253982339,
+        "cosine_distance": 0.08886958107473675,
+        "angle_degrees": 24.337962549298634
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 15.612083277568862,
+        "cosine_distance": 0.241021006822995,
+        "angle_degrees": 40.62572932566801
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 11.242503844220323,
+        "cosine_distance": 0.12593282227799418,
+        "angle_degrees": 29.06523206474846
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.326711837233542,
+        "cosine_distance": 0.1752753997621066,
+        "angle_degrees": 34.439420052658704
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.041183496491607,
+        "cosine_distance": 0.16877889818196656,
+        "angle_degrees": 33.77562023445813
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 7.7884885063655,
+        "cosine_distance": 0.059470556229661686,
+        "angle_degrees": 19.859339510628196
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 11.906073052165967,
+        "cosine_distance": 0.13427830064702473,
+        "angle_degrees": 30.03478367872457
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.577019514532603,
+        "cosine_distance": 0.1800378230818923,
+        "angle_degrees": 34.918992303525165
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 11.158645618992546,
+        "cosine_distance": 0.12090168072659058,
+        "angle_degrees": 28.46621521406678
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 17.742560337280292,
+        "cosine_distance": 0.2972510983939829,
+        "angle_degrees": 45.35203305693942
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 4.329140470459501,
+        "cosine_distance": 0.018416259274449898,
+        "angle_degrees": 11.013037271247153
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 9.065139198539109,
+        "cosine_distance": 0.08230799108623932,
+        "angle_degrees": 23.409031958678227
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 17.60502493175541,
+        "cosine_distance": 0.3184285334942225,
+        "angle_degrees": 47.03343463954058
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 11.853323108587734,
+        "cosine_distance": 0.13832540841862095,
+        "angle_degrees": 30.49487090912598
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 6.900995025661724,
+        "cosine_distance": 0.047938189034349654,
+        "angle_degrees": 17.812662341643453
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 9.217145038895696,
+        "cosine_distance": 0.0868337258634615,
+        "angle_degrees": 24.05335865377215
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 10.779976091640528,
+        "cosine_distance": 0.11506900576002965,
+        "angle_degrees": 27.756969375662802
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.43780949995808,
+        "cosine_distance": 0.20237543329899244,
+        "angle_degrees": 37.0961398347947
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 22.49461315252259,
+        "cosine_distance": 0.5002393375363345,
+        "angle_degrees": 60.01583318108892
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 6.514036039553772,
+        "cosine_distance": 0.04276931921903715,
+        "angle_degrees": 16.817597503329306
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 20.596956960567034,
+        "cosine_distance": 0.4134175344102887,
+        "angle_degrees": 54.08513720718201
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 19.473213853181466,
+        "cosine_distance": 0.3703756313898484,
+        "angle_degrees": 50.977585432132244
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 6.328761666469577,
+        "cosine_distance": 0.0366726031428003,
+        "angle_degrees": 15.56484284298148
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 8.44577042230317,
+        "cosine_distance": 0.06651640476427978,
+        "angle_degrees": 21.01547591361826
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 18.23117865138101,
+        "cosine_distance": 0.31750433908542985,
+        "angle_degrees": 46.96102804783654
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 9.212883484399757,
+        "cosine_distance": 0.07930759258004105,
+        "angle_degrees": 22.972482013220073
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 13.062862705590373,
+        "cosine_distance": 0.16325382480853246,
+        "angle_degrees": 33.20189789932597
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 10.449737171445728,
+        "cosine_distance": 0.10597427815165172,
+        "angle_degrees": 26.61644021952443
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 22.46726749634179,
+        "cosine_distance": 0.48523501423143733,
+        "angle_degrees": 59.01825239731973
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 21.23250437552387,
+        "cosine_distance": 0.4381087889463383,
+        "angle_degrees": 55.81331125143546
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 10.127010912203836,
+        "cosine_distance": 0.09952800597541034,
+        "angle_degrees": 25.779821734333584
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 9.895495932732988,
+        "cosine_distance": 0.09680043409195993,
+        "angle_degrees": 25.41812393486522
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 11.93633609207949,
+        "cosine_distance": 0.13879582802673418,
+        "angle_degrees": 30.54794271218665
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 13.451017241470444,
+        "cosine_distance": 0.17767702590941026,
+        "angle_degrees": 34.68198699090603
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 10.70838601880757,
+        "cosine_distance": 0.1088117215088793,
+        "angle_degrees": 26.977052715539102
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 11.084457704352277,
+        "cosine_distance": 0.11835949161056036,
+        "angle_degrees": 28.15910541299009
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 17.545360310279083,
+        "cosine_distance": 0.295712371139624,
+        "angle_degrees": 45.22797863652581
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 17.347637097368956,
+        "cosine_distance": 0.2872352916592287,
+        "angle_degrees": 44.539692861378434
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 10.253044610723224,
+        "cosine_distance": 0.10218413965629702,
+        "angle_degrees": 26.12755937404448
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.356212191241363,
+        "cosine_distance": 0.152242219402984,
+        "angle_degrees": 32.031375669515846
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 14.1241868639005,
+        "cosine_distance": 0.19863352719695726,
+        "angle_degrees": 36.73921026647534
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 17.137762295636666,
+        "cosine_distance": 0.285236200593044,
+        "angle_degrees": 44.37615498911598
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 1.2074182697257333e-06
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 13.003487196656879,
+        "cosine_distance": 0.16433313301645358,
+        "angle_degrees": 33.31465907747519
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.44145708057617,
+        "cosine_distance": 0.21104550375240705,
+        "angle_degrees": 37.91208538544287
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 16.468597632806784,
+        "cosine_distance": 0.26876904585275174,
+        "angle_degrees": 43.010311217690045
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.973055713609511,
+        "cosine_distance": 0.2191232413658627,
+        "angle_degrees": 38.65907916439251
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 1.4787793334710982e-06
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.291657193642016,
+        "cosine_distance": 0.028116816951342716,
+        "angle_degrees": 13.618948416654131
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.067027328124531,
+        "cosine_distance": 0.17622676797060643,
+        "angle_degrees": 34.53568775101005
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 6.037368111015348,
+        "cosine_distance": 0.037129513310732665,
+        "angle_degrees": 15.662109727556201
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 15.751656071595463,
+        "cosine_distance": 0.2460845892859933,
+        "angle_degrees": 41.069309211739835
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 23.53044480417295,
+        "cosine_distance": 0.5351016027293314,
+        "angle_degrees": 62.29635330590719
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 10.674142270249382,
+        "cosine_distance": 0.11610682237561554,
+        "angle_degrees": 27.884378388763174
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 14.542283846327383,
+        "cosine_distance": 0.20548691331541868,
+        "angle_degrees": 37.39071037619726
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 20.057324776230477,
+        "cosine_distance": 0.3924686375540277,
+        "angle_degrees": 52.58878235315909
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 8.607723896420566,
+        "cosine_distance": 0.07083177253837114,
+        "angle_degrees": 21.694474105003156
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 11.429297727837396,
+        "cosine_distance": 0.12651752363930768,
+        "angle_degrees": 29.134117170507952
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.947985329501035,
+        "cosine_distance": 0.19317767367394534,
+        "angle_degrees": 36.21338413092901
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.100161111602981,
+        "cosine_distance": 0.1899918093692724,
+        "angle_degrees": 35.90326832889995
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 16.443602649576402,
+        "cosine_distance": 0.2636896657228174,
+        "angle_degrees": 42.58194609261545
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 15.455401905476766,
+        "cosine_distance": 0.23946702504384598,
+        "angle_degrees": 40.48879366337958
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 14.564980076578918,
+        "cosine_distance": 0.20813163528248102,
+        "angle_degrees": 37.6395425227051
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 15.095186839263933,
+        "cosine_distance": 0.22154991621778242,
+        "angle_degrees": 38.8811152281176
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 21.22020063453998,
+        "cosine_distance": 0.4322217114597938,
+        "angle_degrees": 55.40455608476881
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.513899505475369,
+        "cosine_distance": 0.15082074421543246,
+        "angle_degrees": 31.877487374317727
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.398360903160414,
+        "cosine_distance": 0.17076314998133513,
+        "angle_degrees": 33.97957632226396
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 20.415752610950932,
+        "cosine_distance": 0.3980238681037742,
+        "angle_degrees": 52.98844084347788
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 2.8861849108693476,
+        "cosine_distance": 0.007916412949121598,
+        "angle_degrees": 7.214209860891666
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 10.658762803362043,
+        "cosine_distance": 0.1108090158867785,
+        "angle_degrees": 27.228238281752148
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 18.421808998775564,
+        "cosine_distance": 0.3358378566051776,
+        "angle_degrees": 48.38192061466173
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 12.343196677824684,
+        "cosine_distance": 0.1476719974247277,
+        "angle_degrees": 31.53421414830932
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 6.077711319466007,
+        "cosine_distance": 0.03743486328115475,
+        "angle_degrees": 15.726785523811134
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.316932175052761,
+        "cosine_distance": 0.15678636191383677,
+        "angle_degrees": 32.51895588179462
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 15.316018229039146,
+        "cosine_distance": 0.2410487746640506,
+        "angle_degrees": 40.62817273471969
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.305386478542973,
+        "cosine_distance": 0.20669279274527952,
+        "angle_degrees": 37.50434176288815
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 8.724564665423879,
+        "cosine_distance": 0.07447541135399771,
+        "angle_degrees": 22.252408134454605
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 15.218367332167947,
+        "cosine_distance": 0.2348505571753946,
+        "angle_degrees": 40.0797110582013
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 11.171315354059278,
+        "cosine_distance": 0.12624084966061155,
+        "angle_degrees": 29.101540073490174
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 13.446539285670873,
+        "cosine_distance": 0.17569399054385648,
+        "angle_degrees": 34.481805716286026
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 18.220697566581375,
+        "cosine_distance": 0.3282998483804468,
+        "angle_degrees": 47.80158068606705
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.153671020063198,
+        "cosine_distance": 0.1506302149562062,
+        "angle_degrees": 31.85681024224184
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 19.430692198768554,
+        "cosine_distance": 0.385678278092914,
+        "angle_degrees": 52.097348085955225
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 21.10153351219119,
+        "cosine_distance": 0.44995702502306945,
+        "angle_degrees": 56.630038718106704
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 7.386976630121809,
+        "cosine_distance": 0.05596711480531258,
+        "angle_degrees": 19.259753161918262
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.826455133924084,
+        "cosine_distance": 0.19476308363755512,
+        "angle_degrees": 36.366858171288484
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 9.292598051642218,
+        "cosine_distance": 0.08829337626163847,
+        "angle_degrees": 24.257729977382755
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.684093252297012,
+        "cosine_distance": 0.21694031455305618,
+        "angle_degrees": 38.45842267860466
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 9.360882888579178,
+        "cosine_distance": 0.08606826172563753,
+        "angle_degrees": 23.9455276306964
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.165870933852705,
+        "cosine_distance": 0.14616624991715843,
+        "angle_degrees": 31.36886963320905
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 10.896888823720344,
+        "cosine_distance": 0.11927407595494077,
+        "angle_degrees": 28.269944445172833
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 12.75692019117836,
+        "cosine_distance": 0.15850294583324576,
+        "angle_degrees": 32.70145588579368
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 14.733097192140699,
+        "cosine_distance": 0.22468316384741838,
+        "angle_degrees": 39.166233133096576
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 9.208436969429506,
+        "cosine_distance": 0.08488783521689813,
+        "angle_degrees": 23.778339043298867
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 8.366861640603927,
+        "cosine_distance": 0.07161013552703388,
+        "angle_degrees": 21.814800598146793
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 13.895189499984617,
+        "cosine_distance": 0.19482863039679288,
+        "angle_degrees": 36.37319133681773
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 9.24533337167938,
+        "cosine_distance": 0.08859165395615676,
+        "angle_degrees": 24.29929416881286
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 10.918957493618116,
+        "cosine_distance": 0.12261121256096819,
+        "angle_degrees": 28.67103903337479
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 11.593599163003967,
+        "cosine_distance": 0.14289381668761136,
+        "angle_degrees": 31.006798376558347
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 5.90291915304125,
+        "cosine_distance": 0.03591185210997816,
+        "angle_degrees": 15.401565534527123
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.672006195690557,
+        "cosine_distance": 0.03194970213483084,
+        "angle_degrees": 14.522258684069776
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.560614183644686,
+        "cosine_distance": 0.1616257562209339,
+        "angle_degrees": 33.03116012193682
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 9.758633022126606,
+        "cosine_distance": 0.09800084018128097,
+        "angle_degrees": 25.577895042622487
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.120527722692797,
+        "cosine_distance": 0.1991022083125369,
+        "angle_degrees": 36.78407912926969
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 10.590813209172126,
+        "cosine_distance": 0.11333478471590241,
+        "angle_degrees": 27.542854990531204
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.371931854347304,
+        "cosine_distance": 0.1553458247951338,
+        "angle_degrees": 32.36509747524264
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 10.422951617684136,
+        "cosine_distance": 0.10944271508046077,
+        "angle_degrees": 27.05664121327484
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.578354209310344,
+        "cosine_distance": 0.2138090145729804,
+        "angle_degrees": 38.169035588171845
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 12.315734015205468,
+        "cosine_distance": 0.1449840659207311,
+        "angle_degrees": 31.23850484339311
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 16.882673450247715,
+        "cosine_distance": 0.27759783879276767,
+        "angle_degrees": 43.74683489260941
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 14.808267756832755,
+        "cosine_distance": 0.2170518337841475,
+        "angle_degrees": 38.468695040567034
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 20.27672983046895,
+        "cosine_distance": 0.3979457170497164,
+        "angle_degrees": 52.982833064130766
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 16.11232440548137,
+        "cosine_distance": 0.24707613219347402,
+        "angle_degrees": 41.15570889948345
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 5.336462001568041,
+        "cosine_distance": 0.026694135215771575,
+        "angle_degrees": 13.268334578385863
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 15.670076753123842,
+        "cosine_distance": 0.2358528521747043,
+        "angle_degrees": 40.16882192537857
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 18.115594399917047,
+        "cosine_distance": 0.3083858065390027,
+        "angle_degrees": 46.24197751984941
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 17.07138503582107,
+        "cosine_distance": 0.30097662538129544,
+        "angle_degrees": 45.6512983678923
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 19.352245560267377,
+        "cosine_distance": 0.4050805043622687,
+        "angle_degrees": 53.4931066611808
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 16.59449694516505,
+        "cosine_distance": 0.2813681227784045,
+        "angle_degrees": 44.05835909565357
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 15.774129376217182,
+        "cosine_distance": 0.25037461827569185,
+        "angle_degrees": 41.442062285291236
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 9.476722283427346,
+        "cosine_distance": 0.08459516528314437,
+        "angle_degrees": 23.736715492529726
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 15.152117163941279,
+        "cosine_distance": 0.21784539762240773,
+        "angle_degrees": 38.54172571611268
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.574741216098786,
+        "cosine_distance": 0.17998065929203322,
+        "angle_degrees": 34.913270121671964
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 10.983142909606714,
+        "cosine_distance": 0.11480981419613712,
+        "angle_degrees": 27.725065281215553
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 11.839354511837021,
+        "cosine_distance": 0.13069688839582494,
+        "angle_degrees": 29.622242703493544
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 8.37692153649339,
+        "cosine_distance": 0.06629181658353456,
+        "angle_degrees": 20.979564761213265
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 11.593122979043699,
+        "cosine_distance": 0.12867380674207085,
+        "angle_degrees": 29.386880664976793
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 12.99721033426417,
+        "cosine_distance": 0.15881176917929807,
+        "angle_degrees": 32.734192622966134
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 7.884491790173992,
+        "cosine_distance": 0.059831384651581665,
+        "angle_degrees": 19.920107542752998
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.691228749741626,
+        "cosine_distance": 0.1877870223844217,
+        "angle_degrees": 35.68728774373561
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 10.408760000101264,
+        "cosine_distance": 0.10523526407733064,
+        "angle_degrees": 26.521773153275618
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.127011005007232,
+        "cosine_distance": 0.1900311998109605,
+        "angle_degrees": 35.907116776945465
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 6.37152393723927,
+        "cosine_distance": 0.04209454723502115,
+        "angle_degrees": 16.68345135301251
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 10.049910213652643,
+        "cosine_distance": 0.1063028786052117,
+        "angle_degrees": 26.65843353693917
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 11.915753098503354,
+        "cosine_distance": 0.15124759931703735,
+        "angle_degrees": 31.92376820659616
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 11.238001954490086,
+        "cosine_distance": 0.13126828965392745,
+        "angle_degrees": 29.688411100467228
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 10.913969138040757,
+        "cosine_distance": 0.11535590565905596,
+        "angle_degrees": 27.79224479543914
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.176020138562269,
+        "cosine_distance": 0.19910373786714164,
+        "angle_degrees": 36.78422548317145
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 14.529375944136294,
+        "cosine_distance": 0.2085432552759714,
+        "angle_degrees": 37.67814430594386
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 11.337996237933307,
+        "cosine_distance": 0.1249612418052023,
+        "angle_degrees": 28.95043702102708
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 7.895326771628713,
+        "cosine_distance": 0.05926033071301595,
+        "angle_degrees": 19.82385249405895
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 8.638251325183491,
+        "cosine_distance": 0.07271282014082336,
+        "angle_degrees": 21.98419108067029
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 4.713368687467469,
+        "cosine_distance": 0.021223641606897048,
+        "angle_degrees": 11.825477808159164
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 17.020754742537715,
+        "cosine_distance": 0.2739749192319699,
+        "angle_degrees": 43.445810607202155
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 12.18976255126753,
+        "cosine_distance": 0.14364794605462472,
+        "angle_degrees": 31.090573601782054
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 10.39603081002984,
+        "cosine_distance": 0.10588578874006016,
+        "angle_degrees": 26.605121263170496
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 12.158288731312233,
+        "cosine_distance": 0.1428829214455728,
+        "angle_degrees": 31.005586545523656
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 9.848912147321743,
+        "cosine_distance": 0.09271822372324057,
+        "angle_degrees": 24.867624949918415
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 10.155273318322905,
+        "cosine_distance": 0.10743690700405317,
+        "angle_degrees": 26.802887719292674
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 7.103229719715504,
+        "cosine_distance": 0.051643962128001486,
+        "angle_degrees": 18.494151762070015
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 8.563648424112998,
+        "cosine_distance": 0.07680437270908591,
+        "angle_degrees": 22.60217514255775
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 7.607008917704366,
+        "cosine_distance": 0.059340109532137975,
+        "angle_degrees": 19.837326692188817
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 4.748092193535394,
+        "cosine_distance": 0.022632501906398206,
+        "angle_degrees": 12.213114554621326
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.154118949177885,
+        "cosine_distance": 0.20187041550367424,
+        "angle_degrees": 37.04813979366847
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 16.75184989973679,
+        "cosine_distance": 0.2906703444482721,
+        "angle_degrees": 44.819599594139746
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 11.416190081490205,
+        "cosine_distance": 0.13134094576746103,
+        "angle_degrees": 29.696815090788792
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 6.664205924046768,
+        "cosine_distance": 0.0455843241117343,
+        "angle_degrees": 17.366372207508668
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.218919297371277,
+        "cosine_distance": 0.17648023200916607,
+        "angle_degrees": 34.56129580866481
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 20.16685937729508,
+        "cosine_distance": 0.42184626455807683,
+        "angle_degrees": 54.67920927274081
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 11.31690754416312,
+        "cosine_distance": 0.13003966243887355,
+        "angle_degrees": 29.54596920344368
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 1.2074182697257333e-06
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 9.387902556004814,
+        "cosine_distance": 0.08937878956139367,
+        "angle_degrees": 24.408660150362476
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 6.289041828278436,
+        "cosine_distance": 0.04083731818426617,
+        "angle_degrees": 16.43067405782778
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 9.267523032028782,
+        "cosine_distance": 0.08945762517534472,
+        "angle_degrees": 24.419588367105636
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 13.065598750598145,
+        "cosine_distance": 0.17575656734319223,
+        "angle_degrees": 34.48813819501194
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 16.685154892034593,
+        "cosine_distance": 0.2655512461345054,
+        "angle_degrees": 42.73934296861715
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 7.142065153085262,
+        "cosine_distance": 0.04974604888633882,
+        "angle_degrees": 18.148216199100425
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 22.33397659264323,
+        "cosine_distance": 0.47651146157445456,
+        "angle_degrees": 58.433451972344606
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 22.556102698046217,
+        "cosine_distance": 0.48326446832587233,
+        "angle_degrees": 58.88646894983495
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 7.988611954364714,
+        "cosine_distance": 0.06271040168020015,
+        "angle_degrees": 20.39874927859384
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 15.005291004948585,
+        "cosine_distance": 0.22500781118188917,
+        "angle_degrees": 39.19567560923855
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 11.786393621054101,
+        "cosine_distance": 0.141129142671773,
+        "angle_degrees": 30.80996176285687
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 6.836721168803768,
+        "cosine_distance": 0.04576633159148702,
+        "angle_degrees": 17.401276021589972
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 10.910240145455687,
+        "cosine_distance": 0.1128975248858326,
+        "angle_degrees": 27.488626500782658
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 11.216880015456878,
+        "cosine_distance": 0.1216943777251529,
+        "angle_degrees": 28.561357719875115
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 18.21507117185777,
+        "cosine_distance": 0.32417581362082093,
+        "angle_degrees": 47.481814244089534
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 13.641747831726843,
+        "cosine_distance": 0.17971384837464066,
+        "angle_degrees": 34.88655110729203
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.47957294482648,
+        "cosine_distance": 0.028109759491537822,
+        "angle_degrees": 13.617231005639653
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 8.809323553369481,
+        "cosine_distance": 0.07527392894726148,
+        "angle_degrees": 22.3729149644525
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 10.959310483250158,
+        "cosine_distance": 0.1148752668918257,
+        "angle_degrees": 27.733125094172784
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 19.08694361092205,
+        "cosine_distance": 0.34003628852057344,
+        "angle_degrees": 48.70289471816593
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.25355450748597,
+        "cosine_distance": 0.02573844085634036,
+        "angle_degrees": 13.027607937273016
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 9.796204874996548,
+        "cosine_distance": 0.09289274133995074,
+        "angle_degrees": 24.891392129136396
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 18.03969593402531,
+        "cosine_distance": 0.3161200721279547,
+        "angle_degrees": 46.85241663041128
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 9.5269188558699,
+        "cosine_distance": 0.0851077503510771,
+        "angle_degrees": 23.809570293891834
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 9.342421893384651,
+        "cosine_distance": 0.0891120254491331,
+        "angle_degrees": 24.37164711013337
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.899771248473625,
+        "cosine_distance": 0.19682246937088332,
+        "angle_degrees": 36.565385455470015
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 10.346757347137576,
+        "cosine_distance": 0.11287977255756976,
+        "angle_degrees": 27.48642279276415
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 15.582708039985443,
+        "cosine_distance": 0.24783905755619573,
+        "angle_degrees": 41.22208628515321
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 9.700479853481106,
+        "cosine_distance": 0.09127384248205261,
+        "angle_degrees": 24.670094737590368
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 9.08823278552308,
+        "cosine_distance": 0.08144983977515985,
+        "angle_degrees": 23.284962781064724
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.131763581395788,
+        "cosine_distance": 0.1706627994669645,
+        "angle_degrees": 33.969287443551835
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 16.313253550080926,
+        "cosine_distance": 0.25883133367628874,
+        "angle_degrees": 42.16893661447133
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 18.718447818015928,
+        "cosine_distance": 0.3355883908549224,
+        "angle_degrees": 48.36279852658997
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.002983361826825,
+        "cosine_distance": 0.14437550851489034,
+        "angle_degrees": 31.171205466264286
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 9.797412345047787,
+        "cosine_distance": 0.09436592998784776,
+        "angle_degrees": 25.091182526176897
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 21.73695136646875,
+        "cosine_distance": 0.4469969084540091,
+        "angle_degrees": 56.426717460267255
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 7.679543833955438,
+        "cosine_distance": 0.0578304180951108,
+        "angle_degrees": 19.580839131047078
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.938190044065653,
+        "cosine_distance": 0.16540130227805294,
+        "angle_degrees": 33.42592504475374
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 17.798746866605846,
+        "cosine_distance": 0.32389084915637356,
+        "angle_degrees": 47.45965852671183
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 8.525495141760162,
+        "cosine_distance": 0.07188795898654199,
+        "angle_degrees": 21.85759647207694
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 8.645163385599343,
+        "cosine_distance": 0.06931528618203475,
+        "angle_degrees": 21.458197907237434
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.775541173457773,
+        "cosine_distance": 0.2071043654214907,
+        "angle_degrees": 37.54305754491657
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 18.549488214973554,
+        "cosine_distance": 0.32854289128228864,
+        "angle_degrees": 47.82037499977776
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 9.619885361750002,
+        "cosine_distance": 0.08569727708048624,
+        "angle_degrees": 23.893102257973364
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 18.80945029249506,
+        "cosine_distance": 0.34301045616424897,
+        "angle_degrees": 48.92931958224689
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.17663300022729,
+        "cosine_distance": 0.14855628914976515,
+        "angle_degrees": 31.63095575181535
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 22.00771416100543,
+        "cosine_distance": 0.4735463238222757,
+        "angle_degrees": 58.23384433391674
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 21.41427032968605,
+        "cosine_distance": 0.4409311438122374,
+        "angle_degrees": 56.0085726237449
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 11.922510839869695,
+        "cosine_distance": 0.14773523434494717,
+        "angle_degrees": 31.54114110611688
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.128192867054134,
+        "cosine_distance": 0.20805812660713607,
+        "angle_degrees": 37.6326453194077
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 20.595578764280024,
+        "cosine_distance": 0.452151985276243,
+        "angle_degrees": 56.78049731193469
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 10.790411947906527,
+        "cosine_distance": 0.1219307137997927,
+        "angle_degrees": 28.589667547305428
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 12.80695909218466,
+        "cosine_distance": 0.1624741347419567,
+        "angle_degrees": 33.120228050621
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 11.8294136035471,
+        "cosine_distance": 0.14067485266179325,
+        "angle_degrees": 30.75910529000027
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 17.70881655121863,
+        "cosine_distance": 0.3201515295763404,
+        "angle_degrees": 47.16819687729149
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 19.073569551280688,
+        "cosine_distance": 0.3707347894001166,
+        "angle_degrees": 51.00406811096736
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 6.191860140715889,
+        "cosine_distance": 0.03675717948832735,
+        "angle_degrees": 15.582892078400343
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 6.859635947463217,
+        "cosine_distance": 0.046484415585859695,
+        "angle_degrees": 17.53832721564396
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.25754110372902,
+        "cosine_distance": 0.1756987059107621,
+        "angle_degrees": 34.48228292480977
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.912709367128503,
+        "cosine_distance": 0.215132623295894,
+        "angle_degrees": 38.29158610716403
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 15.378364591890472,
+        "cosine_distance": 0.22587428539437693,
+        "angle_degrees": 39.274166046385126
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 8.470286604679385,
+        "cosine_distance": 0.0695228716985361,
+        "angle_degrees": 21.49068690928183
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.168281531426532,
+        "cosine_distance": 0.16850028013005125,
+        "angle_degrees": 33.74689489032782
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 15.365170028942055,
+        "cosine_distance": 0.22762318991238628,
+        "angle_degrees": 39.4321932685409
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 10.526561498565723,
+        "cosine_distance": 0.10819217116919022,
+        "angle_degrees": 26.898695689374804
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 15.231437788310792,
+        "cosine_distance": 0.23427257002976343,
+        "angle_degrees": 40.02824911560567
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.339248382580971,
+        "cosine_distance": 0.1797629907408863,
+        "angle_degrees": 34.89147367090363
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 17.614326018232422,
+        "cosine_distance": 0.3042875732748863,
+        "angle_degrees": 45.915984369697625
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 19.44375282112949,
+        "cosine_distance": 0.35212889016148097,
+        "angle_degrees": 49.61871567868405
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 11.519265221860953,
+        "cosine_distance": 0.12996347881870274,
+        "angle_degrees": 29.537116226719476
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 20.7340987403883,
+        "cosine_distance": 0.4079684103190784,
+        "angle_degrees": 53.69869110602906
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 20.63195114166711,
+        "cosine_distance": 0.40528803401973923,
+        "angle_degrees": 53.507898469197286
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.696157670251726,
+        "cosine_distance": 0.030550900326936525,
+        "angle_degrees": 14.199124148104062
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 16.362801789546545,
+        "cosine_distance": 0.2587013240073349,
+        "angle_degrees": 42.15783935150535
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 4.230986766216832,
+        "cosine_distance": 0.017161692061323675,
+        "angle_degrees": 10.630183184511496
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 11.531689218569642,
+        "cosine_distance": 0.12894111924559304,
+        "angle_degrees": 29.418077620246716
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 4.75545203744332,
+        "cosine_distance": 0.022841317326612542,
+        "angle_degrees": 12.269541739952285
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 8.239422726393608,
+        "cosine_distance": 0.06711474159006403,
+        "angle_degrees": 21.110863956221785
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 9.517028454695762,
+        "cosine_distance": 0.09331636772370133,
+        "angle_degrees": 24.948996707394375
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 9.463050545186665,
+        "cosine_distance": 0.09046895880440842,
+        "angle_degrees": 24.559374863477817
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 12.821641709869112,
+        "cosine_distance": 0.16298088767548202,
+        "angle_degrees": 33.17332893468313
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.270579982403268,
+        "cosine_distance": 0.20273809135870058,
+        "angle_degrees": 37.13057633768009
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 19.498281674465634,
+        "cosine_distance": 0.38073003895527224,
+        "angle_degrees": 51.73715726055642
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 20.717300534485066,
+        "cosine_distance": 0.42447254101325127,
+        "angle_degrees": 54.86342115721104
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 11.60549695482012,
+        "cosine_distance": 0.1435603150986159,
+        "angle_degrees": 31.080849232916332
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 10.206977533080224,
+        "cosine_distance": 0.1154008387471116,
+        "angle_degrees": 27.79776575558432
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 10.450300817141288,
+        "cosine_distance": 0.11987112283869616,
+        "angle_degrees": 28.342086294821875
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 12.243224778623658,
+        "cosine_distance": 0.16661322288758562,
+        "angle_degrees": 33.5517698054173
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 17.071228050939215,
+        "cosine_distance": 0.27598040232290466,
+        "angle_degrees": 43.61264909015533
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 15.468170961196968,
+        "cosine_distance": 0.22678747970061064,
+        "angle_degrees": 39.35674660618384
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 12.472878286978856,
+        "cosine_distance": 0.1493327812117461,
+        "angle_degrees": 31.71568590692158
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 12.24526525508365,
+        "cosine_distance": 0.1432537979143793,
+        "angle_degrees": 31.04681359378796
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.915088250192398,
+        "cosine_distance": 0.03433398697561929,
+        "angle_degrees": 15.057408546740298
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.080453752941038,
+        "cosine_distance": 0.20075672661256738,
+        "angle_degrees": 36.942099076984576
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.465772358941894,
+        "cosine_distance": 0.1835727803155084,
+        "angle_degrees": 35.27127245250192
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 12.942066740442586,
+        "cosine_distance": 0.1650574352975569,
+        "angle_degrees": 33.39014188795935
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 12.477109662047676,
+        "cosine_distance": 0.15247934132564323,
+        "angle_degrees": 32.056982108763904
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 11.854768450812827,
+        "cosine_distance": 0.13998244167575824,
+        "angle_degrees": 30.681445604352852
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 8.14614836748064,
+        "cosine_distance": 0.06557973800026495,
+        "angle_degrees": 20.86531479129517
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 13.484785955649542,
+        "cosine_distance": 0.17745717207389577,
+        "angle_degrees": 34.65984331710037
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 14.451100479639749,
+        "cosine_distance": 0.21290944980354798,
+        "angle_degrees": 38.08555587338535
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.206543891864698,
+        "cosine_distance": 0.17119774953396705,
+        "angle_degrees": 34.02410395315357
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 9.656053615820433,
+        "cosine_distance": 0.09294894592561986,
+        "angle_degrees": 24.899041988587122
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 15.26127681278824,
+        "cosine_distance": 0.23572355049084692,
+        "angle_degrees": 40.15733535386085
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 12.680840655037791,
+        "cosine_distance": 0.16034523752081187,
+        "angle_degrees": 32.89631867027506
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.22071615569448,
+        "cosine_distance": 0.18632745256169614,
+        "angle_degrees": 35.54368293541961
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 8.562864458062512,
+        "cosine_distance": 0.0748700064858775,
+        "angle_degrees": 22.312034932509306
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 11.177893661087369,
+        "cosine_distance": 0.12769843402759662,
+        "angle_degrees": 29.272792090206366
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 19.491466447751826,
+        "cosine_distance": 0.3681498968206838,
+        "angle_degrees": 50.813247924776775
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.403847981498084,
+        "cosine_distance": 0.1992007370400798,
+        "angle_degrees": 36.79350573094023
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 21.780072037847695,
+        "cosine_distance": 0.4497728065027585,
+        "angle_degrees": 56.6173992124416
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 19.16826764819714,
+        "cosine_distance": 0.34027204042245773,
+        "angle_degrees": 48.72087125672219
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 9.586091614835016,
+        "cosine_distance": 0.08750888220179776,
+        "angle_degrees": 24.14809201833723
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.226869926219472,
+        "cosine_distance": 0.14487726343711393,
+        "angle_degrees": 31.22670316498094
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 19.519245171828146,
+        "cosine_distance": 0.36595349301889957,
+        "angle_degrees": 50.65069850568056
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 17.10542114155735,
+        "cosine_distance": 0.2803509194162397,
+        "angle_degrees": 43.97448452228795
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 3.868483020376053,
+        "cosine_distance": 0.014650424858109745,
+        "angle_degrees": 9.819613320063132
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.424671304980357,
+        "cosine_distance": 0.18049621690399686,
+        "angle_degrees": 34.96484865509407
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 16.78157391633544,
+        "cosine_distance": 0.27844699357157343,
+        "angle_degrees": 43.81715118336293
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 16.09982886020667,
+        "cosine_distance": 0.2539853892196011,
+        "angle_degrees": 41.7536795196705
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.74897855964931,
+        "cosine_distance": 0.032222621233971904,
+        "angle_degrees": 14.584488083451735
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 9.172316311523959,
+        "cosine_distance": 0.084397331615499,
+        "angle_degrees": 23.70854057261789
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 12.761935398380345,
+        "cosine_distance": 0.16580667945897265,
+        "angle_degrees": 33.46806558121001
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 8.53429308451875,
+        "cosine_distance": 0.07119765993528127,
+        "angle_degrees": 21.751115220715285
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 9.574671326509325,
+        "cosine_distance": 0.0917663926801896,
+        "angle_degrees": 24.737620801285246
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.61016452442026,
+        "cosine_distance": 0.1866546992949999,
+        "angle_degrees": 35.57592398087876
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 17.15746478979595,
+        "cosine_distance": 0.2960643390424421,
+        "angle_degrees": 45.25637827107921
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 13.3221949244945,
+        "cosine_distance": 0.1736213636836922,
+        "angle_degrees": 34.27148620713122
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 10.057159421568679,
+        "cosine_distance": 0.09991590444414533,
+        "angle_degrees": 25.83087657539189
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 14.56582704553563,
+        "cosine_distance": 0.21856614133920083,
+        "angle_degrees": 38.60795373237911
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 13.063604149342716,
+        "cosine_distance": 0.17330235046791942,
+        "angle_degrees": 34.23901376271758
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.595661311346268,
+        "cosine_distance": 0.20871533117888807,
+        "angle_degrees": 37.69427163029865
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 12.59380066855192,
+        "cosine_distance": 0.1569184127534039,
+        "angle_degrees": 32.53302731011362
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 15.902329645245096,
+        "cosine_distance": 0.2555290664564197,
+        "angle_degrees": 41.8863237645318
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 11.105386584356042,
+        "cosine_distance": 0.12303328217860932,
+        "angle_degrees": 28.721402504903523
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.769965974830122,
+        "cosine_distance": 0.21513552200853658,
+        "angle_degrees": 38.29185412913596
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 18.98655580604775,
+        "cosine_distance": 0.3474731500489183,
+        "angle_degrees": 49.26761243514149
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.675648278736004,
+        "cosine_distance": 0.15854127223866155,
+        "angle_degrees": 32.70552024933587
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 7.495090591169174,
+        "cosine_distance": 0.054187193190497585,
+        "angle_degrees": 18.948150976966627
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 9.83544364860859,
+        "cosine_distance": 0.09458565380782846,
+        "angle_degrees": 25.120853536774128
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.3323222795637255,
+        "cosine_distance": 0.027817176064848348,
+        "angle_degrees": 13.545843725674716
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 16.92720145438928,
+        "cosine_distance": 0.28138117449664624,
+        "angle_degrees": 44.059434463959455
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 16.461664834157375,
+        "cosine_distance": 0.27346789593720144,
+        "angle_degrees": 43.40354951045365
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 13.820087243447748,
+        "cosine_distance": 0.1875513315998174,
+        "angle_degrees": 35.664132463486766
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 13.057809380833321,
+        "cosine_distance": 0.1726218013563121,
+        "angle_degrees": 34.169649930843875
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.77633852307147,
+        "cosine_distance": 0.1642899481736143,
+        "angle_degrees": 33.31015381130499
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 17.582562779400543,
+        "cosine_distance": 0.3214078417383467,
+        "angle_degrees": 47.26627296136726
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 19.11934335390201,
+        "cosine_distance": 0.3648776150406716,
+        "angle_degrees": 50.5709378783856
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 13.62870570518061,
+        "cosine_distance": 0.18128818326730756,
+        "angle_degrees": 35.04395120363427
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.22940217777407,
+        "cosine_distance": 0.14749965619026872,
+        "angle_degrees": 31.515328996705907
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 17.033981258884342,
+        "cosine_distance": 0.281406756529328,
+        "angle_degrees": 44.06154218012215
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 15.589869825391265,
+        "cosine_distance": 0.2365761105004449,
+        "angle_degrees": 40.233022667242686
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 8.537736462515939e-07
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.138505085549655,
+        "cosine_distance": 0.02628614955965025,
+        "angle_degrees": 13.166097384307712
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 6.866019731554054,
+        "cosine_distance": 0.04641290851780966,
+        "angle_degrees": 17.524726160019632
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 14.33927239343414,
+        "cosine_distance": 0.21035755343262252,
+        "angle_degrees": 37.84788988245962
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 9.655392566078849,
+        "cosine_distance": 0.09284788080585482,
+        "angle_degrees": 24.885284698943977
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.815434581062037,
+        "cosine_distance": 0.0333944547539925,
+        "angle_degrees": 14.848783068753818
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 7.7383151527409195,
+        "cosine_distance": 0.061213372889127315,
+        "angle_degrees": 20.151225417060033
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 14.79989424699291,
+        "cosine_distance": 0.2243423957112226,
+        "angle_degrees": 39.13530865836726
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 13.346883116282658,
+        "cosine_distance": 0.17680355516657975,
+        "angle_degrees": 34.593937799963626
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.789958212699891,
+        "cosine_distance": 0.03443991965680748,
+        "angle_degrees": 15.080754244661492
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 10.67656836076936,
+        "cosine_distance": 0.11831132682436518,
+        "angle_degrees": 28.15325719157623
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 10.119117995659055,
+        "cosine_distance": 0.10818815512409963,
+        "angle_degrees": 26.89818707505292
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 11.215085102536527,
+        "cosine_distance": 0.12893681451348427,
+        "angle_degrees": 29.417575471142868
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 10.368562927491851,
+        "cosine_distance": 0.10639048517507199,
+        "angle_degrees": 26.669618823346863
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 11.8850943767551,
+        "cosine_distance": 0.1392463813135958,
+        "angle_degrees": 30.598695258874884
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 12.542801324909034,
+        "cosine_distance": 0.15467716140304832,
+        "angle_degrees": 32.293458125131686
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 11.627597797155289,
+        "cosine_distance": 0.13203631336066668,
+        "angle_degrees": 29.777137860298968
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 19.506663456325327,
+        "cosine_distance": 0.3571397775996713,
+        "angle_degrees": 49.994568764841276
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 10.504051732283543,
+        "cosine_distance": 0.10564984106227959,
+        "angle_degrees": 26.574918614336266
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 21.629002521016158,
+        "cosine_distance": 0.45297822768856066,
+        "angle_degrees": 56.83706695402974
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 21.92114351188535,
+        "cosine_distance": 0.4564736295862636,
+        "angle_degrees": 57.07598163982067
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 8.639325565028386,
+        "cosine_distance": 0.07638242657520866,
+        "angle_degrees": 22.53918844743165
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.216024661881976,
+        "cosine_distance": 0.17740845655510107,
+        "angle_degrees": 34.65493501572144
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 15.920042775464758,
+        "cosine_distance": 0.26906843622721954,
+        "angle_degrees": 43.03545271967029
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 11.057756216990045,
+        "cosine_distance": 0.12350361791834841,
+        "angle_degrees": 28.77743032920594
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 11.22310907960855,
+        "cosine_distance": 0.12788166123853795,
+        "angle_degrees": 29.294254912970633
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 9.754311188639676,
+        "cosine_distance": 0.09804388063144287,
+        "angle_degrees": 25.583606331907546
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 8.447052024685421,
+        "cosine_distance": 0.07300256486541423,
+        "angle_degrees": 22.028495166554652
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 13.927761560636489,
+        "cosine_distance": 0.19675171045807982,
+        "angle_degrees": 36.558579611633604
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 1.1102230246251565e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.902445132761026,
+        "cosine_distance": 0.038399709048094866,
+        "angle_degrees": 15.929466005426146
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 7.353454255821046,
+        "cosine_distance": 0.059730060759853654,
+        "angle_degrees": 19.903061304875905
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 6.595523860893175,
+        "cosine_distance": 0.04857214094700335,
+        "angle_degrees": 17.93102040007966
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 9.979153272601673,
+        "cosine_distance": 0.10977531938628449,
+        "angle_degrees": 27.098506267661783
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 12.890432888416639,
+        "cosine_distance": 0.16283499028544224,
+        "angle_degrees": 33.15804857487336
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 8.02751561349417,
+        "cosine_distance": 0.06362575317048125,
+        "angle_degrees": 20.548689628350978
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 12.973357970490119,
+        "cosine_distance": 0.16795135244898607,
+        "angle_degrees": 33.69023762457657
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.888761423085594,
+        "cosine_distance": 0.21754935428742417,
+        "angle_degrees": 38.51449490213074
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 10.395802818527347,
+        "cosine_distance": 0.10226979384515478,
+        "angle_degrees": 26.13870145668713
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 8.105551414307348,
+        "cosine_distance": 0.06248832188121367,
+        "angle_degrees": 20.362211916983412
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 15.399373587715973,
+        "cosine_distance": 0.23035902385978002,
+        "angle_degrees": 39.67834023622454
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 16.314239719499653,
+        "cosine_distance": 0.25291557861806435,
+        "angle_degrees": 41.66155128711369
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 11.243165916100722,
+        "cosine_distance": 0.11884618281968606,
+        "angle_degrees": 28.2181375591409
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 13.731494338605307,
+        "cosine_distance": 0.18159150561735904,
+        "angle_degrees": 35.07420618655563
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 19.185923391259433,
+        "cosine_distance": 0.35788946351293216,
+        "angle_degrees": 50.050622476738944
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 17.685092112219767,
+        "cosine_distance": 0.296808894344723,
+        "angle_degrees": 45.31640913578692
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 4.589555474219919,
+        "cosine_distance": 0.020349469742268256,
+        "angle_degrees": 11.57852969299211
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 7.962827542922281,
+        "cosine_distance": 0.062279922875637994,
+        "angle_degrees": 20.327868180287602
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 9.865383303700138,
+        "cosine_distance": 0.09797026022021882,
+        "angle_degrees": 25.57383648573246
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 17.36076437854945,
+        "cosine_distance": 0.29070083701177063,
+        "angle_degrees": 44.82207812220198
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 5.400427170145427,
+        "cosine_distance": 0.028633268113475108,
+        "angle_degrees": 13.744053780765606
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 6.573093493874254,
+        "cosine_distance": 0.043590346771104516,
+        "angle_degrees": 16.979431315291468
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 10.537525402235872,
+        "cosine_distance": 0.11071031148862998,
+        "angle_degrees": 27.21587525728786
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 14.806223316777565,
+        "cosine_distance": 0.21679438783777905,
+        "angle_degrees": 38.4449774394509
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": 0.0,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 11.855139787450627,
+        "cosine_distance": 0.1528757321204558,
+        "angle_degrees": 32.09974699806053
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 7.620497896343456,
+        "cosine_distance": 0.06431239661090027,
+        "angle_degrees": 20.66048253775965
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 11.880699330617734,
+        "cosine_distance": 0.15341168924269322,
+        "angle_degrees": 32.15748831739286
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 15.66751427753469,
+        "cosine_distance": 0.26822885136255703,
+        "angle_degrees": 42.964918084665534
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "question": [
+      {
+        "euclidean_distance": 0.0,
+        "cosine_distance": -2.220446049250313e-16,
+        "angle_degrees": 0.0
+      }
+    ],
+    "synonym_change": [
+      {
+        "euclidean_distance": 19.729105168036625,
+        "cosine_distance": 0.40472208365768314,
+        "angle_degrees": 53.46755333918861
+      }
+    ],
+    "paraphrase_change": [
+      {
+        "euclidean_distance": 12.086083336723602,
+        "cosine_distance": 0.1506483579235397,
+        "angle_degrees": 31.85877971969142
+      }
+    ],
+    "letter_change": [
+      {
+        "euclidean_distance": 8.191487917981172,
+        "cosine_distance": 0.06880760534588792,
+        "angle_degrees": 21.378543087453085
+      }
+    ],
+    "antonym_change": [
+      {
+        "euclidean_distance": 19.073950920630725,
+        "cosine_distance": 0.36821625433556815,
+        "angle_degrees": 50.81815299375163
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "question": {
+    "question": {
+      "levenshtein_distance": 0.0,
+      "indel_distance": 1.0,
+      "hamming_distance": 0.0,
+      "jaro_distance": 1.0
+    },
+    "counts": {
+      "word_count": 5.26,
+      "character_count": 27.36
+    }
+  },
+  "synonym_change": {
+    "question": {
+      "levenshtein_distance": 7.56,
+      "indel_distance": 0.7989272447626335,
+      "hamming_distance": 15.91,
+      "jaro_distance": 0.8365928228827323
+    },
+    "counts": {
+      "word_count": 5.43,
+      "character_count": 29.4
+    }
+  },
+  "antonym_change": {
+    "question": {
+      "levenshtein_distance": 5.58,
+      "indel_distance": 0.8421305451066672,
+      "hamming_distance": 14.88,
+      "jaro_distance": 0.8562458640975561
+    },
+    "counts": {
+      "word_count": 5.31,
+      "character_count": 28.22
+    }
+  },
+  "paraphrase_change": {
+    "question": {
+      "levenshtein_distance": 25.85,
+      "indel_distance": 0.5705672806940975,
+      "hamming_distance": 40.6,
+      "jaro_distance": 0.6671539637547356
+    },
+    "counts": {
+      "word_count": 7.68,
+      "character_count": 44.03
+    }
+  },
+  "letter_change": {
+    "question": {
+      "levenshtein_distance": 1.11,
+      "indel_distance": 0.96341702139242,
+      "hamming_distance": 2.53,
+      "jaro_distance": 0.9717387330941456
+    },
+    "counts": {
+      "word_count": 5.25,
+      "character_count": 27.17
+    }
+  }
+}

@@ -24,6 +24,7 @@
 \usepackage{pdfpages,multirow,ragged2e} %
 \usepackage{array}
 \usepackage{makecell}
+\usepackage{hyperref}
 
 \renewcommand\cellset{\renewcommand\arraystretch{0.5}%
 \setlength\extrarowheight{0pt}}
@@ -90,8 +91,6 @@ This work addresses this gap by conducting a comprehensive analysis of how minor
 To quantify the impact of these variations, a dual-metric approach is employed, capturing both semantic and lexical differences. First, embedding-based semantic differences are measured using an open-source sentence embedding model to assess how the meaning of responses changes across prompt variations. Second, lexical differences are analyzed to understand the surface-level changes in word choice, sentence structure, and linguistic patterns. This experimental design systematically generates variations of single-sentence questions and collects multiple responses from LLMs to account for their stochastic nature. By analyzing both embedding distances and lexical metrics, a comprehensive view of how minor prompt changes propagate through the model's generation process and manifest in the final outputs is provided.
 
 The findings from this study have important implications for prompt engineering practices, model evaluation methodologies, and the deployment of LLMs in real-world applications where robustness to input variations is crucial. Understanding the relationship between prompt sensitivity and semantic stability is essential for developing more reliable and trustworthy language models.
-
-\section{Methodology}
 \begin{table}[!hbt]
    \centering
    \caption{Examples of question variations. Changes are highlighted in bold.}
@@ -108,6 +107,7 @@ The findings from this study have important implications for prompt engineering 
    \end{tabular}
    \label{tab:questioni_variations}
 \end{table}
+\section{Methodology}
 \subsection{Large Language Models}
 For this experiment, the family of Gemma3 models were selected. This is due to the different number of parameters they offer: 270 million (gemma3:270m), 1 billion (gemma3:1b), 4 billion (gemma3:4b), 12 billion (gemma3:12b) and 27 billion (gemma3:27b). This allows to test how model size affects the results. For all models, the system instructions was simply "Answer the questions in one sentence" to indicate the model to respond in an unstructured way that is also comparable for each iteration.
 
@@ -124,6 +124,9 @@ Semantic and lexical properties were measured to contrast the different dimensio
 For semantics, the embedding was obtained for each question, variation, and answer. With the embedding, cosine distance, Euclidean distance, and angle were calculated against reference points. For the variations and answers, these metrics were calculated against the corresponding original question to keep the same reference point. For example, for a variation V of a question Q, the distances and angle for (V,Q) were calculated, and for any answer A, the distances and angle (A,Q) were calculated.
 
 Finally, for each question, variation, and answer, their word count and character count were also calculated.
+
+\subsection{Repository}
+To access all code and available files, visit \url{https://github.com/enricgrau/word_sensitivity_analysis_llms}.
 
 \section{Results}
 
@@ -169,14 +172,14 @@ This spatial relationship is visualized in the polar plots of Euclidean distance
 
 \begin{figure*}[!tbh]
     \centering
-    \includegraphics*[width=\textwidth]{images/img1}
+    \includegraphics*[width=\textwidth]{img1}
     \caption{Boxplots showing the distribution of the cosine distance of questions (Questions) and the answers (gemma3:*) to the original question. All the answers are aggregated (one thousand in total)}
     \label{fig:img1}
 \end{figure*}
 
 \begin{figure*}[!tbh]
     \centering
-    \includegraphics*[width=\textwidth]{images/img2}
+    \includegraphics*[width=\textwidth]{img2}
     \caption{Scatter plot showing the average Euclidean distance and angle decompositions of the embedding vectors with respect to the original, in reference to the original question. These figures do not make too much sense, as the angle and Euclidean distance between two vectors in a 768-dimensional space are ethereal. They do give a sense of distance and are cool to look at.}
     \label{fig:img2}
 \end{figure*}
@@ -192,14 +195,14 @@ Furthermore, for any given model, the output length remained remarkably stable a
 
 \begin{figure*}[!tbh]
     \centering
-    \includegraphics*[width=\textwidth]{images/img3}
+    \includegraphics*[width=\textwidth]{img3}
     \caption{Lexical distances for questions and answers for each model.}
     \label{fig:img3}
 \end{figure*}
 
 \begin{figure*}[!tbh]
     \centering
-    \includegraphics*[width=\textwidth]{images/img4}
+    \includegraphics*[width=\textwidth]{img4}
     \caption{Character count and word count for each variation type by model size.}
     \label{fig:img4}
 \end{figure*}
